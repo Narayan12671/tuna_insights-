@@ -1,0 +1,2699 @@
+"name","creation","modified","modified_by","owner","docstatus","idx","status","title","is_native_query","is_assisted_query","is_script_query","data_source","chart","is_stored","filters","limit","json","sql","script","script_log","execution_time","last_execution","_user_tags","_comments","_assign","_liked_by"
+QRY-0001,2024-10-20 14:09:52.909,2024-10-21 16:01:36.018,Administrator,Administrator,0,0,Execution Successful,Dailly sales,0,1,0,Site DB,e60e376e19,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Nepali Date"",
+   ""column"": ""nepali_date"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Nepali Date"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       `tabSales Invoice`.nepali_date AS `Nepali Date`,
+       sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-21 00:00:00' AND '2024-10-21 23:59:59'
+ GROUP BY `tabSales Invoice`.company,
+          `tabSales Invoice`.nepali_date
+ LIMIT 100",,,0.025000000,2024-11-19 22:23:38.785,,,,
+QRY-0003,2024-10-20 14:49:36.653,2024-10-20 14:52:56.280,Administrator,Administrator,0,0,Execution Successful,Kitchen Order,0,1,0,Site DB,"09eb182f47",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Kitchen Order"",
+   ""column"": ""kot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Kitchen Order"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabKitchen Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Kitchen Orders"",
+  ""table"": ""tabKitchen Orders""
+ }
+}","SELECT `tabKitchen Orders`.company AS `Company`,
+       count(*) AS `Kitchen Order`
+  FROM `tabKitchen Orders` AS `tabKitchen Orders`
+ WHERE `tabKitchen Orders`.created_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-20 23:59:59'
+ GROUP BY `tabKitchen Orders`.company
+ LIMIT 100",,,0.016000000,2024-11-19 22:23:38.708,,,,
+QRY-0004,2024-10-20 14:54:39.824,2024-10-20 14:56:54.404,Administrator,Administrator,0,0,Execution Successful,Daily Invoices,0,1,0,Site DB,"03878882fe",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Invoices"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Invoices"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       count(*) AS `Invoices`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-20 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100",,,0.018000000,2024-11-19 22:23:38.871,,,,
+QRY-0005,2024-10-20 14:59:59.210,2024-10-20 15:03:55.890,Administrator,Administrator,0,0,Execution Successful,Daily Credit Sales ,0,1,0,Site DB,"761259abab",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-20 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100",,,0.032000000,2024-11-19 22:23:38.920,,,,
+QRY-0006,2024-10-20 15:04:09.862,2024-10-20 15:10:00.576,Administrator,Administrator,0,0,Execution Successful,Weekly Sales,0,1,0,Site DB,"79f62e282f",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Nepali Date"",
+   ""column"": ""nepali_date"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Nepali Date"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       `tabSales Invoice`.nepali_date AS `Nepali Date`,
+       sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-26 23:59:59'
+ GROUP BY `tabSales Invoice`.company,
+          `tabSales Invoice`.nepali_date
+ LIMIT 100",,,0.018000000,2024-11-17 14:37:33.110,,,,
+QRY-0008,2024-10-20 15:12:42.114,2024-10-20 15:26:02.529,Administrator,Administrator,0,0,Execution Successful,Weekly Kitchen Orders,0,1,0,Site DB,"015ddb4ee5",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Kitchen Orders"",
+   ""column"": ""kot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Kitchen Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Creation"",
+    ""column"": ""creation"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Creation"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabKitchen Orders"",
+    ""type"": ""Datetime""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Kitchen Orders"",
+  ""table"": ""tabKitchen Orders""
+ }
+}","SELECT `tabKitchen Orders`.company AS `Company`,
+       count(*) AS `Kitchen Orders`
+  FROM `tabKitchen Orders` AS `tabKitchen Orders`
+ WHERE `tabKitchen Orders`.creation BETWEEN '2024-10-20 00:00:00' AND '2024-10-26 23:59:59'
+ GROUP BY `tabKitchen Orders`.company
+ LIMIT 100",,,0.023000000,2024-11-17 14:37:33.271,,,,
+QRY-0009,2024-10-20 15:26:12.183,2024-10-20 15:27:56.734,Administrator,Administrator,0,0,Execution Successful,Weekly Credit sales ,0,1,0,Site DB,fbd02366b8,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-26 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100",,,0.015000000,2024-11-17 14:37:33.368,,,,
+QRY-0010,2024-10-20 15:28:19.140,2024-10-20 15:38:00.315,Administrator,Administrator,0,0,Execution Successful,Weekly Invoices,0,1,0,Site DB,"0a7d114f7e",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""invoices"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""invoices"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       count(*) AS invoices
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-26 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100",,,0.014000000,2024-11-17 14:37:33.230,,,,
+QRY-0011,2024-10-20 15:38:18.639,2024-10-20 15:45:33.259,Administrator,Administrator,0,0,Execution Successful,Monthly Sales ,0,1,0,Site DB,"69413956f6",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-01 00:00:00' AND '2024-10-31 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100",,,0.025000000,2024-11-17 14:38:30.618,,,,
+QRY-0013,2024-10-20 15:46:15.889,2024-10-20 16:04:29.694,Administrator,Administrator,0,0,Execution Successful,Monthly Kitchen Orders,0,1,0,Site DB,"3397585e47",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Kitchen orders"",
+   ""column"": ""kot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Kitchen orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabKitchen Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Kitchen Orders"",
+  ""table"": ""tabKitchen Orders""
+ }
+}","SELECT `tabKitchen Orders`.company AS `Company`,
+       count(*) AS `Kitchen orders`
+  FROM `tabKitchen Orders` AS `tabKitchen Orders`
+ WHERE `tabKitchen Orders`.created_date BETWEEN '2024-10-01 00:00:00' AND '2024-10-31 23:59:59'
+ GROUP BY `tabKitchen Orders`.company
+ LIMIT 100",,,0.020000000,2024-11-17 14:38:30.536,,,,
+QRY-0014,2024-10-20 16:05:45.352,2024-10-20 16:12:19.267,Administrator,Administrator,0,0,Execution Successful,Monthly Invoices,0,1,0,Site DB,a17b6cd112,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Invoices"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Invoices"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       count(*) AS `Invoices`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-10-01 00:00:00' AND '2024-10-31 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100",,,0.022000000,2024-11-17 14:38:30.732,,,,
+QRY-0015,2024-10-20 16:12:30.617,2024-10-20 16:16:51.308,Administrator,Administrator,0,0,Execution Successful,Daily Purchase,0,1,0,Site DB,fc5c335712,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       sum(`tabPurchase Invoice`.net_total) AS `Net Total`,
+       sum(`tabPurchase Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabPurchase Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabPurchase Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-20 23:59:59'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100",,,0.020000000,2024-11-17 14:38:23.704,,,,
+QRY-0017,2024-10-20 16:16:58.419,2024-10-20 16:21:41.957,Administrator,Administrator,0,0,Execution Successful,Weekly Purchase,0,1,0,Site DB,"2ce9b2c155",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       sum(`tabPurchase Invoice`.net_total) AS `Net Total`,
+       sum(`tabPurchase Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabPurchase Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabPurchase Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-26 23:59:59'
+   AND `tabPurchase Invoice`.docstatus = '1'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100",,,0.021000000,2024-11-17 14:38:23.916,,,,
+QRY-0018,2024-10-20 16:21:50.523,2024-10-21 15:28:32.573,Administrator,Administrator,0,0,Execution Successful,Monthly Purchase,0,1,0,Site DB,"620f803411",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       sum(`tabPurchase Invoice`.net_total) AS `Net Total`,
+       sum(`tabPurchase Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabPurchase Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabPurchase Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.docstatus = '1'
+   AND `tabPurchase Invoice`.posting_date BETWEEN '2024-10-01 00:00:00' AND '2024-10-31 23:59:59'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100",,,0.017000000,2024-11-17 14:38:24.144,,,,
+QRY-0019,2024-10-21 15:28:39.280,2024-10-21 15:31:34.991,Administrator,Administrator,0,0,Execution Successful,Daily Bar Orders,0,1,0,Site DB,"49fcc1d30e",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Bar Orders"",
+   ""column"": ""bot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Bar Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabBar Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Bar Orders"",
+  ""table"": ""tabBar Orders""
+ }
+}","SELECT `tabBar Orders`.company AS `Company`,
+       count(*) AS `Bar Orders`
+  FROM `tabBar Orders` AS `tabBar Orders`
+ WHERE `tabBar Orders`.created_date BETWEEN '2024-10-21 00:00:00' AND '2024-10-21 23:59:59'
+ GROUP BY `tabBar Orders`.company
+ LIMIT 100",,,0.021000000,2024-11-19 22:23:38.988,,,,
+QRY-0020,2024-10-21 15:34:01.940,2024-10-21 15:38:28.275,Administrator,Administrator,0,0,Execution Successful,Weekly Bar Orders,0,1,0,Site DB,"4204158a17",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Bar Orders"",
+   ""column"": ""bot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Bar Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabBar Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Bar Orders"",
+  ""table"": ""tabBar Orders""
+ }
+}","SELECT `tabBar Orders`.company AS `Company`,
+       count(*) AS `Bar Orders`
+  FROM `tabBar Orders` AS `tabBar Orders`
+ WHERE `tabBar Orders`.created_date BETWEEN '2024-10-20 00:00:00' AND '2024-10-26 23:59:59'
+ GROUP BY `tabBar Orders`.company
+ LIMIT 100",,,0.015000000,2024-11-17 14:37:33.378,,,,
+QRY-0021,2024-10-21 15:41:19.799,2024-10-21 15:42:34.779,Administrator,Administrator,0,0,Execution Successful,Monthly Bar Orders,0,1,0,Site DB,"1f476ae0f0",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Bar Orders"",
+   ""column"": ""bot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Bar Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabBar Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Bar Orders"",
+  ""table"": ""tabBar Orders""
+ }
+}","SELECT `tabBar Orders`.company AS `Company`,
+       count(*) AS `Bar Orders`
+  FROM `tabBar Orders` AS `tabBar Orders`
+ WHERE `tabBar Orders`.created_date BETWEEN '2024-10-01 00:00:00' AND '2024-10-31 23:59:59'
+ GROUP BY `tabBar Orders`.company
+ LIMIT 100",,,0.020000000,2024-11-17 14:38:30.818,,,,
+QRY-0022,2024-11-10 12:36:40.033,2024-11-11 16:18:45.109,Administrator,Administrator,0,0,Execution Successful,Query 0022,0,1,0,Site DB,"6f1866d70a",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Kitchen Order"",
+   ""column"": ""kot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Kitchen Order"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabKitchen Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Kitchen Orders"",
+  ""table"": ""tabKitchen Orders""
+ }
+}","SELECT `tabKitchen Orders`.table_name AS `Table Name`,
+       `tabKitchen Orders`.company AS `Company`,
+       count(*) AS `Kitchen Order`
+  FROM `tabKitchen Orders` AS `tabKitchen Orders`
+ WHERE `tabKitchen Orders`.created_date BETWEEN '2024-11-11 00:00:00' AND '2024-11-11 23:59:59'
+ GROUP BY `tabKitchen Orders`.table_name,
+          `tabKitchen Orders`.company
+ LIMIT 100",,,0.021000000,2024-11-19 22:22:33.534,,,,
+QRY-0024,2024-11-11 16:22:44.451,2024-11-11 16:24:12.900,Administrator,Administrator,0,0,Execution Successful,Query 0024,0,1,0,Site DB,"5d145abe31",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.table_name AS `Table Name`,
+       `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-11-11 00:00:00' AND '2024-11-11 23:59:59'
+ GROUP BY `tabSales Invoice`.table_name,
+          `tabSales Invoice`.company
+ LIMIT 100",,,0.023000000,2024-11-12 11:53:55.765,,,,
+QRY-0025,2024-11-11 16:25:49.784,2024-11-11 16:27:13.241,Administrator,Administrator,0,0,Execution Successful,Query 0025,0,1,0,Site DB,"06e92e9fc2",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Bar Orders"",
+   ""column"": ""bot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Bar Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabBar Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Bar Orders"",
+  ""table"": ""tabBar Orders""
+ }
+}","SELECT `tabBar Orders`.table_name AS `Table Name`,
+       `tabBar Orders`.company AS `Company`,
+       count(*) AS `Bar Orders`
+  FROM `tabBar Orders` AS `tabBar Orders`
+ WHERE `tabBar Orders`.created_date BETWEEN '2024-11-11 00:00:00' AND '2024-11-11 23:59:59'
+ GROUP BY `tabBar Orders`.table_name,
+          `tabBar Orders`.company
+ LIMIT 100",,,0.018000000,2024-11-19 22:22:33.537,,,,
+QRY-0026,2024-11-11 16:33:46.954,2024-11-11 16:34:48.861,Administrator,Administrator,0,0,Execution Successful,Query 0026,0,1,0,Site DB,"1ed669731e",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Kitchen Orders"",
+   ""column"": ""kot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Kitchen Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabKitchen Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Kitchen Orders"",
+  ""table"": ""tabKitchen Orders""
+ }
+}","SELECT `tabKitchen Orders`.table_name AS `Table Name`,
+       `tabKitchen Orders`.company AS `Company`,
+       count(*) AS `Kitchen Orders`
+  FROM `tabKitchen Orders` AS `tabKitchen Orders`
+ WHERE `tabKitchen Orders`.created_date BETWEEN '2024-11-10 00:00:00' AND '2024-11-16 23:59:59'
+ GROUP BY `tabKitchen Orders`.table_name,
+          `tabKitchen Orders`.company
+ LIMIT 100",,,0.019000000,2024-11-19 22:22:33.521,,,,
+QRY-0027,2024-11-11 16:36:30.498,2024-11-11 16:38:41.695,Administrator,Administrator,0,0,Execution Successful,Query 0027,0,1,0,Site DB,ac501f7f43,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Bar Orders"",
+   ""column"": ""bot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Bar Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabBar Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Bar Orders"",
+  ""table"": ""tabBar Orders""
+ }
+}","SELECT `tabBar Orders`.table_name AS `Table Name`,
+       `tabBar Orders`.company AS `Company`,
+       count(*) AS `Bar Orders`
+  FROM `tabBar Orders` AS `tabBar Orders`
+ WHERE `tabBar Orders`.created_date BETWEEN '2024-11-10 00:00:00' AND '2024-11-16 23:59:59'
+ GROUP BY `tabBar Orders`.table_name,
+          `tabBar Orders`.company
+ LIMIT 100",,,0.026000000,2024-11-19 22:22:33.671,,,,
+QRY-0028,2024-11-11 16:39:45.257,2024-11-11 16:40:54.111,Administrator,Administrator,0,0,Execution Successful,Query 0028,0,1,0,Site DB,"1126a037f9",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.table_name AS `Table Name`,
+       `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-11-10 00:00:00' AND '2024-11-16 23:59:59'
+ GROUP BY `tabSales Invoice`.table_name,
+          `tabSales Invoice`.company
+ LIMIT 100",,,0.030000000,2024-11-19 22:22:33.702,,,,
+QRY-0029,2024-11-11 16:44:53.875,2024-11-11 16:45:44.113,Administrator,Administrator,0,0,Execution Successful,Query 0029,0,1,0,Site DB,"792e9180bc",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Kitchen Orders"",
+   ""column"": ""kot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Kitchen Orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabKitchen Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabKitchen Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Kitchen Orders"",
+  ""table"": ""tabKitchen Orders""
+ }
+}","SELECT `tabKitchen Orders`.table_name AS `Table Name`,
+       `tabKitchen Orders`.company AS `Company`,
+       count(*) AS `Kitchen Orders`
+  FROM `tabKitchen Orders` AS `tabKitchen Orders`
+ WHERE `tabKitchen Orders`.created_date BETWEEN '2024-11-01 00:00:00' AND '2024-11-30 23:59:59'
+ GROUP BY `tabKitchen Orders`.table_name,
+          `tabKitchen Orders`.company
+ LIMIT 100",,,0.024000000,2024-11-19 22:22:33.674,,,,
+QRY-0030,2024-11-11 16:47:53.111,2024-11-11 16:48:46.882,Administrator,Administrator,0,0,Execution Successful,Query 0030,0,1,0,Site DB,"1286caea4b",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Bar orders"",
+   ""column"": ""bot_id"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Bar orders"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabBar Orders"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Created Date"",
+    ""column"": ""created_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Created Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabBar Orders"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Bar Orders"",
+  ""table"": ""tabBar Orders""
+ }
+}","SELECT `tabBar Orders`.table_name AS `Table Name`,
+       `tabBar Orders`.company AS `Company`,
+       count(*) AS `Bar orders`
+  FROM `tabBar Orders` AS `tabBar Orders`
+ WHERE `tabBar Orders`.created_date BETWEEN '2024-11-01 00:00:00' AND '2024-11-30 23:59:59'
+ GROUP BY `tabBar Orders`.table_name,
+          `tabBar Orders`.company
+ LIMIT 100",,,0.025000000,2024-11-19 22:22:33.791,,,,
+QRY-0031,2024-11-11 16:50:46.751,2024-11-11 16:51:33.154,Administrator,Administrator,0,0,Execution Successful,Query 0031,0,1,0,Site DB,"955cd09334",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.table_name AS `Table Name`,
+       `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-11-01 00:00:00' AND '2024-11-30 23:59:59'
+ GROUP BY `tabSales Invoice`.table_name,
+          `tabSales Invoice`.company
+ LIMIT 100",,,0.031000000,2024-11-19 22:22:33.829,,,,
+QRY-0032,2024-11-12 10:34:11.246,2024-11-12 11:36:22.871,Administrator,Administrator,0,0,Execution Successful,Query 0032,0,1,0,Site DB,"7b4c357b9a",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Table Name"",
+   ""column"": ""table_name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Table Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabTables"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Charges"",
+   ""column"": ""total_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabTables"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Enabled"",
+    ""column"": ""enabled"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Enabled"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabTables"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Creation"",
+    ""column"": ""creation"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Creation"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabTotal Order"",
+    ""type"": ""Datetime""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [
+  {
+   ""join_type"": {
+    ""label"": ""Inner Join"",
+    ""value"": ""inner""
+   },
+   ""left_column"": {
+    ""column"": ""name"",
+    ""label"": ""name"",
+    ""table"": ""tabTables"",
+    ""value"": ""name""
+   },
+   ""left_table"": {
+    ""label"": ""Tables"",
+    ""table"": ""tabTables""
+   },
+   ""right_column"": {
+    ""column"": ""parent"",
+    ""label"": ""parent"",
+    ""table"": ""tabTotal Order"",
+    ""value"": ""parent""
+   },
+   ""right_table"": {
+    ""label"": ""Total Order"",
+    ""table"": ""tabTotal Order""
+   }
+  }
+ ],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Tables"",
+  ""table"": ""tabTables""
+ }
+}","SELECT `tabTables`.table_name AS `Table Name`,
+       sum(`tabTables`.total_charges) AS `Total Charges`
+  FROM `tabTables` AS `tabTables`
+ INNER JOIN `tabTotal Order` AS `tabTotal Order`
+    ON `tabTables`.name = `tabTotal Order`.parent
+ WHERE `tabTables`.enabled = '1'
+   AND `tabTotal Order`.creation BETWEEN '2024-11-12 00:00:00' AND '2024-11-12 23:59:59'
+ GROUP BY `tabTables`.table_name
+ LIMIT 100",,,0.032000000,2024-11-12 11:47:32.997,,,,
+QRY-0033,2024-11-12 11:16:12.172,2024-11-12 11:16:39.016,Administrator,Administrator,0,0,Execution Successful,Query 0033,0,1,0,Site DB,"6425ddb87f",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": """",
+   ""column"": """",
+   ""expression"": {
+    ""ast"": {},
+    ""raw"": """"
+   },
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": """",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": """",
+   ""type"": ""String""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": """",
+    ""alias"": """",
+    ""column"": """",
+    ""expression"": {},
+    ""format"": {},
+    ""granularity"": """",
+    ""label"": """",
+    ""meta"": null,
+    ""order"": """",
+    ""table"": """",
+    ""type"": ""String""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": null,
+    ""value"": null
+   },
+   ""value"": {
+    ""label"": null,
+    ""value"": null
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Tables"",
+  ""table"": ""tabTables""
+ }
+}","SELECT `tabTables`.*
+  FROM `tabTables` AS `tabTables`
+ LIMIT 100",,,0.000000000,,,,,
+QRY-0034,2024-11-12 11:16:56.126,2024-11-12 11:32:56.115,Administrator,Administrator,0,0,Execution Successful,Query 0034,1,0,0,Site DB,ee87843a1d,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT SUM(CASE WHEN t.total_charges = 0 THEN 1 ELSE 0 END) AS total_vacant_count,
+       SUM(CASE WHEN t.total_charges > 0 THEN 1 ELSE 0 END) AS total_occupied_count
+  FROM `tabTables` t
+  LEFT JOIN `tabTotal Order` o
+    ON o.parent = t.name
+   AND o.creation >= CURDATE()
+ WHERE t.enabled = 1",,,0.026000000,2024-11-19 22:22:33.816,,,,
+QRY-0035,2024-11-12 11:34:46.903,2024-11-12 11:34:58.048,Administrator,Administrator,0,0,Execution Successful,Query 0035,1,0,0,Site DB,"06a1767862",0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT SUM(CASE WHEN t.total_charges = 0 THEN 1 ELSE 0 END) AS total_vacant_count,
+       SUM(CASE WHEN t.total_charges > 0 THEN 1 ELSE 0 END) AS total_occupied_count
+  FROM `tabTables` t
+  LEFT JOIN `tabTotal Order` o
+    ON o.parent = t.name
+   AND o.creation >= CURDATE()
+ WHERE t.enabled = 1",,,0.019000000,2024-11-19 22:22:33.871,,,,
+QRY-0036,2024-11-12 11:38:22.848,2024-11-12 11:46:36.543,Administrator,Administrator,0,0,Execution Successful,Query 0036,1,0,0,Site DB,dfe8e65163,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT `tabTables`.table_name AS `Table Name`,
+       COALESCE(SUM(`tabTables`.total_charges), 0) AS `Total Charges`
+  FROM `tabTables`
+  LEFT JOIN `tabTotal Order`
+    ON `tabTables`.name = `tabTotal Order`.parent
+   AND `tabTotal Order`.creation = curdate()
+ WHERE `tabTables`.enabled = '1'
+   AND `tabTables`.total_charges > 0
+ GROUP BY `tabTables`.table_name",,,0.017000000,2024-11-19 22:22:33.900,,,,
+QRY-0037,2024-11-15 11:11:01.536,2024-11-15 11:11:06.979,Administrator,Administrator,0,0,Execution Successful,Query 0037,1,0,0,Site DB,f8cdef33d7,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"",,,0.000000000,,,,,

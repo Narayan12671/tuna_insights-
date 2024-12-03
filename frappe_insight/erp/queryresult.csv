@@ -1,0 +1,7837 @@
+"name","creation","modified","modified_by","owner","docstatus","idx","query","results_row_count","results","_user_tags","_comments","_assign","_liked_by"
+b7r82dt4k0,2024-11-15 13:05:55.239,2024-11-15 13:05:55.239,Administrator,Administrator,0,0,QRY-382256,0,,,,,
+b7simjsoqr,2024-11-15 13:05:59.445,2024-11-15 13:05:59.445,Administrator,Administrator,0,0,QRY-382257,0,,,,,
+b7sl0oe2nl,2024-11-15 13:05:59.746,2024-11-15 13:05:59.746,Administrator,Administrator,0,0,QRY-382258,276,"[
+ [
+  {
+   ""label"": ""name"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""posting_date"",
+   ""options"": null,
+   ""type"": ""Datetime""
+  }
+ ],
+ [
+  ""SINV-81/82-PA-0004556"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004557"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004558"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004559"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004560"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004561"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004562"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004563"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PA-0004564"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035194"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035195"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035196"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035197"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035198"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035199"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035200"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035201"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035202"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035203"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035204"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035205"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035206"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035207"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035208"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035209"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035210"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035211"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035212"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035213"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035214"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035215"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035216"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035217"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035218"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035219"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035220"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035221"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035222"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035223"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035224"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035225"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035226"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035227"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035228"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035229"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035230"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035231"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035232"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035233"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035234"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035235"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035236"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035237"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035238"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035239"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035240"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035241"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035242"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035243"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035244"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035245"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035246"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035247"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035248"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035249"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035250"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035251"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035252"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035253"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035254"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035255"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035256"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035257"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035258"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035259"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035260"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035261"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035262"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035263"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035264"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035265"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035266"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035267"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035268"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035269"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035270"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035271"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035272"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035273"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035274"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035275"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035276"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035277"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035278"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035279"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035280"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035281"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035282"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035283"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035284"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035285"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035286"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035287"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035288"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035289"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035290"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035291"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035292"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035293"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035294"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035295"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035296"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035297"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035298"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035299"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035300"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035301"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035302"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PB-0035303"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PBL-0005886"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PBL-0005887"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PBL-0005888"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PBL-0005889"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PBL-0005890"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PBL-0005891"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002782"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002783"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002784"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002785"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002786"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002787"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002788"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002789"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002790"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PD-0002791"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PF-0000310"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PF-0000311"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PF-0000312"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PH-0001941"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PH-0001942"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PH-0001943"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PH-0001944"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHC-0007151"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHC-0007152"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005209"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005210"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005211"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005212"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005213"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005214"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005215"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005216"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005217"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005218"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005219"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005220"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005221"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005222"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PHU-0005223"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004556"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004557"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004558"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004559"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004560"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004561"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004562"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004563"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004564"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004565"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004566"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004567"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004568"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PK-0004569"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009261"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009262"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009263"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009264"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009265"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009266"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009267"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009268"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009269"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009270"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009271"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009272"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009273"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009274"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009275"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009276"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009277"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009278"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009279"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009280"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009281"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009282"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009283"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009284"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009285"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009286"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009287"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009288"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PM-0009289"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005901"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005902"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005903"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005904"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005905"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005906"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005907"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005908"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005909"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005910"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005911"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005912"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005913"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005914"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005915"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005916"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005917"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005918"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005919"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005920"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005921"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005922"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005923"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PR-0005924"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008733"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008734"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008735"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008736"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008737"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008738"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008739"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008740"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008741"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008742"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008743"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008744"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008745"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008746"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008747"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008748"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008749"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PT-0008750"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010886"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010887"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010888"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010889"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010890"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010891"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010892"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010893"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010894"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010895"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010896"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010897"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010898"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010899"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010900"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010901"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010902"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010903"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010904"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010905"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010906"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010907"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010908"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010909"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010910"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010911"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010912"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010913"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010914"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-81/82-PTM-0010915"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-RET-81/82-PF-0000044"",
+  ""2024-11-15""
+ ],
+ [
+  ""SINV-RET-81/82-PF-0000045"",
+  ""2024-11-15""
+ ]
+]",,,,
+con2rs2v87,2024-11-15 14:29:19.405,2024-11-15 14:29:19.405,Administrator,Administrator,0,0,QRY-382260,-1,[],,,,
+cploav5blq,2024-11-15 14:30:57.613,2024-11-15 14:30:57.613,Administrator,Administrator,0,0,QRY-382261,-1,[],,,,
+crba568cl4,2024-11-15 14:33:49.003,2024-11-15 14:33:49.003,Administrator,Administrator,0,0,QRY-382262,-1,[],,,,
+cs9puvpv6q,2024-11-15 14:35:26.554,2024-11-15 14:35:26.554,Administrator,Administrator,0,0,QRY-382263,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Invoices"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Discount Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  27,
+  7639.26,
+  277.24,
+  7916.5,
+  2225.0,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  23,
+  18741.69,
+  1257.18,
+  19998.87,
+  13152.0,
+  4.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  10,
+  4727.48,
+  260.52,
+  4988.0,
+  4593.0,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  151,
+  105493.42,
+  4392.99,
+  109886.41,
+  70713.69,
+  357.06
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  15,
+  31500.33,
+  2189.22,
+  33689.55,
+  32759.55,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  4,
+  187527.19,
+  24378.54,
+  211905.73,
+  211905.73,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  3,
+  76970.0,
+  6033.3,
+  83003.3,
+  83003.3,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  46,
+  10707.0,
+  0.0,
+  10707.0,
+  0.0,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  30,
+  17771.68,
+  1044.72,
+  18816.4,
+  17056.2,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  25,
+  6053.04,
+  298.01,
+  6351.05,
+  0.0,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  34,
+  11735.46,
+  126.43,
+  11861.89,
+  0.0,
+  13.95
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  40,
+  18779.22,
+  1860.25,
+  20639.47,
+  2550.0,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  24,
+  7493.05,
+  573.55,
+  8066.6,
+  0.0,
+  0.0
+ ]
+]",,,,
+dal1s2ll6b,2024-11-15 14:59:56.105,2024-11-15 14:59:56.105,Administrator,Administrator,0,0,QRY-382265,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Invoices"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  27
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  23
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  10
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  151
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  15
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  4
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  3
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  46
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  30
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  25
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  34
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  40
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  24
+ ]
+]",,,,
+dd77uc77l2,2024-11-15 15:04:19.199,2024-11-15 15:04:19.199,Administrator,Administrator,0,0,QRY-382266,11,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Paid Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  5691.5
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  6846.87
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  395.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  39172.72
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  930.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  10707.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  1760.2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6351.05
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  11861.89
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  18089.47
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  8066.6
+ ]
+]",,,,
+dm7ijhitq9,2024-11-15 15:19:41.830,2024-11-15 15:19:41.830,Administrator,Administrator,0,0,QRY-382267,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Invoices"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Discount Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  310,
+  130311.36,
+  7960.5,
+  138271.91,
+  57542.55,
+  42.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  262,
+  312427.65,
+  19703.86,
+  332131.56,
+  196182.72,
+  80.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  431,
+  851346.58,
+  40002.38,
+  891348.96,
+  835376.76,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  1612,
+  926743.5,
+  23160.35,
+  949903.85,
+  547583.49,
+  3958.75
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  144,
+  377583.31,
+  10710.42,
+  388293.73,
+  343317.93,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  20,
+  2193390.11,
+  272379.53,
+  2465769.64,
+  2367606.64,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  90,
+  3737990.99,
+  182655.58,
+  3920646.57,
+  3920646.57,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  481,
+  133693.12,
+  4985.04,
+  138678.16,
+  38911.05,
+  213.43
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  332,
+  438718.24,
+  18932.29,
+  457650.53,
+  389302.98,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  210,
+  207904.5,
+  8566.74,
+  216471.24,
+  153700.73,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  452,
+  219233.38,
+  11734.49,
+  230967.87,
+  87579.97,
+  904.89
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  479,
+  372756.03,
+  27422.23,
+  400178.26,
+  179372.95,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  284,
+  197817.79,
+  15454.84,
+  213272.63,
+  50382.52,
+  0.0
+ ]
+]",,,,
+dr8p4n4tej,2024-11-15 15:28:17.781,2024-11-15 15:28:17.781,Administrator,Administrator,0,0,QRY-382269,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Invoices"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  310
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  262
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  431
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  1612
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  144
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  20
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  90
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  481
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  332
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  210
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  452
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  479
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  284
+ ]
+]",,,,
+dtsvolaq1s,2024-11-15 15:32:47.156,2024-11-15 15:32:47.156,Administrator,Administrator,0,0,QRY-382270,11,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Cash Sales"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  80729.36
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  135948.84
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  62832.2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  402320.36
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  44975.8
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  99767.11
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  68347.55
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  62770.51
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  143387.9
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  220805.31
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  162890.11
+ ]
+]",,,,
+e1g8lldemo,2024-11-15 15:38:56.048,2024-11-15 15:38:56.048,Administrator,Administrator,0,0,QRY-382271,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Invoices"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Discount Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  673,
+  356406.73,
+  19851.54,
+  376258.41,
+  150324.51,
+  113.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  558,
+  698813.32,
+  44684.14,
+  743497.63,
+  458757.29,
+  145.2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  501,
+  1086830.79,
+  43078.16,
+  1129908.95,
+  1064411.65,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  3238,
+  1825519.4,
+  34532.19,
+  1860051.59,
+  899139.38,
+  11120.04
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  275,
+  662344.82,
+  25963.68,
+  688308.5,
+  544629.36,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  25,
+  6493944.43,
+  831451.59,
+  7325396.02,
+  7227233.02,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  145,
+  5742994.13,
+  269824.22,
+  6012818.35,
+  5842415.11,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  790,
+  265637.68,
+  7222.94,
+  272860.62,
+  48501.65,
+  842.51
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  636,
+  1108178.91,
+  44629.64,
+  1152808.55,
+  1019383.02,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  389,
+  457901.56,
+  19055.97,
+  476957.53,
+  345817.73,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  840,
+  425934.57,
+  22881.73,
+  448816.3,
+  172498.49,
+  1688.36
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  903,
+  627819.42,
+  48267.34,
+  676086.76,
+  200776.88,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  570,
+  414368.71,
+  27386.0,
+  441754.71,
+  107435.54,
+  0.0
+ ]
+]",,,,
+e5kss7ernp,2024-11-15 15:46:00.494,2024-11-15 15:46:00.494,Administrator,Administrator,0,0,QRY-382273,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Invoices"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  673
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  558
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  501
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  3238
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  275
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  25
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  145
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  790
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  636
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  389
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  840
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  903
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  570
+ ]
+]",,,,
+e7u36hraou,2024-11-15 15:49:54.756,2024-11-15 15:49:54.756,Administrator,Administrator,0,0,QRY-382274,11,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Paid Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  225933.9
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  284740.34
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  73297.3
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  956190.74
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  143679.14
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  224358.97
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  133425.53
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  131139.8
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  276317.81
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  475309.88
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  334319.17
+ ]
+]",,,,
+eq2ci19m5n,2024-11-15 16:20:51.684,2024-11-15 16:20:51.684,Administrator,Administrator,0,0,QRY-382255,11,"[
+ [
+  {
+   ""label"": ""Particular"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Amount"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Opening Stock"",
+  215955215.48406205
+ ],
+ [
+  ""Closing Stock"",
+  215996169.2634297
+ ],
+ [
+  ""Opening Cash"",
+  1617378.64
+ ],
+ [
+  ""Closing Cash"",
+  1665567.16
+ ],
+ [
+  ""Opening Receivables"",
+  558860180.39
+ ],
+ [
+  ""Closing Receivables"",
+  558693520.55
+ ],
+ [
+  ""Change In Receivables"",
+  -166659.84
+ ],
+ [
+  ""Opening Payables"",
+  393788543.61
+ ],
+ [
+  ""Closing Payables"",
+  393562620.47
+ ],
+ [
+  ""Change In Payables"",
+  -225923.14
+ ],
+ [
+  ""Total Fixed Assets"",
+  63100029.5
+ ]
+]",,,,
+f13b8rubhh,2024-11-15 16:32:51.566,2024-11-15 16:32:51.566,Administrator,Administrator,0,0,QRY-382222,3,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  9737.68,
+  455.21,
+  10192.89,
+  6236.1
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  3960.0,
+  0.0,
+  3960.0,
+  3960.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  98234.42,
+  721.76,
+  98956.18,
+  18530.76
+ ]
+]",,,,
+f13n9rl1q5,2024-11-15 16:32:52.758,2024-11-15 16:32:52.758,Administrator,Administrator,0,0,QRY-382239,5,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Name"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  3
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  3
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  3
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  1
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  1
+ ]
+]",,,,
+f1575kfph4,2024-11-15 16:32:57.554,2024-11-15 16:32:57.554,Administrator,Administrator,0,0,QRY-382251,11,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  247651.89
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  305970.36
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  95275.55
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  1068976.97
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  144599.14
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  257780.78
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  147359.24
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  146800.6
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  329205.42
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  604217.42
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  366944.67
+ ]
+]",,,,
+f157ge193q,2024-11-15 16:32:57.559,2024-11-15 16:32:57.559,Administrator,Administrator,0,0,QRY-382220,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  402345.64,
+  22233.53,
+  424579.31,
+  176927.42
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  741157.1,
+  46716.7,
+  787873.99,
+  481903.63
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  1300532.19,
+  50474.78,
+  1351006.97,
+  1263531.42
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  2012771.57,
+  44322.79,
+  2057094.36,
+  984295.92
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  790136.68,
+  26089.08,
+  816225.76,
+  671626.62
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  9033067.47,
+  1064364.4,
+  10097431.87,
+  9251782.8
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  7011721.37,
+  317964.24,
+  7329685.61,
+  6933268.59
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  299444.8,
+  7761.03,
+  307205.83,
+  49425.05
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  1463951.2,
+  50546.2,
+  1514497.4,
+  1367138.16
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  531848.64,
+  21641.52,
+  553490.16,
+  406689.56
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  511547.21,
+  24371.83,
+  535919.04,
+  206713.62
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  759460.85,
+  60412.58,
+  819873.43,
+  215656.01
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  458465.56,
+  28949.85,
+  487415.41,
+  120470.74
+ ]
+]",,,,
+f15lqjsv5d,2024-11-15 16:32:58.941,2024-11-15 16:32:58.941,Administrator,Administrator,0,0,QRY-382238,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Name"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  761
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  619
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  635
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  3730
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  289
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  34
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  197
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  955
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  744
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  453
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  961
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  1071
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  658
+ ]
+]",,,,
+jr0pnjlukd,2024-11-19 12:18:25.734,2024-11-19 12:18:25.734,Administrator,Administrator,0,0,QRY-382233,0,,,,,
+l3vk5m9j87,2024-11-15 22:05:27.660,2024-11-15 22:05:27.660,md@paicho.com,md@paicho.com,0,0,QRY-382246,10,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  3187.35
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  3450.2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  230.7
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  23625.67
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  850.1
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  2005.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1494.75
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  7034.7
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  3302.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  6310.05
+ ]
+]",,,,
+l3vlmr75n1,2024-11-15 22:05:27.718,2024-11-15 22:05:27.718,md@paicho.com,md@paicho.com,0,0,QRY-382248,11,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  16200.5
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  465.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  390.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  6647.59
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  5995.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  137779.88
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  4585.4
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  309.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  0.0
+ ]
+]",,,,
+l49fcn91in,2024-11-15 22:05:59.122,2024-11-15 22:05:59.122,md@paicho.com,md@paicho.com,0,0,QRY-382218,12,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  2574.68,
+  149.77,
+  2724.45,
+  215.6
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  874.36,
+  54.64,
+  929.0,
+  230.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  25891.5,
+  1641.64,
+  27533.14,
+  25788.14
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  1255.34,
+  378.24,
+  1633.58,
+  -25706.37
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  18254.12,
+  2.88,
+  18257.0,
+  18257.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  136198.23,
+  2294.91,
+  138493.14,
+  138493.14
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  3181.33,
+  36.73,
+  3218.06,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  7053.73,
+  281.27,
+  7335.0,
+  6315.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  16187.99,
+  664.45,
+  16852.44,
+  4394.64
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  16977.63,
+  166.92,
+  17144.55,
+  3130.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  17275.97,
+  914.94,
+  18190.91,
+  4480.23
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  5085.0,
+  114.0,
+  5199.0,
+  0.0
+ ]
+]",,,,
+l49g47rpph,2024-11-15 22:05:59.285,2024-11-15 22:05:59.285,md@paicho.com,md@paicho.com,0,0,QRY-382237,-1,[],,,,
+l49hhnklr0,2024-11-15 22:05:59.318,2024-11-15 22:05:59.318,md@paicho.com,md@paicho.com,0,0,QRY-382249,10,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Paid Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  2508.85,
+  2508.85
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  699.0,
+  699.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  3125.0,
+  3125.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  27339.95,
+  27339.95
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  3218.06,
+  3218.06
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  1020.0,
+  1020.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12457.8,
+  12457.8
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  14014.55,
+  14014.55
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  13710.68,
+  13710.68
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  5199.0,
+  5199.0
+ ]
+]",,,,
+l49i2ae2ts,2024-11-15 22:05:59.441,2024-11-15 22:05:59.441,md@paicho.com,md@paicho.com,0,0,QRY-382250,12,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  215.6
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  230.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  25788.14
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  -25706.37
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  18257.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  138493.14
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  6315.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4394.64
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  3130.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  4480.23
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  0.0
+ ]
+]",,,,
+l59m6m25t0,2024-11-15 22:07:42.246,2024-11-15 22:07:42.246,md@paicho.com,md@paicho.com,0,0,QRY-382244,15,"[
+ [
+  {
+   ""label"": ""Supplier Name"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt.ltd"",
+  49557138.65
+ ],
+ [
+  ""Sulav Khadhya Store"",
+  46822245.98
+ ],
+ [
+  ""Paicho Pasal factory"",
+  46412808.99
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd (Head Office )"",
+  40429772.78
+ ],
+ [
+  ""Amathya Enterprises "",
+  40014262.29
+ ],
+ [
+  ""Paicho Pasal Headoffice btx 079410055"",
+  29919256.61
+ ],
+ [
+  ""Paicho Pasal Head Officee 079410055"",
+  29331720.88
+ ],
+ [
+  ""Aman Plastic Industries"",
+  27819643.13
+ ],
+ [
+  ""Paicho Pasal Headoffice (Khaireni)"",
+  26324427.81
+ ],
+ [
+  ""Paicho Pasal Pvt.ltd,Headoffice(temp)"",
+  23295621.85
+ ],
+ [
+  ""Shree Laxmi Rabber Products"",
+  22935193.31
+ ],
+ [
+  ""Paicho Pasal (Head Office)"",
+  22106773.5
+ ],
+ [
+  ""Rayeen sabji Pasal"",
+  21842755.72
+ ],
+ [
+  ""Baletaksar Branch Suppliers"",
+  21742837.21
+ ],
+ [
+  ""Paicho Pasal Head Office Baletaksar (9857076069)"",
+  20857905.43
+ ]
+]",,,,
+l5g75men68,2024-11-15 22:08:03.166,2024-11-15 22:08:03.166,md@paicho.com,md@paicho.com,0,0,QRY-382242,15,"[
+ [
+  {
+   ""label"": ""Customer Name"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Suppliers"",
+  117362184.04
+ ],
+ [
+  ""Chandra Cold Store "",
+  72756282.0
+ ],
+ [
+  ""Laxmi Distributers "",
+  55191615.41
+ ],
+ [
+  ""Butwal Branch(9857085535)"",
+  37754542.48
+ ],
+ [
+  ""Cash "",
+  37223223.2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd Butwal "",
+  35004214.16
+ ],
+ [
+  ""Paicho Pasal Head Officee 079410055"",
+  30493300.33
+ ],
+ [
+  ""Paicho Pasal Pvt.ltd, Butwal Branch"",
+  28314349.05
+ ],
+ [
+  ""SSA Enterprises"",
+  22611200.56
+ ],
+ [
+  ""New Ujjwal Store "",
+  21802728.94
+ ],
+ [
+  ""CG Foods Nepal Pvt Ltd "",
+  20769937.86
+ ],
+ [
+  ""Quick Vet Concern(9857076051)"",
+  19601494.92
+ ],
+ [
+  ""Cash (Bill)"",
+  17902546.42
+ ],
+ [
+  ""Paicho Pasal Factory(9857076061)"",
+  17725858.4
+ ],
+ [
+  ""Bhatbhateni Supermarket And Depertmental store Pra. Li"",
+  16939843.81
+ ]
+]",,,,
+u54flo79pa,2024-11-17 11:26:34.302,2024-11-17 11:26:34.302,Administrator,Administrator,0,0,QRY-382215,11,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  19215.23,
+  172.59,
+  19387.85,
+  16200.5
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  3819.71,
+  95.49,
+  3915.2,
+  465.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  569.45,
+  51.25,
+  620.7,
+  390.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  29458.74,
+  814.52,
+  30273.26,
+  6647.59
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  6457.4,
+  387.7,
+  6845.1,
+  5995.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  129731.4,
+  8048.48,
+  137779.88,
+  137779.88
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  6404.03,
+  186.37,
+  6590.4,
+  4585.4
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1459.09,
+  35.66,
+  1494.75,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  6901.25,
+  133.45,
+  7034.7,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  3336.86,
+  274.14,
+  3611.0,
+  309.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  5986.19,
+  323.86,
+  6310.05,
+  0.0
+ ]
+]",,,,
+u54g7v73cb,2024-11-17 11:26:34.482,2024-11-17 11:26:34.482,Administrator,Administrator,0,0,QRY-382236,11,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Name"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  19
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  4
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  96
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  9
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  3
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  12
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  11
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  20
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  4
+ ]
+]",,,,
+u6njef0bm7,2024-11-17 11:29:17.904,2024-11-17 11:29:17.904,Administrator,Administrator,0,0,QRY-382228,-1,[],,,,
+u7843ic8r5,2024-11-17 11:30:10.816,2024-11-17 11:30:10.816,Administrator,Administrator,0,0,QRY-382226,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  146947.98,
+  5122.61,
+  152070.59,
+  144862.95
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  420175.86,
+  36465.63,
+  456641.49,
+  393419.23
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  1443654.69,
+  34615.44,
+  1478270.13,
+  2458.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  1518687.81,
+  5351.03,
+  1524038.84,
+  516179.49
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  699028.84,
+  18263.28,
+  717292.12,
+  27342.5
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  4490166.12,
+  293085.0,
+  4783251.12,
+  4783249.7
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  4603070.57,
+  144317.44,
+  4747388.01,
+  4218368.12
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  204523.04,
+  0.0,
+  204523.04,
+  204523.04
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  1188603.35,
+  38641.88,
+  1227245.23,
+  618535.06
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  474739.82,
+  19792.53,
+  494532.35,
+  5441.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  305598.13,
+  16397.7,
+  321995.83,
+  321996.99
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  634734.03,
+  39823.39,
+  674557.42,
+  656330.11
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  241058.15,
+  14084.01,
+  255142.16,
+  255142.39
+ ]
+]",,,,
+u784hlt51h,2024-11-17 11:30:10.807,2024-11-17 11:30:10.807,Administrator,Administrator,0,0,QRY-382241,13,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Name"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  34
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  78
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  677
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Butwal"",
+  41
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Digam"",
+  239
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Factory"",
+  39
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Head Office"",
+  88
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Horizon Chowk"",
+  11
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Hunga"",
+  287
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  173
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Manigram"",
+  13
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tamghas"",
+  34
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  26
+ ]
+]",,,,
+vge2b5lbvr,2024-08-29 10:17:06.643,2024-08-29 10:17:06.643,Administrator,Administrator,0,0,QRY-382231,477,"[
+ [
+  {
+   ""label"": ""Party Type"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Supplier"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Company"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Advance Amount"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Invoice Amount"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Paid Amount"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Supplier"",
+  ""11857 - Kul Bahadur Chhantyal Bharse  9867218901"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6448.0,
+  6447.5,
+  6448.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""5:55 Hotel Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  120.0,
+  120.0,
+  120.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Aasha Nepali (9843985241)(Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5289.5,
+  5289.5,
+  5289.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Aashish Bhattarai (Chidipani) (9867839295)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  14756.0,
+  14756.5,
+  14756.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Aatmaram Bhandari (Dhaba)(9847188325)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4561.2,
+  4469.9,
+  4531.1,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Aatmaram bhusal (Baspata)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  465.0,
+  465.0,
+  465.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""alam Kunwar(BHARAK)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1600.0,
+  1600.0,
+  1600.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Alisha Pandey (Aslewa-Gau)(9843906084)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3919.0,
+  3918.5,
+  3919.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Alisha Pun (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1148.0,
+  1148.0,
+  1148.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Amar Nepali(9867226086) (Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  35341.0,
+  31937.0,
+  32101.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ambika Kunwar (Machakot)(9869471458)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2836.0,
+  2836.5,
+  2836.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ammar sing kunwar (machakot)(9841081695)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1916.0,
+  1916.0,
+  1916.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Amrita Nepali (Juniya)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1100.0,
+  1100.0,
+  1100.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Amrita Pandey (Aslewa-Dwagha) (9847227246)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  52.0,
+  52.5,
+  52.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Amrita pun bharse"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  160.0,
+  160.0,
+  160.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Anil Pariyar (Chidipani)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6640.0,
+  6640.0,
+  6640.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Arjun Bhandari Rama 9844745892"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12100.0,
+  12099.0,
+  12100.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Arjun Kanauje (Chaur)(9857062230)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  610.0,
+  -600.0,
+  10.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Baal Dhar Kunwar (Machakot) (9817493274)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  971.0,
+  606.5,
+  799.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Baal Kumari Gautam (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  295.0,
+  295.0,
+  295.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Babar pasal Khaireni"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  600.0,
+  600.0,
+  600.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Baburam Chalise (Bareng)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2500.0,
+  2500.0,
+  2500.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bal Bahadur Shreesh (Chamlagaira) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1060.0,
+  1060.0,
+  1060.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Balananda Pandey (Dwagha)(9867255866)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8595.0,
+  8593.0,
+  8595.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bali Ram Kunwar (Machakot)Supplier (9807400951)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15513.0,
+  14890.5,
+  15077.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Balram Kunwar (Machakot)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  367.0,
+  367.0,
+  367.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Balu Maya Sirish (Chamlagaira-Khalapattira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  300.0,
+  300.0,
+  300.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Balu Sirish (Chamlagaira-Bhaeri Khalta)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2655.0,
+  2655.0,
+  2655.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Banika Bhandari (Sanaraghu) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4320.0,
+  4320.0,
+  4320.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bed Prasad Pandey (Gau - Thulapokhari)(9847179002)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1710.0,
+  1710.5,
+  1710.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bed Prasad Pandey M (Aslewa-Gau) 9844781963"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13758.0,
+  13759.0,
+  13758.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bed Prasad Poudel (9840957402) (Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  11313.0,
+  11314.5,
+  11313.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhaktiram Pandey (Dwagha)(9867189417)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1334.0,
+  1334.0,
+  1334.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhawani Pandey (Gau) (9847255720)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7753.22,
+  -838.72,
+  3482.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhima Kumar (Gau) (9867921271)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9474.0,
+  9474.0,
+  9474.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhima kunwar Aslewa Gau (9864555703)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  49851.0,
+  40378.0,
+  40377.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhima Somai"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5086.5,
+  5087.0,
+  5086.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhimlal Bhandari (9847154016)(Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  19023.5,
+  18141.5,
+  18593.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhimlal Pokhrel (Aslewa-Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  855.0,
+  855.0,
+  855.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhojraj Dhakal Jhong 9847234158"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  39764.8,
+  39164.26,
+  39164.8,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""bhojraj gewali khaireni 9867306635"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  285.0,
+  285.0,
+  285.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhumi Kumar B.C."",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1550.0,
+  1550.0,
+  1550.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhumilal Kunawar (Machakot)(9862420282)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2122.0,
+  2122.0,
+  2122.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhuwan Sing Kaucha (Bharse)(Chamlagaira) (9742344445)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3210.0,
+  3210.0,
+  3210.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bhuwan Sing Sirish (Chamlagaira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1060.0,
+  1060.0,
+  1060.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bidhu Dhega (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1227.0,
+  1227.5,
+  1227.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bikram Pandey Chaur 9863543660"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  33731.0,
+  18430.6,
+  28631.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bimala Nepali (Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1550.0,
+  1550.0,
+  1550.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bimala Nepali Bhadarthum"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3380.0,
+  3380.0,
+  3380.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bindu Neupane 9742500425 Aslewa-Gaun"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  350.0,
+  350.0,
+  350.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Binod Pandey (Gau)(9742987146)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5914.0,
+  5913.5,
+  5914.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bipin B.K (Johang) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  284.0,
+  284.0,
+  284.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu B.K (Bharse Kusindada) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1978.0,
+  1977.5,
+  1978.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""bishnu Bhandar Johang 9869423834"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  390.0,
+  390.0,
+  390.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Dhakal (9847299968)(Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  53149.5,
+  51661.5,
+  52405.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Dhakal (Pipalneeta)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  200.0,
+  180.0,
+  180.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Galami (Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3210.0,
+  3210.0,
+  3210.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Giri Tathim (9847596947)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12691.0,
+  12691.1,
+  12691.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Kala (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1525.0,
+  1525.0,
+  1525.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Maya  Budathoki (Sanopokhari) Bharse"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1800.0,
+  1800.0,
+  1800.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Maya Budathoki (Saldhunga) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1680.0,
+  1680.0,
+  1680.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Maya Gharti (Dakuwa)(9860692916)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2648.0,
+  2647.5,
+  2648.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu P Shrestha (Rudrabeni)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  482.13,
+  482.13,
+  482.13,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Pandey 9840964926 \u0909\u092a\u0932\u094d\u0932\u094b \u0922\u093e\u0935"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  440.0,
+  440.0,
+  440.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Pandey Chhetri (Gau)(9844757432)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2018.0,
+  2018.0,
+  2018.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Pokhrel (Bhadarthum) (9847009838)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  19270.0,
+  19269.5,
+  19270.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Poudel (Bausdi)(9847147866)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  19908.5,
+  19910.0,
+  19908.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bishnu Prasad Bhandari Johang 9843980249"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  24522.5,
+  24522.95,
+  24522.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Bom Bahadur Kunwar (Chaur)(9866150807)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  11273.0,
+  11272.5,
+  11273.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Buddisagar panday( Gau)(9867484299)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  33664.0,
+  33665.0,
+  33664.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Butwal Branch"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  3400.74,
+  3400.74,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chabikala Neupane 9842925610 Johang"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1074.2,
+  1074.2,
+  1074.2,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chameli Dhega (9841535271) (Batase)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  29820.0,
+  29820.0,
+  29820.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chandra Prasad Shrestha baglun (9847384)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7200.0,
+  13500.0,
+  13500.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chandrakala Poudel (9867518796) (Batase)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8602.0,
+  8602.5,
+  8602.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chhabikala Pokhrel (Bhdarthum) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  935.0,
+  935.0,
+  935.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chintaram Darlami (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  190.0,
+  190.0,
+  190.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chiranjibi Gyawali (Hasara) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6600.0,
+  960.0,
+  960.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chitrakala Kala Kunwar(Machakot)9847170782"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  396.0,
+  396.0,
+  396.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Chudamadi Pandey gau 9847189946"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2650.0,
+  2650.0,
+  2650.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Churamani Dhakal (Rama) (9867135495)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  10255.0,
+  8127.5,
+  9191.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dal Raj Neupane (Koiralbot)(chidipani)(9847003360)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  275.0,
+  275.0,
+  275.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Damanti Kunwar (Machakot)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  856.0,
+  857.0,
+  856.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dayanidhi Bhandari (Thularaghu)(9847191154)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  88875.0,
+  41372.5,
+  41373.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Deepak Bhandari (Johang)(9869436346)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  780.0,
+  780.0,
+  780.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Deepak Kunwar (Aslewa-Gau)(9847175016)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2550.0,
+  2549.5,
+  2550.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Devi Budhathoki(Bharse)(Chamlgaira)(9864449002)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1684.0,
+  1684.0,
+  1684.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Devi Maya Nepali (Saldhunga) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5150.0,
+  5150.0,
+  5150.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Devi Prasad Pandey (Gau)(9742980763"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4147.0,
+  4147.0,
+  4147.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Devikala Dhakal (Dwagha) (9860704723)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  651.0,
+  651.0,
+  651.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Deviram kunwar Machakot  (9847176925)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  600.5,
+  292.5,
+  456.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Devpati Bhandari (Dhaba)(9847255054)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7900.5,
+  7630.9,
+  7630.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhan Bahadur B.K (Gau) (9841593540)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1574.0,
+  1574.0,
+  1574.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhan Bahadur Kaucha (Bharse)(Jamadi)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6255.0,
+  6255.0,
+  6255.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhan Bdr B.k ( Aslewa-Gau)(9841593540)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  88.0,
+  87.5,
+  88.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhan Maya Rana(Bharse)(9867545504)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12354.0,
+  12354.5,
+  12354.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhanamaya Nepali (Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1299.0,
+  1298.5,
+  1299.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhanapati Bhandari(9869472734)(Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4041.0,
+  4042.0,
+  4041.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhanapati Kunwar (Machakot)/Dhan Bdr Kunwar (9865124202)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  16179.0,
+  16177.0,
+  16179.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhol Bahadur Kunwar (Machakot) 9819433440)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4716.0,
+  3947.0,
+  4366.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhundi Raj Bhusal (Baspata)(9867031994)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1165.0,
+  1165.0,
+  1165.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhundiraj Bhandari 9867430548 \u091c\u094b\u0939\u093e\u0919\u094d\u0917"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3417.0,
+  3417.05,
+  3417.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dhundiraj Dhakal(retaudi)(9844480203)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3102.0,
+  3102.06,
+  3102.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dil Bahadur Kaucha (Jamadi)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4383.0,
+  4382.5,
+  4383.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dil bdr Bhuujel (Bharse) (jamadi)(9869491998)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15960.0,
+  15961.5,
+  15960.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dil Bdr Damai (Khalte)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  30.0,
+  30.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dil Bdr Pulami (Aslewa-Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15720.0,
+  8630.0,
+  8630.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dil Bdr Pulami (Gau)(9847281754)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7740.0,
+  7740.0,
+  7740.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dil Bdr Rahadi (Gau)(9847353957)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  54824.5,
+  54628.5,
+  54727.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dilkumari Kunwar Machakot (9765573480)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9471.0,
+  8871.0,
+  9181.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dilkumari Pandey (Aslewa-Dwagha) (9845330012)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1163.5,
+  1163.1,
+  1163.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dilliraj Bhandari (9847164228)(Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  10232.0,
+  10233.0,
+  10232.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dilliraj Bhandari (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  120.0,
+  120.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dilliraj Neupane (Thularaghu)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  72.0,
+  48.0,
+  48.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Dilliraj Poudel (Thularaghu)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13338.5,
+  13339.0,
+  13338.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Domati Shrish (Bharse, Chamlagaira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1170.0,
+  585.0,
+  585.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Duplicate Shishir Bhamdari (rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9330.0,
+  9329.5,
+  9330.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Durga Bhandari (Dhada) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1175.0,
+  1175.0,
+  1175.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Durga Poudel (Rama) (9847251497)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5147.0,
+  5147.5,
+  5147.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Durga Prasad Pandey Chaur 9867261120"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2750.0,
+  2750.0,
+  2750.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ek Raj Pandey (Aslewa-Gau)(9849093735"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6118.0,
+  6119.5,
+  6118.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ganga Darlami ( Sanopokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  42436.0,
+  42436.2,
+  42436.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ganga Neupane (Bausadi) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6934.0,
+  6934.5,
+  6934.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ganga Pandey (Aslewa-Gau)(9867914798)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2259.5,
+  2259.5,
+  2259.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ganga Sirish (Chamlagaira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2654.0,
+  2653.5,
+  2654.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gangaram Bhandari(Dhaba)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  1645.0,
+  1645.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gaumati Bhandari"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  77.0,
+  77.0,
+  77.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gaumaya Aaale Bharse"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1910.0,
+  1910.0,
+  1910.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gaumaya Rajali (Saldhunga) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9650.0,
+  9650.0,
+  9650.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ghan Bahadur Kaucha (Sanopokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7560.0,
+  7560.0,
+  7560.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ghan Shyam Pandey (Dwagha)(9847195355)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1099.0,
+  1099.5,
+  1099.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ghane Pariyar (Dewalipokhara) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2664.0,
+  1332.0,
+  1332.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gita B.K (Gau)(9867150162)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15565.6,
+  14279.5,
+  15137.3,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gita Neupane (Bhadarthum)(9847233011)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  10456.5,
+  10456.4,
+  10456.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gokul Kunwar (Gau)(9867164177)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12560.0,
+  12560.5,
+  12560.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Goma Gautam (Rama) 9849719428"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  820.0,
+  820.0,
+  820.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Goma Pandey (Aslewa-Gau)(9844789995)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  382.0,
+  382.0,
+  382.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gopal Kaucha (Jamadi) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3340.0,
+  3340.0,
+  3340.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gopal Neupane(Koiralbot)(Chidipani)(9742334534)(9867499578)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12616.0,
+  12616.5,
+  12616.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gopal Sunar (Magargau) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  623.0,
+  623.0,
+  623.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Govinda Pandey (Gau) (9847177861)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  16341.0,
+  16341.0,
+  16341.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gyan Prasad Neupane (Bausadi) (9842922333)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12511.0,
+  12510.1,
+  12511.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gyandhar Pandey(Aslewa chaur0"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  305.0,
+  305.0,
+  305.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Gyanu Maya Kunwar (Collector) (Machakot)(9866150758)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  61122.0,
+  56859.5,
+  57122.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hari Budathoki  (Bharse-Thulapokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  18223.0,
+  18222.5,
+  18223.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hari Karki (Shantipur)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  54774.0,
+  54774.0,
+  54774.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hari P Neupane (Chidipani)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4648.0,
+  4646.75,
+  4648.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hari Poudel (Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5665.0,
+  5665.0,
+  5665.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hari Prasad Pandey (Gau) (9860770335)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3892.0,
+  3892.5,
+  3892.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Harikala Poudel (9840701059) (Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4675.0,
+  4673.5,
+  4675.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Himlal  Bhandari Chamdi"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  120.0,
+  120.0,
+  120.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Himlal Poudel (rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2437.0,
+  1000.0,
+  1000.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Himlal Poudel(Ramha)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  10601.0,
+  10901.5,
+  10901.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hira Darlami (Sanopokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1440.0,
+  1440.0,
+  1440.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hira Kunwar (Gau)(9840967464)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13532.0,
+  13021.5,
+  13282.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Hum Nath Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1360.0,
+  1360.0,
+  1360.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Humkala Galami (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3652.0,
+  3652.5,
+  3653.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Humkanta Pandey(Chaura)(9861094466)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9750.0,
+  9750.0,
+  9750.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Humnath Dhakal (Dwagha)(9849302084)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2055.0,
+  694.0,
+  695.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Indira Pokhrel Bhadarthum 9842912175"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2465.0,
+  2465.0,
+  2465.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Indra Kumari Shreesh (Bharse)(SukkhaKhola)(9843980105)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4398.0,
+  4397.5,
+  4398.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Indra Majhi (Botgaeu)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  315.0,
+  315.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ishwori Prasad Pandey (Gau)(9857079684)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2904.0,
+  2904.0,
+  2904.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""jagnath Dhakal Johang 9866805387"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  62713.0,
+  62713.3,
+  62713.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jamuna Budathoki (Saldhunga) (9847425160)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4070.0,
+  4070.0,
+  4070.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jamuna Pariyar 9841138465 Aapchur"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  741.0,
+  741.0,
+  741.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jamuna Pokhrel(Bhadarthum)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  154.0,
+  154.0,
+  154.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Janaki Kunwar (Machakot) (9843707749)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  625.0,
+  625.0,
+  625.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Janaki Neupane (Bausadi)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5355.0,
+  5355.0,
+  5355.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jaya Bhujel(Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3292.0,
+  3292.5,
+  3292.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jayakala Gaire(9843506162) (Bausadi)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8513.0,
+  8512.0,
+  8513.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jeet Bahadur Pandey (Dwagha) (9846736937)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1460.0,
+  1460.0,
+  1460.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jeevan Gyawali (Kudule) (9847156096)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1294.0,
+  1294.5,
+  1294.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jeevan Majhi (Khaireni) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  180.0,
+  180.0,
+  180.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jeevan Sunar (Johang)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1272.0,
+  1272.0,
+  1272.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jhabilal Bhandari (Dhaba) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2960.0,
+  2960.0,
+  2960.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jhana Poltri Form 9865474164"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2560.0,
+  1040.0,
+  1040.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jharana Kunwar (Aslewa Gau)(9840405606)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15041.0,
+  15041.0,
+  15041.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jharana Pandey (Aslewa Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  425.0,
+  425.0,
+  425.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jharimaya Bhandari (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6459.0,
+  6462.5,
+  6459.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jharna Poltri Form 9865474164"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2992.0,
+  2992.5,
+  2992.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jiblal Bhandari (Dakuwa) (9840095708)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1813.0,
+  1812.5,
+  1813.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jiblal Kunwar (Chaur)(9866562499)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  25981.0,
+  25981.25,
+  25981.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jiblal Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  11067.0,
+  11064.5,
+  11064.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""jIwan Pariyar(Furlung)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2370.0,
+  2370.0,
+  2370.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Juddhabir Singjali (Gau)(9847174158)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  20760.83,
+  12201.0,
+  12200.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jugbir Kunwar (Machakot)(9805243628)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3384.0,
+  3384.0,
+  3384.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Junkala Rakse ( Bharse) Kusidada"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3208.0,
+  3207.5,
+  3208.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Junu Galami (Bharse)(Sano Pokhari )(9867158439)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  24021.5,
+  24021.5,
+  24021.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Jyoti Pandey (Gau)(9867563821)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4101.0,
+  4099.5,
+  4101.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kala B.K. (Juniya)(9746391140)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  31820.0,
+  31370.0,
+  31370.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kala B.K.Jhuniya"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  900.0,
+  450.0,
+  450.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kamal Kunwar (Machakot)(9861201851)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5171.0,
+  5172.0,
+  5171.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kamal Nepali (Bhadarthum) (9840956023)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15411.0,
+  15065.5,
+  15063.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kamal Shestha(Diller)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2530.0,
+  1029.21,
+  1029.21,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kamala Bhujel (Chamlagaira-Jamadi)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3022.0,
+  3022.0,
+  3022.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kamala Gharti (Dakuwa)(9849815408)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3708.0,
+  3708.5,
+  3708.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kamala Nepali Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  348.0,
+  347.5,
+  348.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kamala Pandey (Gau)(9867513931)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1822.0,
+  1821.5,
+  1822.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Karna Bdr Pandey Chhetri (Aslewa-Gau)(9867274429)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  18866.0,
+  18866.0,
+  18866.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kashiram Budathoki (Sanopokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1440.0,
+  1440.0,
+  1440.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kasiram Bhandari (Dhaba)(9847280449)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  104.0,
+  104.0,
+  104.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Keshav Bhandari (Dhaba) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2262.35,
+  2262.85,
+  2262.35,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Keshav Kharel (Aapchaur)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3360.0,
+  3360.0,
+  3360.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Keshav Pun (Chamlagaira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4100.0,
+  4100.0,
+  4100.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khadka Kunwar (chaur)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4950.0,
+  4950.0,
+  4950.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khemlal  Bhandari (Dhaba)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  502.0,
+  502.5,
+  502.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khimkala Dhakal (supplier)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  418.0,
+  418.0,
+  418.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khimlal Bhandari"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  20639.5,
+  20430.0,
+  20429.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khimlal Bhandari (Dhaba)(9847582787)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1514.0,
+  1513.5,
+  1514.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khimlal Bhandari (Sota-Damuka)(9867240183)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  132768.6,
+  121457.4,
+  127139.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khimlal Pandey Gaigothe(chaura)(9867173773)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  405.0,
+  405.0,
+  405.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khukuri Saila Diller(Khaireni)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  136201.0,
+  136201.93,
+  136201.93,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Khumlal Pandey (Dwagha) (9867003740)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5931.0,
+  5930.9,
+  5931.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kopila Kunwar 9811986740 machakot"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  688.0,
+  687.5,
+  688.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kopila Pandey 9746365195 (Aslewa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1820.0,
+  1820.0,
+  1820.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Krishna Bhandari (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1811.0,
+  1809.1,
+  1811.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""krishna Bhusal (Furlung)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2124.0,
+  1164.0,
+  1164.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Krishna Kunwar (Machakot)(9867424182)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2201.0,
+  2200.1,
+  2201.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Krishna Prasad Bhusal (Dewalipokhara)(9847254733)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1610.0,
+  1610.0,
+  1610.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kristi Shrish"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2005.0,
+  2005.0,
+  2005.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kul Bahadur Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  384.75,
+  384.75,
+  384.75,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kulananda Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  700.0,
+  -400.0,
+  150.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kumar Bhandari Junia(9867160576)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1496.0,
+  1496.25,
+  1496.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kumari  Darlami (Aslewa Gau)(9867933578)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  27870.0,
+  27870.5,
+  27870.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kumari Kuwar (Machakot) 9860698155"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  189.05,
+  189.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kumari Thapa (Sanopokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3785.0,
+  3785.0,
+  3785.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kunti Kunwar (Gau)(9866151128"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  598.0,
+  598.0,
+  598.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kunti Kunwar Machakot 9847218914"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3616.0,
+  3616.5,
+  3616.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Kushal Budathoki (Saldhunga) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2294.0,
+  2294.0,
+  2294.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Lal Kumari B.K (Sanopokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4360.0,
+  4360.0,
+  4360.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Lalita Gyawali (Limgha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1932.0,
+  1932.0,
+  1932.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Laxima Neupane (9843980037) (Bausadi)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6961.0,
+  6960.0,
+  6961.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Laxman Bhandari (Chorkate)(9841138495)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2170.0,
+  2170.0,
+  2170.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""LAxman Bhandari Johang 9746383787"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  50019.0,
+  50019.0,
+  50019.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Laxman Pandey (Chaur)(9847056173)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  24535.0,
+  24534.75,
+  24535.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Laxmi Dhakal (Dwagha)9867726458"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3642.0,
+  3642.5,
+  3642.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Laxmi Dhakal (Khaireni) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1480.0,
+  1480.0,
+  1480.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Laxmi Pandey Keshav (Gau) (98424928810)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13778.95,
+  12348.5,
+  12349.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Laxmi Pun (Jamadi) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  400.0,
+  400.0,
+  400.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Lila Devi Kunwar (Machakot) (9844805726)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6769.0,
+  6771.0,
+  6769.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Loknath Kharel Aapchor 9847197486"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3010.0,
+  3010.0,
+  3010.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Loknath Pandey (Dwagha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6009.5,
+  6009.5,
+  6009.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Maan Bahadur Kunwar (Machakot) (9824432543)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4295.0,
+  4044.7,
+  4045.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Madabi Darlami"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9320.0,
+  2700.0,
+  2700.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Madabi Darlami (Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15640.0,
+  7820.5,
+  7820.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Madhav Pandey (Dwagha)(9867184572)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  64.0,
+  64.5,
+  64.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Madhu Budathoki(Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4586.0,
+  4586.0,
+  4586.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Madiram Kunwar (Machakot) (9847173137)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  416.5,
+  60.0,
+  60.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Madiratna Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  200.0,
+  200.0,
+  200.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mahendra Kunwar (Machakot)(9841114194)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3443.0,
+  3442.0,
+  3443.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mahesh Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  450.0,
+  450.0,
+  450.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Maiya Bhusal (Baspata)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  602.5,
+  602.5,
+  602.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Man sing Pariyar (Juniya)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1566.0,
+  1566.0,
+  1566.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mani Ratna Pandey (Aslewa Chour) 9847172436"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1000.0,
+  1000.0,
+  1000.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Manisha Pandey (dwaga)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  320.0,
+  320.0,
+  320.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Manju Bhandari (9847219112) (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  880.0,
+  881.5,
+  880.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Manju Pandey (Dwagha)(9867587602)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1172.0,
+  1172.0,
+  1172.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""manmaya B.K.jhuniya"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1025.0,
+  1025.0,
+  1025.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mansuwa Neupane (Dwagha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  88.0,
+  87.5,
+  88.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Maya Kaucha (Chamlagaira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12219.0,
+  12218.5,
+  12219.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Maya Pandey (Dwagha)(9842854278)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2598.0,
+  2597.5,
+  2598.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Maya Pariuar (Juniya)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  570.0,
+  570.0,
+  570.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Maya Pariyar (Tahtim) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4811.0,
+  4813.0,
+  4811.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Megharaj Neupane (Thularaghu)(9857064107)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  14002.5,
+  9657.0,
+  9657.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Dhakal (Rama)(9847178994)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1462.0,
+  1462.0,
+  1462.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Galami"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2200.0,
+  2200.0,
+  2200.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Galami (sanopokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  41934.0,
+  41934.0,
+  41934.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Galami Bharse"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2333.0,
+  2332.8,
+  2333.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Pandey Chaur (9867145258)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1793.0,
+  1792.5,
+  1793.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Pandey(aslewa-gau)(9867109697)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4347.0,
+  4346.5,
+  4347.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Shreesh (Aslewa-Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5680.0,
+  680.0,
+  680.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Shreesh (Gau)(9861399616)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  46209.5,
+  9344.5,
+  25607.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Somai (Dwagha)(9866582270)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2424.0,
+  2424.0,
+  2424.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mina Sunar (Dadathok) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  216.0,
+  216.0,
+  216.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Minu Shreesh (Chamlagaira) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  310.0,
+  310.0,
+  310.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""mitra B. Thapa 9867024626"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4200.0,
+  4200.0,
+  4200.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Mitra lal Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  294.0,
+  294.0,
+  294.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Momkali Gurung (Jamadi) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2985.0,
+  2985.0,
+  2985.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Motilal Kunwar (Machakot)(9811470356)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3184.0,
+  3182.5,
+  3184.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Muktiram Bhandari (9847198730)(Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  44733.0,
+  44731.0,
+  44733.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Muktiram Pandey Chaur (9847163543)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  38138.0,
+  38138.3,
+  38138.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Muna Kunwar (Machakot) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3389.0,
+  3389.0,
+  3389.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Naam Bahadur Kunwar (Machakot)(9840631339)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6397.0,
+  6396.5,
+  6397.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Namrata Gharti Dakuwa 9840788574"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1018.0,
+  1017.5,
+  1018.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Narash Kunwar (Machakot)(9844708396)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  1279.5,
+  1279.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Narayan B.K (Juniya) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2170.0,
+  2170.0,
+  2170.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Narayan Bhandari (Chidiipani)(9825499785)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  360.0,
+  360.0,
+  360.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Narayan Prasad Bhandari (Sanaraghu) (9865488604)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  46897.0,
+  46897.0,
+  46897.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Naresh Kunwar (Machakot)(9844708396)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5568.0,
+  452.0,
+  452.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Naresh Neupane (9867408310) (Bausadhi)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  18821.0,
+  18821.0,
+  18821.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Narmada Pandey (Krishna) (Gau) (9869583780)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  52480.0,
+  52482.5,
+  52480.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Narmaya B.K (Saldhunga) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6240.0,
+  6240.0,
+  6240.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Neera Kunwar (Aslewa-Gau)(9848627899)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  720.0,
+  720.0,
+  720.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Netra Lal Kunwar  (Machakot)(9867439834)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  873.0,
+  873.0,
+  873.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Netra Prasad  Bhandari (Dhaba) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1605.0,
+  1605.0,
+  1605.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nim Kumari Kunwar (Machakot)  (9847291201)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3126.0,
+  3126.0,
+  3126.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nim kumari shjali(aslewa-gau)(9848627713)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  15406.0,
+  15406.55,
+  15406.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nir Bahdaur Kunwar (Machakot)(9864882278)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  19625.0,
+  19623.5,
+  19625.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nirmal Budathoki (Sanopokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  595.0,
+  595.0,
+  595.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nirmala Bhandari (Batase) (9867240684)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5412.0,
+  5412.5,
+  5412.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nirmala Gharti(Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  200.0,
+  200.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nirmala Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9560.0,
+  9560.0,
+  9560.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nirmala Pandey (Aslewa-Gau) (9847307975)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  99724.5,
+  95498.5,
+  95754.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nirmala Shrestha (Sanopokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5875.0,
+  5875.0,
+  5875.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Niru Nepali(9847168035) (Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2424.0,
+  2424.5,
+  2424.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Niru Pariyar (Dwaga)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  90.0,
+  90.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nisha Kunwar (Gau) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2751.0,
+  2751.0,
+  2751.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nisha Pandey (Khim - Gau)(9867290690)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8580.5,
+  8580.5,
+  8580.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Nisha Sunar Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  194.0,
+  194.0,
+  194.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Om Bahadur Nepali (Juniya) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4674.0,
+  4674.0,
+  4674.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Om Parkash Bhandari (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2245.0,
+  2244.5,
+  2245.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Om Prakash bhandari (9847388218) (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  20837.0,
+  20479.5,
+  20657.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pabi Gharti(Barag)(9846228211)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5400.0,
+  5400.0,
+  5400.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pabi Pun (Thulapokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1425.0,
+  1425.0,
+  1425.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pabitra B.k. (Bharse) 9869925944"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1348.0,
+  1348.0,
+  1348.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pabitra Kunwar Bir (Machakot)(9849914597)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  931.5,
+  932.5,
+  931.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pabitra Kunwar(Machakot)(9849914597)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1279.0,
+  1280.0,
+  1279.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Padam Bahadur Pandey (Dwagha)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8478.0,
+  12636.0,
+  12636.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Padam Lal Budathoki(Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1380.0,
+  1380.0,
+  1380.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Padamraj Poudel (9847582903)(Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  54881.0,
+  54661.0,
+  54771.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Paicho Pasal Headoffice (Khaireni)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  26632348.35,
+  685130.25,
+  1676587.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Parbati Bandari (Dhaba)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2242.5,
+  1722.5,
+  1722.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Parlad Pun (Chamlagaira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1240.0,
+  1240.0,
+  1240.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Parwati  Bhusal jhong"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  990.0,
+  990.0,
+  990.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pawan Sunar (Chidipani) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2895.0,
+  2895.0,
+  2895.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pharsuram Bhandari (Dhaba)(9867135475)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9122.0,
+  9121.5,
+  9122.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pitamber Bhandari (Dhaba) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  540.5,
+  540.0,
+  540.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pitamber Pandey (Gau) Tallo (9840378308)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1479.0,
+  1449.5,
+  1449.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Prem Bahadur Shreesh (Chamlagaira) Supplier Kholapatti"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9601.0,
+  9601.0,
+  9601.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Prem Kunwar (Gau)(9847268071)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6380.0,
+  6380.0,
+  6380.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Prem Prasad Pun (Chamlagaira) 9860720756"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  24303.0,
+  24303.0,
+  24303.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Prem Pun (Sanopokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1032.0,
+  1032.0,
+  1032.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Puja Bhushal (Pipalneta)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  360.0,
+  360.0,
+  360.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Puja Neupane (Khatri Tol)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  90.0,
+  90.0,
+  90.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Punaram Dhakal(9867011658) (Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  45017.0,
+  45016.6,
+  45017.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pundari Bhandari( Dhaba)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  252.0,
+  252.0,
+  252.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Puran Dhegan 9849773347 Bokin Dada"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2377.0,
+  3926.5,
+  3927.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Purnakala kaucha bharse"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1096.0,
+  1096.0,
+  1096.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Purusottam Pandey (Chaur)(9845422960)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13332.0,
+  13331.5,
+  13332.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pushpa Kaucha (Sanopokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4010.0,
+  4010.0,
+  4010.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Pushpa Pandey (Dwagha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  9085.2,
+  9084.9,
+  9085.2,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Puskar Pandey (Damuka) 9843284159"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  25874.9,
+  25875.0,
+  25875.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Puspa Pokhrel Bhadarthum 9867012489"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3564.5,
+  3564.5,
+  3564.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rabilal Kunwar (Machakot)(9867230764)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  797.0,
+  797.5,
+  797.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rada Pandey (Aslewa-Gau)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1650.0,
+  1650.0,
+  1650.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Radha Gyawali (LImgha)Suppliers"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  23412.0,
+  23412.5,
+  23412.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Radha Pandey (Gau)9867245656"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  10379.0,
+  10379.5,
+  10379.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Radhika Khanal (Bhdarthum)(9865474202)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13639.0,
+  13638.0,
+  13639.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Radhika Pandey (Aslewa Gau) 9847072540"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7140.0,
+  7140.0,
+  7140.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Raju Dhakal (Aslewa-Gau) (9864457534) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5843.0,
+  5842.5,
+  5843.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Raju Kunwar (Machakot)(9867756567)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1045.0,
+  1045.0,
+  1045.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram Bahadur Pun (Sanopokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3978.0,
+  3977.6,
+  3978.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram p Poudel(Chorkate)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1874.0,
+  1875.0,
+  1874.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram Parsad Gaire (Xapa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  23075.0,
+  23075.0,
+  23075.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram parsad pandey(chaur)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  200.0,
+  200.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram Pokhrel (9860003615)(Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6074.0,
+  6074.0,
+  6074.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram Pokhrel (Bishnu)(Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1205.0,
+  1205.0,
+  1205.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram Prasad Bhandari (Thularaghu) (9847359617)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  292988.5,
+  16102.5,
+  16102.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ram Prasad Poudel (9867587732)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  695.0,
+  695.0,
+  695.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rama B k Bharse"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1120.0,
+  1120.0,
+  1120.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ramu Bhusal (baspata)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  615.0,
+  615.0,
+  615.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ramu Pandey 9840956031 Aslewa Gau"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  32304.0,
+  32303.0,
+  32304.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ramu Pokhrel (9867392858)(Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3834.0,
+  2804.0,
+  2804.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ranjana Pun Magar(Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  11838.0,
+  11838.5,
+  11838.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Reeta Kunwar (Aslewa-Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6896.0,
+  6896.5,
+  6896.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Resham Bhandari Thularaghu 9844726406"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  24737.6,
+  24738.1,
+  24737.6,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rimkala Bhandari (Rama) (9866846674)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2193.5,
+  2192.5,
+  2193.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""RIta Dangal(bokidada)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  1151.6,
+  1151.6,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rita Neupane (Johang) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  220.0,
+  220.0,
+  220.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Ritu Nepali (9847350153)(Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7286.0,
+  7286.9,
+  7286.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Romnath Bhusal (Baspata)(9840631557)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1052.5,
+  1052.5,
+  1052.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rudralal Pandey (Aslewa-Gau)(9867152122)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1999.0,
+  1919.0,
+  1919.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Run Bdr Pun (Chamlagaira)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2015.0,
+  2014.75,
+  2015.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rupa Gyawali(Limgha)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  20521.0,
+  20520.5,
+  20521.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rupa Pandey (Dwagha)(9868241220)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  605.0,
+  606.0,
+  605.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rupa Pokhrel (9847168035) (Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2411.0,
+  2410.5,
+  2411.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rupa Poudel (Bausadi) (9867714348)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2474.0,
+  2473.5,
+  2474.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rupa Shrish"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1458.0,
+  1458.0,
+  1458.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rupa Sirish (Bharsu) (Chamlagaira) (Dabung)(9867409492)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8817.0,
+  8817.5,
+  8817.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Rupkala Kaucha Jamadi 9867409492"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  735.0,
+  735.0,
+  735.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sabina Neupane (Pakhalchaur)9847233010"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3936.0,
+  3807.0,
+  3896.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sabitra Dhakal (Gau)(9765496452)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6850.25,
+  6850.75,
+  6850.25,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sagar Bhandari (Johang)(Dewalipokhara)(9840638183)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  16009.0,
+  16009.0,
+  16009.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""sajha Pasal Uliikhola"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  560.0,
+  560.0,
+  560.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Salikram Neupane (Chidipani)(9867745443)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  33870.0,
+  33870.0,
+  33870.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Samita Kunwar (Machakot)(9843722686)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8325.0,
+  8134.0,
+  8235.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sangita Poudel (Limgha)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2520.0,
+  2520.0,
+  2520.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Santa Bahadur B.K (Gau - Chandrakala)(9824488682)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2264.0,
+  2043.5,
+  2154.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Santa Khanal (Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  200.0,
+  195.0,
+  195.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Santi  Aryal"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  998.0,
+  997.5,
+  998.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Santi Aryal (Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2924.0,
+  2924.0,
+  2924.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Santi Nepali (Juniya) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1680.0,
+  1680.0,
+  1680.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Santosh Kala (Sanopokhari)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  900.0,
+  900.0,
+  900.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Santosh Shreesh (Bharse)Supplers"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7800.0,
+  7800.0,
+  7800.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Saradha Dhakal (Chaur)(9847295812)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1778.0,
+  1777.75,
+  1778.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sarita Rasaili (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  23980.0,
+  23980.5,
+  23980.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sarswati Pokhrel (9869433365)(Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  17799.5,
+  16158.6,
+  16999.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Satyawati Namuna Krishi Firm(9847436076)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  24352.0,
+  24352.5,
+  24352.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Seeta Kunwar (Machakot)(9847202745)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  14479.0,
+  13276.0,
+  14079.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Seeta Pandey (Gau)(9847243089)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  23261.5,
+  23261.0,
+  23261.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shalik Ram Sunar (Baglung) 9864497634"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2000.0,
+  2000.0,
+  2000.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shalikram Kunwar(chaur)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1800.0,
+  1800.0,
+  1800.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shankhar Bhandari (Thularaghu)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13423.5,
+  13423.5,
+  13423.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Aryal"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4920.0,
+  200.0,
+  200.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Aryal (9868346518)(Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  14876.5,
+  14876.0,
+  14876.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Aryal (Majuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1602.0,
+  1602.0,
+  1602.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Darlami(Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2828.0,
+  2828.0,
+  2828.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Kala(bokindada)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  396.4,
+  396.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Khanal (Bhadarthum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  5357.0,
+  5357.5,
+  5357.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Nepali (Bhadarthum)(9849600648)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  14629.0,
+  14629.0,
+  14629.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Pandey (Dwagha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  144.0,
+  144.0,
+  144.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Thapa (Baspata) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  337.5,
+  337.5,
+  337.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shanti Thapa (Gau)(9849116290)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  172.0,
+  172.5,
+  172.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sharada pandey(Gau)(9844777566)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  10695.5,
+  10695.0,
+  10695.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sher Bdr Budathoki (Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4709.0,
+  4709.0,
+  4709.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shivakala Dhakal (9867216604)(Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1783.0,
+  1783.0,
+  1783.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shivlal Gyawali (Limgha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1134.0,
+  1134.0,
+  1134.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shivraj Rana (Sanopokhari) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7855.0,
+  7855.4,
+  7855.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shiwalii Enterprisess"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  12501.96,
+  12501.96,
+  12501.96,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shovakhar Bhandari (Kamatthok Johang)(9847200735)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  11835.0,
+  11835.0,
+  11835.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Shyamlal Thapa (Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  240.0,
+  240.0,
+  240.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Simran Stores (Khaireni)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2000.0,
+  2000.0,
+  2000.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sirjan Budathoki(Bharse)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2600.0,
+  2600.0,
+  2600.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""sirjana majhi"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  0.0,
+  824.4,
+  824.4,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sisir Bhandari (9867675829) (Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  18562.0,
+  18563.0,
+  18562.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sita Bhandari (9863446588) (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1345.0,
+  1344.5,
+  1345.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sita Bhandari (Batase)(9867498216)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  120.0,
+  40.5,
+  40.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sita Bhusal Khaireni Pari"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  45.0,
+  45.5,
+  45.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sita Dhakal Rama 9765396498)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  550.0,
+  550.0,
+  550.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sita Nepali(Juniya) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  600.0,
+  600.0,
+  600.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sita Pandey (Chaur - Gaigoth)(9841115127)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  13947.0,
+  13946.0,
+  13947.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sita Pariyar (Gau)(9867874042)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1260.0,
+  1260.0,
+  1260.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Subash Roka (Saal Dhunga) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  525.0,
+  525.0,
+  525.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Suku Maya pariyar"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  178.0,
+  178.0,
+  178.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sumitra Gaire (Juniya) Supplier 9867838223"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1320.0,
+  1320.0,
+  1320.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sumitra Kunwar (chaur)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7101.0,
+  7102.0,
+  7101.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sumitra Nepali Rama 9745715221"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  8936.0,
+  8934.5,
+  8936.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sunita Pariyar (Sanopokhari) Bharse"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2280.0,
+  2280.0,
+  2280.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sunita Thapa Bhadarthum 9866566272"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7035.0,
+  6465.5,
+  6465.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Suntali B.K (Aatipata) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  235.0,
+  334.0,
+  334.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Suntali Dhakal (Dwagha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  560.0,
+  560.0,
+  560.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Suraj Hamal (Khudung)(9867136063)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  24567.0,
+  24567.7,
+  24567.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Suraj Pariyar (Neta)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  430.0,
+  430.0,
+  430.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sushil Kunwar (Machakot) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  225.0,
+  225.0,
+  225.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Sushila Majhi (Ruru-5)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1368.0,
+  1368.0,
+  1368.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tagka Kuwar(aslewa-gau)(9745430787"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4970.0,
+  3970.0,
+  4470.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tara B.K (Gau)(9863173734)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3897.0,
+  3897.5,
+  3897.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tara B.K. (Aslewa-Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  655.0,
+  655.0,
+  655.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tara Bhandari (Dakuwa)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  321.0,
+  321.0,
+  321.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tara Devi Pandey (Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7276.0,
+  3638.0,
+  3638.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tara Khatri (Aslewa-Gau)(9867535253)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  42455.5,
+  40128.0,
+  41328.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""TAra NEupane Bausadhi9867446800"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  476.5,
+  477.0,
+  476.5,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tara Prasad Pandey (Chaur) (9867429300)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  59840.7,
+  54034.5,
+  55150.7,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tarapati Pandey 9847165864 Aslewa gau"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  746.0,
+  746.0,
+  746.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tej Bahadur Kaucha (Saldhunga Bharse) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1890.0,
+  1890.0,
+  1890.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tejnath Pandey (Dwagha)(9867331750)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  3870.0,
+  3870.0,
+  3870.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tham Maya Thapa"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  41513.86,
+  41513.0,
+  41514.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Thanaswor Bhusal (Baspata)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  6602.0,
+  6602.5,
+  6602.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tika Shreesh (Dagum) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1055.0,
+  1055.0,
+  1055.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tikaram Dhakal (9867434033)(Rama)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2350.0,
+  2350.0,
+  2350.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tikisara Kunwar (Machakot) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  7836.0,
+  7836.0,
+  7836.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Til Kumari Kunwar (Machakot)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  696.0,
+  697.5,
+  696.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Til Kumari Shreesh (Dagum)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  1412.0,
+  1412.4,
+  1412.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Topala Pandey"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  549.0,
+  549.0,
+  549.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Topali Taramu(aslewa-gau)(9846383947"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2460.0,
+  2460.0,
+  2460.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tulsa Bhandari (Chhamdi) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  757.0,
+  757.0,
+  757.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tulsa Panday"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  14339.0,
+  14338.95,
+  14339.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Tulsi Kunwar (Machakot) (9864401595)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  880.0,
+  880.5,
+  880.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Uma Bhandari (Khaireni) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  135.0,
+  135.0,
+  135.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Umapati Pandey (Dwagha) Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  828.0,
+  828.0,
+  828.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Usha Pariyar(9842800196) (Aslewa-Gau)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  919.0,
+  919.0,
+  919.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Yagyamurti Dhakal (Rama) (9847230568)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4368.0,
+  4368.5,
+  4368.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Yam Kumari Rana (Bagane)Supplier"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  90.0,
+  90.0,
+  90.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Yamu Taramu(Aslewa-Gau)(9840971237)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4164.0,
+  4165.0,
+  4164.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Yamu Taramu(Aslewa-Gau)(9840971291) Origina"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  4529.0,
+  4530.0,
+  4529.0,
+  null
+ ],
+ [
+  ""Supplier"",
+  ""Yamuna Pandey (Gau)(9867226619)"",
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2190.0,
+  2190.0,
+  2190.0,
+  null
+ ]
+]",,,,
+vu5m6sjin1,2024-11-17 13:03:55.025,2024-11-17 13:03:55.025,Administrator,Administrator,0,0,QRY-382224,3,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Net Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Grand Total"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Total Taxes And Charges"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  },
+  {
+   ""label"": ""Outstanding Amount"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  12300.0,
+  12300.0,
+  0.0,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  55775.54,
+  60920.36,
+  5144.82,
+  0.0
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  7478.1,
+  7478.1,
+  0.0,
+  7478.1
+ ]
+]",,,,
+vu5m77keo4,2024-11-17 13:03:55.016,2024-11-17 13:03:55.016,Administrator,Administrator,0,0,QRY-382240,5,"[
+ [
+  {
+   ""label"": ""Company"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Name"",
+   ""options"": {
+    ""date_format"": """"
+   },
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd, Ridi"",
+  1
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Argali"",
+  1
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Baletaksar"",
+  2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Khaireni"",
+  2
+ ],
+ [
+  ""Paicho Pasal Pvt Ltd., Tansen"",
+  2
+ ]
+]",,,,
+vvvk2cm0l8,2024-11-17 13:07:00.464,2024-11-17 13:07:00.464,Administrator,Administrator,0,0,QRY-382254,8,"[
+ [
+  {
+   ""label"": ""Particular"",
+   ""options"": null,
+   ""type"": ""String""
+  },
+  {
+   ""label"": ""Amount"",
+   ""options"": null,
+   ""type"": ""Decimal""
+  }
+ ],
+ [
+  ""Sales"",
+  223862.89
+ ],
+ [
+  ""Purchase"",
+  113109.07
+ ],
+ [
+  ""Opening Stock"",
+  215955215.48406205
+ ],
+ [
+  ""Closing Stock"",
+  215996169.2634297
+ ],
+ [
+  ""Gross Profit"",
+  151707.5993676581
+ ],
+ [
+  ""Indirect Expense"",
+  0.0
+ ],
+ [
+  ""Indirect Income"",
+  0.0
+ ],
+ [
+  ""Net Profit"",
+  151707.5993676581
+ ]
+]",,,,

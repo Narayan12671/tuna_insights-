@@ -1,0 +1,2040 @@
+"name","creation","modified","modified_by","owner","docstatus","idx","item_id","item_type","options","layout","parent","parentfield","parenttype"
+1,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,1,"768913",Number,"{
+    ""column"": ""Net Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0001"",
+    ""shorten"": false,
+    ""title"": ""Daily Sales""
+}","{
+    ""h"": 4,
+    ""i"": 768913,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-0002,items,Insights Dashboard
+2,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,1,"948200",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0001"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 14,
+    ""i"": 948200,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 5
+}",DSH-0002,items,Insights Dashboard
+3,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,2,"664679",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Nepali Date"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0001"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}","{
+    ""h"": 11,
+    ""i"": 664679,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 19
+}",DSH-0002,items,Insights Dashboard
+4,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,3,"484922",Pie,"{
+    ""colors"": [
+        ""#912626"",
+        ""hsl(200, 65%, 54%)"",
+        ""hsl(200, 65%, 46%)"",
+        ""hsl(200, 65%, 38%)"",
+        ""hsl(200, 65%, 30%)""
+    ],
+    ""maxSlices"": ""3"",
+    ""query"": ""QRY-0001"",
+    ""scrollLabels"": true,
+    ""title"": ""Sales"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 14,
+    ""i"": 484922,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 5
+}",DSH-0002,items,Insights Dashboard
+5,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,4,"341584",Number,"{
+    ""column"": ""Kitchen Order"",
+    ""query"": ""QRY-0003"",
+    ""shorten"": false,
+    ""title"": ""Kitchen Orders""
+}","{
+    ""h"": 4,
+    ""i"": 341584,
+    ""moved"": false,
+    ""w"": 3,
+    ""x"": 4,
+    ""y"": 0
+}",DSH-0002,items,Insights Dashboard
+6,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,5,"192563",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""maxSlices"": ""3"",
+    ""query"": ""QRY-0003"",
+    ""scrollLabels"": true,
+    ""title"": ""Kitchen Order"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Kitchen Order""
+}","{
+    ""h"": 13,
+    ""i"": 192563,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 30
+}",DSH-0002,items,Insights Dashboard
+7,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,6,"69525",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen Order"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0003"",
+    ""showTotal"": true,
+    ""title"": ""Kitchen Order""
+}","{
+    ""h"": 13,
+    ""i"": 69525,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 30
+}",DSH-0002,items,Insights Dashboard
+8,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,7,"815066",Number,"{
+    ""column"": ""Invoices"",
+    ""query"": ""QRY-0004"",
+    ""shorten"": false,
+    ""title"": ""No. Of Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 815066,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 11,
+    ""y"": 0
+}",DSH-0002,items,Insights Dashboard
+9,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,8,"572795",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0004"",
+    ""title"": ""No. Of Invoices "",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Invoices"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 15,
+    ""i"": 572795,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 56
+}",DSH-0002,items,Insights Dashboard
+10,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,9,"661545",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Invoices"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0004"",
+    ""showTotal"": true,
+    ""title"": ""No. Of Invoices ""
+}","{
+    ""h"": 15,
+    ""i"": 661545,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 56
+}",DSH-0002,items,Insights Dashboard
+11,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,10,"897748",Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0005"",
+    ""shorten"": false,
+    ""title"": ""Credit Sales""
+}","{
+    ""h"": 4,
+    ""i"": 897748,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 15,
+    ""y"": 0
+}",DSH-0002,items,Insights Dashboard
+12,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,1,"576720",Number,"{
+    ""column"": ""Grand Total"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0006"",
+    ""shorten"": false,
+    ""title"": ""Sales""
+}","{
+    ""h"": 4,
+    ""i"": 576720,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-0007,items,Insights Dashboard
+13,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,1,"399058",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""labelPosition"": {
+        ""label"": ""Left"",
+        ""value"": ""Left""
+    },
+    ""query"": ""QRY-0006"",
+    ""scrollLabels"": true,
+    ""title"": ""Sales"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 15,
+    ""i"": 399058,
+    ""moved"": false,
+    ""w"": 9,
+    ""x"": 0,
+    ""y"": 4
+}",DSH-0007,items,Insights Dashboard
+14,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,2,"117044",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Nepali Date"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0006"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}","{
+    ""h"": 15,
+    ""i"": 117044,
+    ""moved"": false,
+    ""w"": 11,
+    ""x"": 9,
+    ""y"": 4
+}",DSH-0007,items,Insights Dashboard
+15,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,3,"125347",Number,"{
+    ""column"": ""Kitchen Orders"",
+    ""query"": ""QRY-0008"",
+    ""shorten"": false,
+    ""title"": ""Kitchen Orders ""
+}","{
+    ""h"": 4,
+    ""i"": 125347,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 4,
+    ""y"": 0
+}",DSH-0007,items,Insights Dashboard
+16,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,4,"343293",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""maxSlices"": ""3"",
+    ""query"": ""QRY-0008"",
+    ""scrollLabels"": true,
+    ""title"": ""Kitchen Orders "",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Kitchen Orders""
+}","{
+    ""h"": 14,
+    ""i"": 343293,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 19
+}",DSH-0007,items,Insights Dashboard
+17,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,5,"707985",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0008"",
+    ""showTotal"": true,
+    ""title"": ""Kitchen Orders""
+}","{
+    ""h"": 14,
+    ""i"": 707985,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 19
+}",DSH-0007,items,Insights Dashboard
+19,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,6,"745978",Number,"{
+    ""column"": ""invoices"",
+    ""query"": ""QRY-0010"",
+    ""shorten"": false,
+    ""title"": ""No. of Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 745978,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 12,
+    ""y"": 0
+}",DSH-0007,items,Insights Dashboard
+20,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,7,"631226",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0010"",
+    ""title"": ""No. of Invoices"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""invoices"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 15,
+    ""i"": 631226,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 50
+}",DSH-0007,items,Insights Dashboard
+21,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,8,"744575",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""invoices"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0010"",
+    ""showTotal"": true,
+    ""title"": ""No. of Invoices ""
+}","{
+    ""h"": 15,
+    ""i"": 744575,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 50
+}",DSH-0007,items,Insights Dashboard
+22,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,1,"294875",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0011"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Sales "",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 15,
+    ""i"": 294875,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 4
+}",DSH-0012,items,Insights Dashboard
+24,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,1,"948087",Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0011"",
+    ""shorten"": false,
+    ""title"": ""Sales""
+}","{
+    ""h"": 4,
+    ""i"": 948087,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-0012,items,Insights Dashboard
+25,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,2,"914785",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0011"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}","{
+    ""h"": 15,
+    ""i"": 914785,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 4
+}",DSH-0012,items,Insights Dashboard
+26,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,3,"808741",Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0011"",
+    ""shorten"": false,
+    ""title"": ""Credit Sales""
+}","{
+    ""h"": 4,
+    ""i"": 808741,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 4,
+    ""y"": 0
+}",DSH-0012,items,Insights Dashboard
+27,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,4,"704391",Number,"{
+    ""column"": ""Kitchen orders"",
+    ""query"": ""QRY-0013"",
+    ""shorten"": false,
+    ""title"": ""Kitchen Orders""
+}","{
+    ""h"": 4,
+    ""i"": 704391,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 8,
+    ""y"": 0
+}",DSH-0012,items,Insights Dashboard
+28,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,5,"409272",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0013"",
+    ""title"": ""Kitchen Orders"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Kitchen orders"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 15,
+    ""i"": 409272,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 19
+}",DSH-0012,items,Insights Dashboard
+29,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,6,"667765",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0013"",
+    ""showTotal"": true,
+    ""title"": ""Kitchen Orders""
+}","{
+    ""h"": 15,
+    ""i"": 667765,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 19
+}",DSH-0012,items,Insights Dashboard
+30,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,7,"298768",Number,"{
+    ""column"": ""Invoices"",
+    ""query"": ""QRY-0014"",
+    ""shorten"": false,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 298768,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 12,
+    ""y"": 0
+}",DSH-0012,items,Insights Dashboard
+31,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,8,"721403",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""maxSlices"": ""3"",
+    ""query"": ""QRY-0014"",
+    ""scrollLabels"": true,
+    ""title"": ""Invoices"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Invoices""
+}","{
+    ""h"": 13,
+    ""i"": 721403,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 49
+}",DSH-0012,items,Insights Dashboard
+32,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,9,"824219",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Invoices"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0014"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 13,
+    ""i"": 824219,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 49
+}",DSH-0012,items,Insights Dashboard
+33,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,1,"49872",Number,"{
+    ""column"": ""Grand Total"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0015"",
+    ""shorten"": false,
+    ""title"": ""Daily Purchase""
+}","{
+    ""h"": 4,
+    ""i"": 49872,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-0016,items,Insights Dashboard
+34,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,1,"530078",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0015"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Daily purchase"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 14,
+    ""i"": 530078,
+    ""moved"": false,
+    ""w"": 9,
+    ""x"": 0,
+    ""y"": 4
+}",DSH-0016,items,Insights Dashboard
+35,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,2,"592662",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0015"",
+    ""showTotal"": true,
+    ""title"": ""Daily Purchase""
+}","{
+    ""h"": 14,
+    ""i"": 592662,
+    ""moved"": false,
+    ""w"": 11,
+    ""x"": 9,
+    ""y"": 4
+}",DSH-0016,items,Insights Dashboard
+36,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,3,"139080",Number,"{
+    ""column"": ""Grand Total"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0017"",
+    ""shorten"": false,
+    ""title"": ""Weekly Sales""
+}","{
+    ""h"": 4,
+    ""i"": 139080,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 4,
+    ""y"": 0
+}",DSH-0016,items,Insights Dashboard
+37,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,4,"544894",Pie,"{
+    ""colors"": [
+        ""hsl(200, 65%, 62%)"",
+        ""hsl(200, 65%, 54%)"",
+        ""hsl(200, 65%, 46%)"",
+        ""#262222"",
+        ""#e60b0b""
+    ],
+    ""maxSlices"": ""3"",
+    ""query"": ""QRY-0017"",
+    ""scrollLabels"": true,
+    ""title"": ""weekly Purchase "",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 14,
+    ""i"": 544894,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 19
+}",DSH-0016,items,Insights Dashboard
+38,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,5,"474442",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0017"",
+    ""showTotal"": true,
+    ""title"": ""Weekly Purchase""
+}","{
+    ""h"": 14,
+    ""i"": 474442,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 19
+}",DSH-0016,items,Insights Dashboard
+39,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,6,"675123",Number,"{
+    ""column"": ""Grand Total"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0018"",
+    ""shorten"": false,
+    ""title"": ""Monthly Purchase""
+}","{
+    ""h"": 4,
+    ""i"": 675123,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 8,
+    ""y"": 0
+}",DSH-0016,items,Insights Dashboard
+40,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,7,"241236",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0018"",
+    ""title"": ""Monthly purchase"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 15,
+    ""i"": 241236,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 36
+}",DSH-0016,items,Insights Dashboard
+41,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,8,"191218",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0018"",
+    ""showTotal"": true,
+    ""title"": ""Monthly purchase""
+}","{
+    ""h"": 15,
+    ""i"": 191218,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 36
+}",DSH-0016,items,Insights Dashboard
+42,2024-10-20 16:15:08.142,2024-10-20 16:48:27.687,Administrator,Administrator,0,9,"856811",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Purchase Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabPurchase Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabPurchase Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {
+        ""label"": ""Current Month"",
+        ""value"": ""Current Month""
+    },
+    ""label"": ""Date Filter"",
+    ""links"": {
+        ""191218"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        },
+        ""241236"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 856811,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 13,
+    ""y"": 34
+}",DSH-0016,items,Insights Dashboard
+43,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,11,"166543",Number,"{
+    ""column"": ""Bar Orders"",
+    ""query"": ""QRY-0019"",
+    ""shorten"": false,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 4,
+    ""i"": 166543,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 7,
+    ""y"": 0
+}",DSH-0002,items,Insights Dashboard
+44,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,12,"784540",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""maxSlices"": ""3"",
+    ""query"": ""QRY-0019"",
+    ""scrollLabels"": true,
+    ""title"": ""Bar Orders"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Bar Orders""
+}","{
+    ""h"": 13,
+    ""i"": 784540,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 43
+}",DSH-0002,items,Insights Dashboard
+45,2024-10-20 14:13:34.803,2024-10-21 16:02:41.610,Administrator,Administrator,0,13,"940454",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": false,
+    ""index"": true,
+    ""query"": ""QRY-0019"",
+    ""showTotal"": true,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 13,
+    ""i"": 940454,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 43
+}",DSH-0002,items,Insights Dashboard
+49,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,9,"98866",Number,"{
+    ""column"": ""Bar Orders"",
+    ""query"": ""QRY-0020"",
+    ""shorten"": false,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 4,
+    ""i"": 98866,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 16,
+    ""y"": 0
+}",DSH-0007,items,Insights Dashboard
+50,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,10,"467139",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0020"",
+    ""title"": ""Bar Orders"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Bar Orders"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 17,
+    ""i"": 467139,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 33
+}",DSH-0007,items,Insights Dashboard
+51,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,11,"784325",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0020"",
+    ""showTotal"": true,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 17,
+    ""i"": 784325,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 33
+}",DSH-0007,items,Insights Dashboard
+52,2024-10-20 15:07:59.812,2024-10-21 15:40:49.773,Administrator,Administrator,0,12,"226935",Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0009"",
+    ""shorten"": false,
+    ""title"": ""Credit""
+}","{
+    ""h"": 4,
+    ""i"": 226935,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 8,
+    ""y"": 0
+}",DSH-0007,items,Insights Dashboard
+53,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,10,"864031",Number,"{
+    ""column"": ""Bar Orders"",
+    ""query"": ""QRY-0021"",
+    ""shorten"": false,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 4,
+    ""i"": 864031,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 16,
+    ""y"": 0
+}",DSH-0012,items,Insights Dashboard
+54,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,11,"812690",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""maxSlices"": ""3"",
+    ""query"": ""QRY-0021"",
+    ""scrollLabels"": true,
+    ""title"": ""Bar Order"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Bar Orders""
+}","{
+    ""h"": 15,
+    ""i"": 812690,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 34
+}",DSH-0012,items,Insights Dashboard
+55,2024-10-20 15:41:04.636,2024-10-21 15:46:07.327,Administrator,Administrator,0,12,"655468",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0021"",
+    ""showTotal"": true,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 15,
+    ""i"": 655468,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 34
+}",DSH-0012,items,Insights Dashboard
+57,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,1,"743348",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0022"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Table Order"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Kitchen Order"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 16,
+    ""i"": 743348,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 22
+}",DSH-0023,items,Insights Dashboard
+58,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,1,"529161",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen Order"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0022"",
+    ""showTotal"": true,
+    ""title"": ""Table Order""
+}","{
+    ""h"": 16,
+    ""i"": 529161,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 22
+}",DSH-0023,items,Insights Dashboard
+61,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,2,"725992",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0025"",
+    ""title"": ""Bar Orders"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Bar Orders"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 15,
+    ""i"": 725992,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 38
+}",DSH-0023,items,Insights Dashboard
+62,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,3,"397911",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0025"",
+    ""showTotal"": true,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 15,
+    ""i"": 397911,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 38
+}",DSH-0023,items,Insights Dashboard
+63,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,4,"428140",Text,"{
+    ""markdown"": ""<p>Daily</p>""
+}","{
+    ""h"": 2,
+    ""i"": 428140,
+    ""moved"": false,
+    ""w"": 3,
+    ""x"": 8,
+    ""y"": 0
+}",DSH-0023,items,Insights Dashboard
+64,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,5,"352903",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0026"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Kitchen Orders"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Kitchen Orders"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 19,
+    ""i"": 352903,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 53
+}",DSH-0023,items,Insights Dashboard
+65,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,6,"605872",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0026"",
+    ""showTotal"": true,
+    ""title"": ""Kitchen Orders""
+}","{
+    ""h"": 19,
+    ""i"": 605872,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 53
+}",DSH-0023,items,Insights Dashboard
+66,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,7,"753079",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0027"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Bar Orders"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Bar Orders"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 17,
+    ""i"": 753079,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 72
+}",DSH-0023,items,Insights Dashboard
+67,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,8,"153427",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0027"",
+    ""showTotal"": true,
+    ""title"": ""Bar Orders""
+}","{
+    ""h"": 17,
+    ""i"": 153427,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 72
+}",DSH-0023,items,Insights Dashboard
+68,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,9,"529277",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0028"",
+    ""title"": ""Table Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 19,
+    ""i"": 529277,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 89
+}",DSH-0023,items,Insights Dashboard
+69,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,10,"188735",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0028"",
+    ""showTotal"": true,
+    ""title"": ""Table Sales""
+}","{
+    ""h"": 19,
+    ""i"": 188735,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 89
+}",DSH-0023,items,Insights Dashboard
+71,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,11,"543972",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0029"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Kitchen Orders"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Kitchen Orders"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 18,
+    ""i"": 543972,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 110
+}",DSH-0023,items,Insights Dashboard
+72,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,12,"319401",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0029"",
+    ""showTotal"": true,
+    ""title"": ""Kitchen Orders""
+}","{
+    ""h"": 20,
+    ""i"": 319401,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 128
+}",DSH-0023,items,Insights Dashboard
+73,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,13,"95714",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0030"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Bar Orders"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Bar orders"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 19,
+    ""i"": 95714,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 148
+}",DSH-0023,items,Insights Dashboard
+74,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,14,"911558",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0030"",
+    ""showTotal"": true,
+    ""title"": ""Bar orders""
+}","{
+    ""h"": 22,
+    ""i"": 911558,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 167
+}",DSH-0023,items,Insights Dashboard
+75,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,15,"971662",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0031"",
+    ""title"": ""Table Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 25,
+    ""i"": 971662,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 189
+}",DSH-0023,items,Insights Dashboard
+76,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,16,"783921",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0031"",
+    ""showTotal"": true,
+    ""title"": ""Table Sales""
+}","{
+    ""h"": 21,
+    ""i"": 783921,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 214
+}",DSH-0023,items,Insights Dashboard
+77,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,17,"621956",Text,"{
+    ""markdown"": ""<p>Monthly</p>""
+}","{
+    ""h"": 2,
+    ""i"": 621956,
+    ""moved"": false,
+    ""w"": 3,
+    ""x"": 9,
+    ""y"": 108
+}",DSH-0023,items,Insights Dashboard
+80,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,18,"509107",Number,"{
+    ""column"": ""total_vacant_count"",
+    ""query"": ""QRY-0034"",
+    ""shorten"": false,
+    ""title"": ""Vacant Table""
+}","{
+    ""h"": 4,
+    ""i"": 509107,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 4,
+    ""y"": 2
+}",DSH-0023,items,Insights Dashboard
+81,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,19,"218856",Number,"{
+    ""column"": ""total_occupied_count"",
+    ""query"": ""QRY-0035"",
+    ""shorten"": false,
+    ""title"": ""Occupied Table""
+}","{
+    ""h"": 4,
+    ""i"": 218856,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 0,
+    ""y"": 2
+}",DSH-0023,items,Insights Dashboard
+82,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,20,"493352",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0036"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Table Total Charge "",
+    ""xAxis"": [
+        {
+            ""column"": ""Table Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Total Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 16,
+    ""i"": 493352,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 6
+}",DSH-0023,items,Insights Dashboard
+83,2024-11-11 16:20:18.090,2024-11-17 14:35:29.413,Administrator,Administrator,0,21,"255684",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Table Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Total Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0036"",
+    ""showTotal"": true,
+    ""title"": ""Table Total Charges ""
+}","{
+    ""h"": 16,
+    ""i"": 255684,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 6
+}",DSH-0023,items,Insights Dashboard

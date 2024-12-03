@@ -68,8 +68,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "frappe_insight.install.before_install"
-# after_install = "frappe_insight.install.after_install"
-
+after_install = "frappe_insight.erp.tunaerp.run_imports"
 # Uninstallation
 # ------------
 

@@ -1,0 +1,2191 @@
+"name","creation","modified","modified_by","owner","docstatus","idx","item_id","item_type","options","layout","parent","parentfield","parenttype"
+6,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,1,"849577",Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382215"",
+    ""shorten"": false,
+    ""title"": ""Grand Total""
+}","{
+    ""h"": 4,
+    ""i"": 849577,
+    ""moved"": false,
+    ""w"": 3,
+    ""x"": 0,
+    ""y"": 2
+}",DSH-382216,items,Insights Dashboard
+8,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,1,"445646",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382215"",
+    ""rotateLabels"": ""45"",
+    ""roundedBars"": false,
+    ""stack"": false,
+    ""title"": ""Bar Graph of Daily Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 23,
+    ""i"": 445646,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 11
+}",DSH-382216,items,Insights Dashboard
+9,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,2,"869599",Pie,"{
+    ""colors"": [
+        ""hsl(200, 65%, 62%)"",
+        ""hsl(200, 65%, 54%)"",
+        ""#d42828"",
+        ""hsl(200, 65%, 38%)"",
+        ""hsl(200, 65%, 30%)""
+    ],
+    ""inlineLabels"": false,
+    ""labelPosition"": {
+        ""label"": ""Left"",
+        ""value"": ""Left""
+    },
+    ""maxSlices"": ""13"",
+    ""query"": ""QRY-382215"",
+    ""title"": ""Pie Chart of Daily Sales"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Net Total""
+}","{
+    ""h"": 22,
+    ""i"": 869599,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 34
+}",DSH-382216,items,Insights Dashboard
+10,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,3,"283073",Line,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382215"",
+    ""referenceLine"": ""Max"",
+    ""showPoints"": true,
+    ""title"": ""Line of Daily Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""line""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""line""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""line""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""series_options"": {
+                ""type"": ""line""
+            }
+        }
+    ]
+}","{
+    ""h"": 16,
+    ""i"": 283073,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 56
+}",DSH-382216,items,Insights Dashboard
+11,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,4,"157870",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382215"",
+    ""showTotal"": true,
+    ""title"": ""Daily Sales of each branches""
+}","{
+    ""h"": 18,
+    ""i"": 157870,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 72
+}",DSH-382216,items,Insights Dashboard
+12,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,1,"328274",Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382218"",
+    ""shorten"": false,
+    ""title"": ""Sales""
+}","{
+    ""h"": 4,
+    ""i"": 328274,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382219,items,Insights Dashboard
+13,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,1,"313869",Line,"{
+    ""colors"": [
+        ""hsl(180, 65%, 62%)"",
+        ""hsl(180, 65%, 54%)"",
+        ""hsl(180, 65%, 46%)"",
+        ""hsl(180, 65%, 38%)"",
+        ""hsl(180, 65%, 30%)""
+    ],
+    ""query"": ""QRY-382218"",
+    ""showArea"": true,
+    ""showPoints"": true,
+    ""title"": ""Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""line""
+            }
+        }
+    ]
+}","{
+    ""h"": 24,
+    ""i"": 313869,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 4
+}",DSH-382219,items,Insights Dashboard
+14,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,2,"670396",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""inlineLabels"": false,
+    ""maxSlices"": ""13"",
+    ""query"": ""QRY-382218"",
+    ""title"": ""Sales"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 24,
+    ""i"": 670396,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 4
+}",DSH-382219,items,Insights Dashboard
+15,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,3,"500668",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382218"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}","{
+    ""h"": 19,
+    ""i"": 500668,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 28
+}",DSH-382219,items,Insights Dashboard
+16,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,1,"404406",Number,"{
+    ""column"": ""Net Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382220"",
+    ""shorten"": false,
+    ""title"": ""Sales""
+}","{
+    ""h"": 4,
+    ""i"": 404406,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 0,
+    ""y"": 2
+}",DSH-382221,items,Insights Dashboard
+18,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,1,"791823",Pie,"{
+    ""colors"": [
+        ""hsl(60, 65%, 62%)"",
+        ""hsl(60, 65%, 54%)"",
+        ""hsl(60, 65%, 46%)"",
+        ""hsl(60, 65%, 38%)"",
+        ""hsl(60, 65%, 30%)""
+    ],
+    ""inlineLabels"": false,
+    ""labelPosition"": {
+        ""label"": ""Left"",
+        ""value"": ""Left""
+    },
+    ""maxSlices"": ""13"",
+    ""query"": ""QRY-382220"",
+    ""scrollLabels"": true,
+    ""title"": ""Sales"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 21,
+    ""i"": 791823,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 24
+}",DSH-382221,items,Insights Dashboard
+19,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,2,"177649",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382220"",
+    ""showTotal"": true,
+    ""title"": ""Monthly Sales Register of all branches""
+}","{
+    ""h"": 19,
+    ""i"": 177649,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 45
+}",DSH-382221,items,Insights Dashboard
+20,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,3,"484856",Bar,"{
+    ""colors"": [
+        ""#de6262"",
+        ""hsl(200, 65%, 54%)"",
+        ""hsl(200, 65%, 46%)"",
+        ""hsl(200, 65%, 38%)"",
+        ""#4677c7""
+    ],
+    ""query"": ""QRY-382220"",
+    ""referenceLine"": ""Max"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 18,
+    ""i"": 484856,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 6
+}",DSH-382221,items,Insights Dashboard
+21,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,4,"408062",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Sales Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabSales Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabSales Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {
+        ""label"": ""Current Month"",
+        ""value"": ""Current Month""
+    },
+    ""label"": ""Date Filter"",
+    ""links"": {
+        ""177649"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        },
+        ""404406"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        },
+        ""484856"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        },
+        ""791823"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 408062,
+    ""moved"": false,
+    ""w"": 6,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382221,items,Insights Dashboard
+22,2024-08-23 10:38:23.363,2024-09-04 14:40:16.824,Administrator,Administrator,0,1,"18895",Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382222"",
+    ""shorten"": false,
+    ""title"": ""Purchase ""
+}","{
+    ""h"": 4,
+    ""i"": 18895,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382223,items,Insights Dashboard
+23,2024-08-23 10:38:23.363,2024-09-04 14:40:16.824,Administrator,Administrator,0,1,"620957",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382222"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Purchase"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 14,
+    ""i"": 620957,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 4
+}",DSH-382223,items,Insights Dashboard
+24,2024-08-23 10:38:23.363,2024-09-04 14:40:16.824,Administrator,Administrator,0,2,"913428",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""inlineLabels"": false,
+    ""maxSlices"": ""13"",
+    ""query"": ""QRY-382222"",
+    ""title"": ""Purchase "",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 14,
+    ""i"": 913428,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 4
+}",DSH-382223,items,Insights Dashboard
+25,2024-08-23 10:38:23.363,2024-09-04 14:40:16.824,Administrator,Administrator,0,3,"930852",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382222"",
+    ""showTotal"": true,
+    ""title"": ""Purchase""
+}","{
+    ""h"": 15,
+    ""i"": 930852,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 18
+}",DSH-382223,items,Insights Dashboard
+26,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,1,"346278",Number,"{
+    ""column"": ""Net Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382224"",
+    ""shorten"": false,
+    ""title"": ""Purchase""
+}","{
+    ""h"": 4,
+    ""i"": 346278,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382225,items,Insights Dashboard
+27,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,1,"977353",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382224"",
+    ""stack"": false,
+    ""title"": ""Purchase"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 22,
+    ""i"": 977353,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 4
+}",DSH-382225,items,Insights Dashboard
+28,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,2,"805135",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""inlineLabels"": true,
+    ""maxSlices"": ""13"",
+    ""query"": ""QRY-382224"",
+    ""title"": ""Purchase"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 22,
+    ""i"": 805135,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 4
+}",DSH-382225,items,Insights Dashboard
+29,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,3,"35613",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382224"",
+    ""showTotal"": true,
+    ""title"": ""Purchase""
+}","{
+    ""h"": 18,
+    ""i"": 35613,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 26
+}",DSH-382225,items,Insights Dashboard
+31,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,1,"721493",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382226"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Purchase"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 22,
+    ""i"": 721493,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 6
+}",DSH-382227,items,Insights Dashboard
+32,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,1,"462252",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""inlineLabels"": false,
+    ""labelPosition"": {
+        ""label"": ""Top"",
+        ""value"": ""Top""
+    },
+    ""maxSlices"": ""13"",
+    ""query"": ""QRY-382226"",
+    ""title"": ""Purchase"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 22,
+    ""i"": 462252,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 6
+}",DSH-382227,items,Insights Dashboard
+33,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,2,"356738",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382226"",
+    ""showTotal"": true,
+    ""title"": ""Purchase ""
+}","{
+    ""h"": 19,
+    ""i"": 356738,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 28
+}",DSH-382227,items,Insights Dashboard
+34,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,3,"505827",Number,"{
+    ""column"": ""Net Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382226"",
+    ""shorten"": false,
+    ""title"": ""Purchase""
+}","{
+    ""h"": 4,
+    ""i"": 505827,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 2
+}",DSH-382227,items,Insights Dashboard
+35,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,4,"321577",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Purchase Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabPurchase Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabPurchase Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {
+        ""label"": ""Current Month"",
+        ""value"": ""Current Month""
+    },
+    ""label"": ""Date Filter"",
+    ""links"": {
+        ""356738"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        },
+        ""462252"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        },
+        ""505827"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        },
+        ""721493"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 321577,
+    ""moved"": false,
+    ""w"": 6,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382227,items,Insights Dashboard
+37,2024-08-26 12:08:08.984,2024-08-26 12:48:28.663,Administrator,Administrator,0,1,"487866",Filter,"{
+    ""column"": {
+        ""column"": ""company"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""String - Sales Invoice"",
+        ""label"": ""Company"",
+        ""table"": ""tabSales Invoice"",
+        ""type"": ""String"",
+        ""value"": ""tabSales Invoice.company""
+    },
+    ""label"": ""Company "",
+    ""links"": {
+        ""712855"": {
+            ""column"": ""company"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""String - Sales Invoice"",
+            ""label"": ""Company"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""String"",
+            ""value"": ""tabSales Invoice.company""
+        },
+        ""994625"": {
+            ""column"": ""company"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""String - Sales Invoice"",
+            ""label"": ""Company"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""String"",
+            ""value"": ""tabSales Invoice.company""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 487866,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 14,
+    ""y"": 0
+}",DSH-382229,items,Insights Dashboard
+38,2024-08-26 12:08:08.984,2024-08-26 12:48:28.663,Administrator,Administrator,0,1,"994625",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Posting Date"",
+            ""column_options"": {
+                ""column_type"": ""Date""
+            }
+        },
+        {
+            ""column"": ""Customer"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Debit To"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Mode Of Payment"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Owner"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Currency"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Remarks"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Rounded Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382228"",
+    ""showTotal"": true,
+    ""title"": ""Sales Register,Butwal""
+}","{
+    ""h"": 14,
+    ""i"": 994625,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 2
+}",DSH-382229,items,Insights Dashboard
+39,2024-08-26 12:08:08.984,2024-08-26 12:48:28.663,Administrator,Administrator,0,2,"403977",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Sales Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabSales Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabSales Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {
+        ""label"": ""Current Day"",
+        ""value"": ""Current Day""
+    },
+    ""label"": ""Date"",
+    ""links"": {
+        ""994625"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 403977,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382229,items,Insights Dashboard
+41,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,5,"904448",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382236"",
+    ""showTotal"": true,
+    ""title"": ""No. of Invoices""
+}","{
+    ""h"": 19,
+    ""i"": 904448,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 96
+}",DSH-382216,items,Insights Dashboard
+42,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,6,"825623",Number,"{
+    ""column"": ""Name"",
+    ""query"": ""QRY-382236"",
+    ""shorten"": false,
+    ""title"": ""No. of Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 825623,
+    ""moved"": false,
+    ""w"": 3,
+    ""x"": 3,
+    ""y"": 2
+}",DSH-382216,items,Insights Dashboard
+43,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,7,"897000",Pie,"{
+    ""colors"": [
+        ""hsl(200, 65%, 62%)"",
+        ""hsl(200, 65%, 54%)"",
+        ""hsl(200, 65%, 46%)"",
+        ""hsl(200, 65%, 38%)"",
+        ""#8f3232""
+    ],
+    ""labelPosition"": {
+        ""label"": ""Left"",
+        ""value"": ""Left""
+    },
+    ""maxSlices"": ""14"",
+    ""query"": ""QRY-382236"",
+    ""title"": ""No. of Invoices"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Name""
+}","{
+    ""h"": 21,
+    ""i"": 897000,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 115
+}",DSH-382216,items,Insights Dashboard
+44,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,4,"760147",Number,"{
+    ""column"": ""Name"",
+    ""query"": ""QRY-382237"",
+    ""shorten"": false,
+    ""title"": ""No. Of Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 760147,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 5,
+    ""y"": 0
+}",DSH-382219,items,Insights Dashboard
+45,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,5,"289640",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382237"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Invoices"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Name"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 16,
+    ""i"": 289640,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 51
+}",DSH-382219,items,Insights Dashboard
+46,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,6,"87797",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382237"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 16,
+    ""i"": 87797,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 51
+}",DSH-382219,items,Insights Dashboard
+47,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,7,"394787",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Sales Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabSales Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabSales Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {
+        ""label"": ""Current Week"",
+        ""value"": ""Current Week""
+    },
+    ""label"": ""Invoices"",
+    ""links"": {
+        ""289640"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        },
+        ""87797"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 394787,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 10,
+    ""y"": 48
+}",DSH-382219,items,Insights Dashboard
+48,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,5,"110051",Number,"{
+    ""column"": ""Name"",
+    ""query"": ""QRY-382238"",
+    ""shorten"": false,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 110051,
+    ""moved"": false,
+    ""w"": 3,
+    ""x"": 4,
+    ""y"": 2
+}",DSH-382221,items,Insights Dashboard
+49,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,6,"432975",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382238"",
+    ""title"": ""Invoices"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Name"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 20,
+    ""i"": 432975,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 66
+}",DSH-382221,items,Insights Dashboard
+50,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,7,"883214",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382238"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 20,
+    ""i"": 883214,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 86
+}",DSH-382221,items,Insights Dashboard
+51,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,8,"528341",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Sales Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabSales Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabSales Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {},
+    ""label"": ""Invoices"",
+    ""links"": {
+        ""110051"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        },
+        ""432975"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        },
+        ""883214"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Sales Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabSales Invoice"",
+            ""table_label"": ""Sales Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabSales Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 528341,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 0,
+    ""y"": 64
+}",DSH-382221,items,Insights Dashboard
+52,2024-08-23 10:38:23.363,2024-09-04 14:40:16.824,Administrator,Administrator,0,4,"345344",Number,"{
+    ""column"": ""Name"",
+    ""query"": ""QRY-382239"",
+    ""shorten"": false,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 345344,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 33
+}",DSH-382223,items,Insights Dashboard
+53,2024-08-23 10:38:23.363,2024-09-04 14:40:16.824,Administrator,Administrator,0,5,"360515",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""maxSlices"": ""13"",
+    ""query"": ""QRY-382239"",
+    ""scrollLabels"": true,
+    ""title"": ""Invoices"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Name""
+}","{
+    ""h"": 16,
+    ""i"": 360515,
+    ""moved"": false,
+    ""w"": 11,
+    ""x"": 0,
+    ""y"": 37
+}",DSH-382223,items,Insights Dashboard
+54,2024-08-23 10:38:23.363,2024-09-04 14:40:16.824,Administrator,Administrator,0,6,"564529",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382239"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 16,
+    ""i"": 564529,
+    ""moved"": false,
+    ""w"": 9,
+    ""x"": 11,
+    ""y"": 37
+}",DSH-382223,items,Insights Dashboard
+55,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,4,"204782",Number,"{
+    ""column"": ""Name"",
+    ""query"": ""QRY-382240"",
+    ""shorten"": false,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 204782,
+    ""moved"": false,
+    ""w"": 3,
+    ""x"": 0,
+    ""y"": 44
+}",DSH-382225,items,Insights Dashboard
+56,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,5,"411281",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382240"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Invoices"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Name"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 14,
+    ""i"": 411281,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 111
+}",DSH-382225,items,Insights Dashboard
+57,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,6,"975328",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382240"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 22,
+    ""i"": 975328,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 89
+}",DSH-382225,items,Insights Dashboard
+58,2024-08-23 10:47:04.291,2024-09-05 09:55:22.872,Administrator,Administrator,0,7,"810325",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Purchase Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabPurchase Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabPurchase Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {
+        ""label"": ""Current Week"",
+        ""value"": ""Current Week""
+    },
+    ""label"": ""Invoice"",
+    ""links"": {
+        ""411281"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        },
+        ""975328"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 810325,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 15,
+    ""y"": 45
+}",DSH-382225,items,Insights Dashboard
+59,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,5,"734627",Number,"{
+    ""column"": ""Name"",
+    ""query"": ""QRY-382241"",
+    ""shorten"": false,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 4,
+    ""i"": 734627,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 47
+}",DSH-382227,items,Insights Dashboard
+60,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,6,"767986",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382241"",
+    ""title"": ""Invoices"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Name"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 15,
+    ""i"": 767986,
+    ""moved"": false,
+    ""w"": 12,
+    ""x"": 0,
+    ""y"": 51
+}",DSH-382227,items,Insights Dashboard
+61,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,7,"920089",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382241"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}","{
+    ""h"": 15,
+    ""i"": 920089,
+    ""moved"": false,
+    ""w"": 8,
+    ""x"": 12,
+    ""y"": 51
+}",DSH-382227,items,Insights Dashboard
+62,2024-08-23 10:57:48.011,2024-09-04 15:09:31.686,Administrator,Administrator,0,8,"484258",Filter,"{
+    ""column"": {
+        ""column"": ""posting_date"",
+        ""data_source"": ""Site DB"",
+        ""description"": ""Date - Purchase Invoice"",
+        ""label"": ""Posting Date"",
+        ""table"": ""tabPurchase Invoice"",
+        ""type"": ""Date"",
+        ""value"": ""tabPurchase Invoice.posting_date""
+    },
+    ""defaultOperator"": {
+        ""label"": ""within"",
+        ""value"": ""timespan""
+    },
+    ""defaultValue"": {
+        ""label"": ""Current Month"",
+        ""value"": ""Current Month""
+    },
+    ""label"": ""Invoices"",
+    ""links"": {
+        ""767986"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        },
+        ""920089"": {
+            ""column"": ""posting_date"",
+            ""data_source"": ""Site DB"",
+            ""description"": ""Date - Purchase Invoice"",
+            ""label"": ""Posting Date"",
+            ""table"": ""tabPurchase Invoice"",
+            ""table_label"": ""Purchase Invoice"",
+            ""type"": ""Date"",
+            ""value"": ""tabPurchase Invoice.posting_date""
+        }
+    }
+}","{
+    ""h"": 2,
+    ""i"": 484258,
+    ""moved"": false,
+    ""w"": 7,
+    ""x"": 11,
+    ""y"": 48
+}",DSH-382227,items,Insights Dashboard
+63,2024-09-04 15:45:00.615,2024-09-05 10:09:29.348,Administrator,Administrator,0,1,"39687",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Customer Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382242"",
+    ""showTotal"": true,
+    ""title"": ""Top Customer""
+}","{
+    ""h"": 19,
+    ""i"": 39687,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 20
+}",DSH-382243,items,Insights Dashboard
+64,2024-09-04 15:45:00.615,2024-09-05 10:09:29.348,Administrator,Administrator,0,1,"717261",Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""labelPosition"": {
+        ""label"": ""Left"",
+        ""value"": ""Left""
+    },
+    ""maxSlices"": ""15"",
+    ""query"": ""QRY-382242"",
+    ""scrollLabels"": true,
+    ""title"": ""Top Customer"",
+    ""xAxis"": ""Customer Name"",
+    ""yAxis"": ""Grand Total""
+}","{
+    ""h"": 20,
+    ""i"": 717261,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382243,items,Insights Dashboard
+65,2024-09-04 15:45:00.615,2024-09-05 10:09:29.348,Administrator,Administrator,0,2,"393441",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382244"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Top Supplier"",
+    ""xAxis"": [
+        {
+            ""column"": ""Supplier Name""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Grand Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 17,
+    ""i"": 393441,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 39
+}",DSH-382243,items,Insights Dashboard
+66,2024-09-04 15:45:00.615,2024-09-05 10:09:29.348,Administrator,Administrator,0,3,"678106",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Supplier Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382244"",
+    ""showTotal"": true,
+    ""title"": ""Top Supplier""
+}","{
+    ""h"": 18,
+    ""i"": 678106,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 56
+}",DSH-382243,items,Insights Dashboard
+67,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,8,"30327",Text,"{
+    ""markdown"": ""<p>Aggregate Sales Across All Branches</p>""
+}","{
+    ""h"": 2,
+    ""i"": 30327,
+    ""moved"": false,
+    ""w"": 8,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382216,items,Insights Dashboard
+68,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,9,"802974",Text,"{
+    ""markdown"": ""<p>Comprehensive Sales Data and Visualizations Across All Brances</p>""
+}","{
+    ""h"": 2,
+    ""i"": 802974,
+    ""moved"": false,
+    ""w"": 8,
+    ""x"": 0,
+    ""y"": 6
+}",DSH-382216,items,Insights Dashboard
+69,2024-09-05 09:55:41.779,2024-09-05 09:56:13.349,Administrator,Administrator,0,1,"134694",Text,"{
+    ""markdown"": ""<p>Daily Sales</p>""
+}","{
+    ""h"": 2,
+    ""i"": 134694,
+    ""moved"": false,
+    ""w"": 2,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382247,items,Insights Dashboard
+70,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,10,"260977",Number,"{
+    ""column"": ""Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382246"",
+    ""shorten"": false,
+    ""title"": "" Total Cash Sales ""
+}","{
+    ""h"": 4,
+    ""i"": 260977,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 6,
+    ""y"": 2
+}",DSH-382216,items,Insights Dashboard
+71,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,11,"150578",Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382246"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Cash Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Amount"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 14,
+    ""i"": 150578,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 136
+}",DSH-382216,items,Insights Dashboard
+72,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,12,"742294",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382246"",
+    ""showTotal"": true,
+    ""title"": ""Cash Sales""
+}","{
+    ""h"": 14,
+    ""i"": 742294,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 150
+}",DSH-382216,items,Insights Dashboard
+73,2024-08-22 12:36:05.067,2024-09-24 09:57:08.327,Administrator,Administrator,0,13,"256359",Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382248"",
+    ""shorten"": false,
+    ""title"": ""Credit Sales""
+}","{
+    ""h"": 4,
+    ""i"": 256359,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 10,
+    ""y"": 2
+}",DSH-382216,items,Insights Dashboard
+75,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,8,"960933",Row,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382249"",
+    ""title"": ""Cash Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Amount"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}","{
+    ""h"": 19,
+    ""i"": 960933,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 67
+}",DSH-382219,items,Insights Dashboard
+76,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,9,"88197",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382249"",
+    ""showTotal"": true,
+    ""title"": ""Cash Sales""
+}","{
+    ""h"": 18,
+    ""i"": 88197,
+    ""moved"": false,
+    ""w"": 20,
+    ""x"": 0,
+    ""y"": 86
+}",DSH-382219,items,Insights Dashboard
+77,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,10,"540881",Number,"{
+    ""column"": ""Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382249"",
+    ""shorten"": false,
+    ""title"": ""Total Cash Sales""
+}","{
+    ""h"": 4,
+    ""i"": 540881,
+    ""moved"": false,
+    ""w"": 5,
+    ""x"": 9,
+    ""y"": 0
+}",DSH-382219,items,Insights Dashboard
+78,2024-08-22 14:19:50.656,2024-09-05 11:48:05.769,Administrator,Administrator,0,11,"871927",Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382250"",
+    ""shorten"": false,
+    ""title"": ""Credit sales""
+}","{
+    ""h"": 4,
+    ""i"": 871927,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 14,
+    ""y"": 0
+}",DSH-382219,items,Insights Dashboard
+79,2024-08-22 14:34:46.117,2024-09-05 12:34:31.670,Administrator,Administrator,0,9,"322805",Number,"{
+    ""column"": ""Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382251"",
+    ""shorten"": false,
+    ""title"": ""Cash Sales""
+}","{
+    ""h"": 4,
+    ""i"": 322805,
+    ""moved"": false,
+    ""w"": 4,
+    ""x"": 7,
+    ""y"": 2
+}",DSH-382221,items,Insights Dashboard
+81,2024-09-11 12:50:14.620,2024-09-12 12:33:36.922,Administrator,Administrator,0,1,"507015",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382254"",
+    ""title"": ""Profit And Loss""
+}","{
+    ""h"": 16,
+    ""i"": 507015,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 0,
+    ""y"": 0
+}",DSH-382253,items,Insights Dashboard
+82,2024-09-11 12:50:14.620,2024-09-12 12:33:36.922,Administrator,Administrator,0,1,"874522",Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382255"",
+    ""title"": ""Cash Balance ""
+}","{
+    ""h"": 16,
+    ""i"": 874522,
+    ""moved"": false,
+    ""w"": 10,
+    ""x"": 10,
+    ""y"": 0
+}",DSH-382253,items,Insights Dashboard

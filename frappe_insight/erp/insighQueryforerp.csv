@@ -1,0 +1,3052 @@
+name,modified_by,owner,docstatus,idx,status,title,is_native_query,is_assisted_query,is_script_query,data_source,chart,is_stored,filters,limit,json,sql
+QRY-00001,Administrator,Administrator,0,0,Execution Successful,Daily Sales,0,1,0,Site DB,9d92st4k19,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-04 00:00:00' AND '2024-09-04 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00002,Administrator,Administrator,0,0,Execution Successful,Query 382217,0,1,0,Site DB,a21b5k21ha,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Company"",
+    ""column"": ""company"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Company"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""String""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""Paicho Pasal Pvt Ltd., Factory"",
+    ""value"": ""Paicho Pasal Pvt Ltd., Factory""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-08-01 00:00:00' AND '2024-08-31 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+   AND `tabSales Invoice`.company = 'Paicho Pasal Pvt Ltd., Factory'
+ LIMIT 100"
+QRY-00003,Administrator,Administrator,0,0,Execution Successful,Weekly Sales,0,1,0,Site DB,banscmlg4n,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-07 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00004,Administrator,Administrator,0,0,Execution Successful,Monthly Sales,0,1,0,Site DB,bi3tgg6brv,1,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-30 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00005,Administrator,Administrator,0,0,Execution Successful,Query 382222,0,1,0,Site DB,1isq0rjvcj,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       sum(`tabPurchase Invoice`.net_total) AS `Net Total`,
+       sum(`tabPurchase Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabPurchase Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabPurchase Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-08-23 00:00:00' AND '2024-08-23 23:59:59'
+   AND `tabPurchase Invoice`.docstatus = '1'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100"
+QRY-00006,Administrator,Administrator,0,0,Execution Successful,Query 382224,0,1,0,Site DB,1pf51eehfc,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       sum(`tabPurchase Invoice`.net_total) AS `Net Total`,
+       sum(`tabPurchase Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabPurchase Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabPurchase Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-08-18 00:00:00' AND '2024-08-24 23:59:59'
+   AND `tabPurchase Invoice`.docstatus = '1'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100"
+QRY-00007,Administrator,Administrator,0,0,Execution Successful,Query 382226,0,1,0,Site DB,1v2c6pme6u,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       sum(`tabPurchase Invoice`.net_total) AS `Net Total`,
+       sum(`tabPurchase Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabPurchase Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabPurchase Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-08-01 00:00:00' AND '2024-08-31 23:59:59'
+   AND `tabPurchase Invoice`.docstatus = '1'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100"
+QRY-00008,Administrator,Administrator,0,0,Execution Successful,Sales Register,0,1,0,Site DB,i7df5l5vrm,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Name"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Posting Date"",
+   ""column"": ""posting_date"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": ""Month"",
+   ""label"": ""Posting Date"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Date""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Customer"",
+   ""column"": ""customer"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Customer"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Debit To"",
+   ""column"": ""debit_to"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Debit To"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Owner"",
+   ""column"": ""owner"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Owner"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPayment Entry"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Currency"",
+   ""column"": ""currency"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Currency"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Net Total"",
+   ""column"": ""net_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Net Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Total Taxes And Charges"",
+   ""column"": ""total_taxes_and_charges"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Total Taxes And Charges"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Grand Total"",
+   ""column"": ""grand_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Grand Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Rounded Total"",
+   ""column"": ""rounded_total"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Rounded Total"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Remarks"",
+   ""column"": ""remarks"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Remarks"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Text""
+  },
+  {
+   ""aggregation"": """",
+   ""alias"": ""Mode Of Payment"",
+   ""column"": ""mode_of_payment"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Mode Of Payment"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice Payment"",
+   ""type"": ""String""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Company"",
+    ""column"": ""company"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Company"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""String""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""Paicho Pasal Pvt Ltd., Butwal"",
+    ""value"": ""Paicho Pasal Pvt Ltd., Butwal""
+   }
+  }
+ ],
+ ""joins"": [
+  {
+   ""join_type"": {
+    ""label"": ""Left Join"",
+    ""value"": ""left""
+   },
+   ""left_column"": {
+    ""column"": ""name"",
+    ""label"": ""Name"",
+    ""table"": ""tabSales Invoice"",
+    ""value"": ""name""
+   },
+   ""left_table"": {
+    ""label"": ""Sales Invoice"",
+    ""table"": ""tabSales Invoice""
+   },
+   ""right_column"": {
+    ""column"": ""reference_name"",
+    ""label"": ""Reference Name"",
+    ""table"": ""tabPayment Entry Reference"",
+    ""value"": ""reference_name""
+   },
+   ""right_table"": {
+    ""label"": ""Payment Entry Reference"",
+    ""table"": ""tabPayment Entry Reference""
+   }
+  },
+  {
+   ""join_type"": {
+    ""label"": ""Left Join"",
+    ""value"": ""left""
+   },
+   ""left_column"": {
+    ""column"": ""parent"",
+    ""label"": ""parent"",
+    ""table"": ""tabPayment Entry Reference"",
+    ""value"": ""parent""
+   },
+   ""left_table"": {
+    ""label"": ""Payment Entry Reference"",
+    ""table"": ""tabPayment Entry Reference""
+   },
+   ""right_column"": {
+    ""column"": ""name"",
+    ""label"": ""name"",
+    ""table"": ""tabPayment Entry"",
+    ""value"": ""name""
+   },
+   ""right_table"": {
+    ""label"": ""Payment Entry"",
+    ""table"": ""tabPayment Entry""
+   }
+  },
+  {
+   ""join_type"": {
+    ""label"": ""Inner Join"",
+    ""value"": ""inner""
+   },
+   ""left_column"": {
+    ""column"": ""name"",
+    ""label"": ""name"",
+    ""table"": ""tabSales Invoice"",
+    ""value"": ""name""
+   },
+   ""left_table"": {
+    ""label"": ""Sales Invoice"",
+    ""table"": ""tabSales Invoice""
+   },
+   ""right_column"": {
+    ""column"": ""parent"",
+    ""label"": ""parent"",
+    ""table"": ""tabSales Invoice Payment"",
+    ""value"": ""parent""
+   },
+   ""right_table"": {
+    ""label"": ""Sales Invoice Payment"",
+    ""table"": ""tabSales Invoice Payment""
+   }
+  }
+ ],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.name AS `Name`,
+       date_format(`tabSales Invoice`.posting_date, '%%Y-%%m-01') AS `Posting Date`,
+       `tabSales Invoice`.customer AS `Customer`,
+       `tabSales Invoice`.debit_to AS `Debit To`,
+       `tabPayment Entry`.owner AS `Owner`,
+       `tabSales Invoice`.currency AS `Currency`,
+       `tabSales Invoice`.remarks AS `Remarks`,
+       `tabSales Invoice Payment`.mode_of_payment AS `Mode Of Payment`,
+       sum(`tabSales Invoice`.net_total) AS `Net Total`,
+       sum(`tabSales Invoice`.total_taxes_and_charges) AS `Total Taxes And Charges`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`,
+       sum(`tabSales Invoice`.rounded_total) AS `Rounded Total`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+  LEFT OUTER JOIN `tabPayment Entry Reference` AS `tabPayment Entry Reference`
+    ON `tabSales Invoice`.name = `tabPayment Entry Reference`.reference_name
+  LEFT OUTER JOIN `tabPayment Entry` AS `tabPayment Entry`
+    ON `tabPayment Entry Reference`.parent = `tabPayment Entry`.name
+ INNER JOIN `tabSales Invoice Payment` AS `tabSales Invoice Payment`
+    ON `tabSales Invoice`.name = `tabSales Invoice Payment`.parent
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-08-26 00:00:00' AND '2024-08-26 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+   AND `tabSales Invoice`.company = 'Paicho Pasal Pvt Ltd., Butwal'
+ GROUP BY `tabSales Invoice`.name,
+          date_format(`tabSales Invoice`.posting_date, '%%Y-%%m-01'),
+          `tabSales Invoice`.customer,
+          `tabSales Invoice`.debit_to,
+          `tabPayment Entry`.owner,
+          `tabSales Invoice`.currency,
+          `tabSales Invoice`.remarks,
+          `tabSales Invoice Payment`.mode_of_payment
+ LIMIT 100"
+QRY-00009,Administrator,Administrator,0,0,Execution Successful,Query 382230,1,0,0,Site DB,78rg0uahi8,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT pi.supplier AS ""Party"",
+       'Supplier' AS ""Party Type"",
+       pi.company AS ""Company"",
+       SUM(pi.grand_total) AS ""Invoice Amount"",
+       SUM(pi.outstanding_amount) AS ""Outstanding Amount"",
+       SUM(per.allocated_amount) AS ""Paid Amount"",
+       SUM(IFNULL(cn.grand_total, 0)) AS ""Credit Note Amount""
+  FROM `tabPurchase Invoice` pi
+  LEFT JOIN `tabPayment Entry Reference` per
+    ON pi.name = per.reference_name
+   AND per.reference_doctype = 'Purchase Invoice'
+  LEFT JOIN `tabPurchase Invoice` cn
+    ON pi.name = cn.return_against
+   AND cn.is_return = 1
+ WHERE pi.docstatus = 1
+   AND pi.posting_date BETWEEN '2023-07-17' AND '2024-07-15'
+   AND pi.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+ GROUP BY pi.supplier,
+          pi.company
+HAVING SUM(pi.outstanding_amount) > 0
+ ORDER BY pi.supplier,
+          pi.company"
+QRY-00010,Administrator,Administrator,0,0,Execution Successful,Query 382231,1,0,0,Site DB,vge1ud7lhd,1,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT 'Supplier' AS `Party Type`,
+       pi.supplier AS `Supplier`,
+       pi.company AS `Company`,
+       COALESCE(adv.amount, 0) AS `Advance Amount`,
+       SUM(pi.grand_total) AS `Invoice Amount`,
+       SUM(pi.outstanding_amount) AS `Outstanding Amount`,
+       SUM(per.allocated_amount) AS `Paid Amount`
+  FROM `tabPurchase Invoice` pi
+  LEFT JOIN `tabPayment Entry Reference` per
+    ON pi.name = per.reference_name
+   AND per.reference_doctype = 'Purchase Invoice'
+  LEFT JOIN (
+        SELECT ple.party AS supplier,
+               ABS(SUM(ple.amount)) AS amount
+          FROM `tabPayment Ledger Entry` ple
+         WHERE ple.party_type = 'Supplier'
+           AND ple.amount < 0
+           AND ple.against_voucher_no = ple.voucher_no
+           AND ple.delinked = 0
+           AND ple.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+         GROUP BY ple.party
+       ) adv
+    ON pi.supplier = adv.supplier
+ WHERE pi.docstatus = 1
+   AND pi.status != 'Paid'
+   AND pi.posting_date <= '2024-07-15'
+   AND pi.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+ GROUP BY pi.supplier,
+          pi.company
+HAVING SUM(pi.outstanding_amount) > 0
+ ORDER BY pi.supplier,
+          pi.company"
+QRY-00011,Administrator,Administrator,0,0,Execution Successful,Query 382232,1,0,0,Site DB,ug1b2ugrgq,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT ple.party AS customer,
+       ABS(SUM(ple.amount)) AS amount
+  FROM `tabPayment Ledger Entry` ple
+ WHERE ple.party_type = 'Customer'
+   AND ple.amount < 0
+   AND ple.against_voucher_no = ple.voucher_no
+   AND ple.delinked = 0
+   AND ple.posting_date >= '2024-07-15'
+   AND ple.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+ GROUP BY ple.party"
+QRY-00012,Administrator,Administrator,0,0,Execution Successful,Query 382233,1,0,0,Site DB,v3mpup43ij,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT si.customer AS `Party Type`,
+       si.company AS `Company`,
+       SUM(si.grand_total) AS `Invoice Amount`,
+       SUM(si.outstanding_amount) AS `Outstanding Amount`,
+       ABS(SUM(ple.amount)) AS `advance`
+  FROM `tabSales Invoice` si
+  LEFT JOIN `tabPayment Ledger Entry` ple
+    ON si.customer = ple.party
+ WHERE si.docstatus = 1
+   AND si.status != 'Paid'
+   AND si.posting_date <= '2024-07-15'
+   AND si.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+   AND ple.party_type = 'Customer'
+   AND ple.amount < 0
+   AND ple.against_voucher_no = ple.voucher_no
+   AND ple.delinked = 0
+   AND ple.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+ GROUP BY si.customer"
+QRY-00013,Administrator,Administrator,0,0,Execution Successful,Query 382234,1,0,0,Site DB,fb1du4cmd5,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT parent1.name AS ""Account"",
+       FORMAT(COALESCE(SUM(CASE WHEN parent1.root_type = 'Liability' THEN gl_entry.credit - gl_entry.debit ELSE gl_entry.debit - gl_entry.credit END), 0), 2) AS ""Balance"",
+       parent1.root_type AS ""Type""
+  FROM `tabAccount` parent1
+  LEFT JOIN `tabAccount` parent2
+    ON parent2.parent_account = parent1.name
+  LEFT JOIN `tabAccount` parent3
+    ON parent3.parent_account = parent2.name
+  LEFT JOIN `tabAccount` parent4
+    ON parent4.parent_account = parent3.name
+  LEFT JOIN `tabGL Entry` gl_entry
+    ON (gl_entry.account = parent1.name OR gl_entry.account = parent2.name OR gl_entry.account = parent3.name OR gl_entry.account = parent4.name)
+   AND gl_entry.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+   AND gl_entry.posting_date BETWEEN '2024-07-15' AND '2024-09-01'
+ WHERE parent1.company = 'Paicho Pasal Pvt Ltd., Khaireni'
+   AND parent1.root_type IN ('Asset', 'Liability', 'Equity')
+ GROUP BY parent1.name,
+          parent1.root_type
+HAVING COALESCE(SUM(CASE WHEN parent1.root_type = 'Liability' THEN gl_entry.credit - gl_entry.debit ELSE gl_entry.debit - gl_entry.credit END), 0) != 0
+ ORDER BY CASE WHEN parent1.name = 'Application of Funds (HPPL)' THEN 1
+               WHEN parent1.name = 'Current Assets'              THEN 2
+               WHEN parent1.name = 'Account Receivable'          THEN 3
+               WHEN parent1.name = 'Debtors'                     THEN 4
+               WHEN parent1.root_type = 'Asset'                  THEN 100
+               WHEN parent1.root_type = 'Liability'              THEN 200
+               WHEN parent1.root_type = 'Equity'                 THEN 300
+               ELSE 400
+                END,
+          parent1.name"
+QRY-00014,Administrator,Administrator,0,0,Execution Successful,Query 382235,1,0,0,Site DB,gt9kfd0col,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT SUM(outstanding_amount)
+  FROM `tabSales Invoice`
+ WHERE docstatus = 1
+   AND status != 'paid'
+   AND posting_date >= '2024-09-01'"
+QRY-00015,Administrator,Administrator,0,0,Execution Successful,Daily Invoices,0,1,0,Site DB,1gvp05s0c1,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Name"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       count(*) AS `Name`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-04 00:00:00' AND '2024-09-04 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00016,Administrator,Administrator,0,0,Execution Successful,Weekly Sales Invoice,0,1,0,Site DB,1pdd0bakee,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Name"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       count(*) AS `Name`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-07 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00017,Administrator,Administrator,0,0,Execution Successful,Monthly Sales Invoices,0,1,0,Site DB,1tiuu95t37,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Name"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       count(*) AS `Name`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-30 23:59:59'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00018,Administrator,Administrator,0,0,Execution Successful,Daily Purchase IV.,0,1,0,Site DB,2d37ks275l,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Name"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       count(*) AS `Name`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-09-04 00:00:00' AND '2024-09-04 23:59:59'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100"
+QRY-00019,Administrator,Administrator,0,0,Execution Successful,Weekly Purchase In.,0,1,0,Site DB,2hjtg02895,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Name"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       count(*) AS `Name`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-07 23:59:59'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100"
+QRY-00020,Administrator,Administrator,0,0,Execution Successful,Query 382241,0,1,0,Site DB,2v0vurhqhl,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""count"",
+   ""alias"": ""Name"",
+   ""column"": ""name"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Name"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabPurchase Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabPurchase Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Purchase Invoice"",
+  ""table"": ""tabPurchase Invoice""
+ }
+}","SELECT `tabPurchase Invoice`.company AS `Company`,
+       count(*) AS `Name`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-30 23:59:59'
+ GROUP BY `tabPurchase Invoice`.company
+ LIMIT 100"
+QRY-00021,Administrator,Administrator,0,0,Execution Successful,Top Customer And Supplier,1,0,0,Site DB,3lm3l2g1rd,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT `tabSales Invoice`.customer_name AS `Customer Name`,
+       sum(`tabSales Invoice`.grand_total) AS `Grand Total`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.docstatus = '1'
+ GROUP BY `tabSales Invoice`.customer_name
+ ORDER BY sum(`tabSales Invoice`.grand_total) DESC
+ LIMIT 15"
+QRY-00022,Administrator,Administrator,0,0,Execution Successful,Query 382244,1,0,0,Site DB,3ptdnu6bor,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"SELECT `tabPurchase Invoice`.supplier_name AS `Supplier Name`,
+       sum(`tabPurchase Invoice`.grand_total) AS `Grand Total`
+  FROM `tabPurchase Invoice` AS `tabPurchase Invoice`
+ WHERE `tabPurchase Invoice`.docstatus = '1'
+ GROUP BY `tabPurchase Invoice`.supplier_name
+ ORDER BY sum(`tabPurchase Invoice`.grand_total) DESC
+ LIMIT 15"
+QRY-00023,Administrator,Administrator,0,0,Execution Successful,Query 382245,1,0,0,Site DB,47q6af3fhi,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},
+QRY-00024,Administrator,Administrator,0,0,Execution Successful,Cash Sales,0,1,0,Site DB,4800bl03c8,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": ""group by"",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Amount"",
+   ""column"": ""amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice Payment"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Mode Of Payment"",
+    ""column"": ""mode_of_payment"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Mode Of Payment"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice Payment"",
+    ""type"": ""String""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""Cash"",
+    ""value"": ""Cash""
+   }
+  }
+ ],
+ ""joins"": [
+  {
+   ""join_type"": {
+    ""label"": ""Inner Join"",
+    ""value"": ""inner""
+   },
+   ""left_column"": {
+    ""column"": ""name"",
+    ""label"": ""name"",
+    ""table"": ""tabSales Invoice"",
+    ""value"": ""name""
+   },
+   ""left_table"": {
+    ""label"": ""Sales Invoice"",
+    ""table"": ""tabSales Invoice""
+   },
+   ""right_column"": {
+    ""column"": ""parent"",
+    ""label"": ""parent"",
+    ""table"": ""tabSales Invoice Payment"",
+    ""value"": ""parent""
+   },
+   ""right_table"": {
+    ""label"": ""Sales Invoice Payment"",
+    ""table"": ""tabSales Invoice Payment""
+   }
+  }
+ ],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice Payment`.amount) AS `Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ INNER JOIN `tabSales Invoice Payment` AS `tabSales Invoice Payment`
+    ON `tabSales Invoice`.name = `tabSales Invoice Payment`.parent
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-05 00:00:00' AND '2024-09-05 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+   AND `tabSales Invoice Payment`.mode_of_payment = 'Cash'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00025,Administrator,Administrator,0,0,Execution Successful,Credit Sales,0,1,0,Site DB,ol6nr9droe,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Day"",
+    ""value"": ""Current Day""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-05 00:00:00' AND '2024-09-05 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00026,Administrator,Administrator,0,0,Execution Successful,Weekly Cash Sales,0,1,0,Site DB,op30npi0hu,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Amount"",
+   ""column"": ""amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice Payment"",
+   ""type"": ""Decimal""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Paid Amount"",
+   ""column"": ""paid_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Paid Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Creation"",
+    ""column"": ""creation"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Creation"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice Payment"",
+    ""type"": ""Datetime""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Mode Of Payment"",
+    ""column"": ""mode_of_payment"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Mode Of Payment"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice Payment"",
+    ""type"": ""String""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""Cash"",
+    ""value"": ""Cash""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [
+  {
+   ""join_type"": {
+    ""label"": ""Inner Join"",
+    ""value"": ""inner""
+   },
+   ""left_column"": {
+    ""column"": ""parent"",
+    ""label"": ""parent"",
+    ""table"": ""tabSales Invoice Payment"",
+    ""value"": ""parent""
+   },
+   ""left_table"": {
+    ""label"": ""Sales Invoice Payment"",
+    ""table"": ""tabSales Invoice Payment""
+   },
+   ""right_column"": {
+    ""column"": ""name"",
+    ""label"": ""name"",
+    ""table"": ""tabSales Invoice"",
+    ""value"": ""name""
+   },
+   ""right_table"": {
+    ""label"": ""Sales Invoice"",
+    ""table"": ""tabSales Invoice""
+   }
+  }
+ ],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice Payment"",
+  ""table"": ""tabSales Invoice Payment""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice Payment`.amount) AS `Amount`,
+       sum(`tabSales Invoice`.paid_amount) AS `Paid Amount`
+  FROM `tabSales Invoice Payment` AS `tabSales Invoice Payment`
+ INNER JOIN `tabSales Invoice` AS `tabSales Invoice`
+    ON `tabSales Invoice Payment`.parent = `tabSales Invoice`.name
+ WHERE `tabSales Invoice Payment`.creation BETWEEN '2024-09-01 00:00:00' AND '2024-09-07 23:59:59'
+   AND `tabSales Invoice Payment`.mode_of_payment = 'Cash'
+   AND `tabSales Invoice`.docstatus = '1'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00027,Administrator,Administrator,0,0,Execution Successful,Credit Sales,0,1,0,Site DB,oveut9q8mr,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Outstanding Amount"",
+   ""column"": ""outstanding_amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Outstanding Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Week"",
+    ""value"": ""Current Week""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  }
+ ],
+ ""joins"": [],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice`.outstanding_amount) AS `Outstanding Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-07 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00028,Administrator,Administrator,0,0,Execution Successful,Monthly Cash Sales,0,1,0,Site DB,qfe89vd5c1,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,"{
+ ""calculations"": [],
+ ""columns"": [
+  {
+   ""aggregation"": """",
+   ""alias"": ""Company"",
+   ""column"": ""company"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Company"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice"",
+   ""type"": ""String""
+  },
+  {
+   ""aggregation"": ""sum"",
+   ""alias"": ""Amount"",
+   ""column"": ""amount"",
+   ""expression"": {},
+   ""format"": {},
+   ""granularity"": """",
+   ""label"": ""Amount"",
+   ""meta"": null,
+   ""order"": """",
+   ""table"": ""tabSales Invoice Payment"",
+   ""type"": ""Decimal""
+  }
+ ],
+ ""dimensions"": [],
+ ""filters"": [
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Posting Date"",
+    ""column"": ""posting_date"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Posting Date"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Date""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""within"",
+    ""value"": ""timespan""
+   },
+   ""value"": {
+    ""label"": ""Current Month"",
+    ""value"": ""Current Month""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Docstatus"",
+    ""column"": ""docstatus"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Docstatus"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice"",
+    ""type"": ""Integer""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""1"",
+    ""value"": ""1""
+   }
+  },
+  {
+   ""column"": {
+    ""aggregation"": null,
+    ""alias"": ""Mode Of Payment"",
+    ""column"": ""mode_of_payment"",
+    ""expression"": {},
+    ""format"": null,
+    ""granularity"": null,
+    ""label"": ""Mode Of Payment"",
+    ""meta"": null,
+    ""order"": null,
+    ""table"": ""tabSales Invoice Payment"",
+    ""type"": ""String""
+   },
+   ""expression"": {},
+   ""operator"": {
+    ""label"": ""equals"",
+    ""value"": ""=""
+   },
+   ""value"": {
+    ""label"": ""Cash"",
+    ""value"": ""Cash""
+   }
+  }
+ ],
+ ""joins"": [
+  {
+   ""join_type"": {
+    ""label"": ""Inner Join"",
+    ""value"": ""inner""
+   },
+   ""left_column"": {
+    ""column"": ""name"",
+    ""label"": ""name"",
+    ""table"": ""tabSales Invoice"",
+    ""value"": ""name""
+   },
+   ""left_table"": {
+    ""label"": ""Sales Invoice"",
+    ""table"": ""tabSales Invoice""
+   },
+   ""right_column"": {
+    ""column"": ""parent"",
+    ""label"": ""parent"",
+    ""table"": ""tabSales Invoice Payment"",
+    ""value"": ""parent""
+   },
+   ""right_table"": {
+    ""label"": ""Sales Invoice Payment"",
+    ""table"": ""tabSales Invoice Payment""
+   }
+  }
+ ],
+ ""limit"": 100,
+ ""measures"": [],
+ ""orders"": [],
+ ""table"": {
+  ""label"": ""Sales Invoice"",
+  ""table"": ""tabSales Invoice""
+ }
+}","SELECT `tabSales Invoice`.company AS `Company`,
+       sum(`tabSales Invoice Payment`.amount) AS `Amount`
+  FROM `tabSales Invoice` AS `tabSales Invoice`
+ INNER JOIN `tabSales Invoice Payment` AS `tabSales Invoice Payment`
+    ON `tabSales Invoice`.name = `tabSales Invoice Payment`.parent
+ WHERE `tabSales Invoice`.posting_date BETWEEN '2024-09-01 00:00:00' AND '2024-09-30 23:59:59'
+   AND `tabSales Invoice`.docstatus = '1'
+   AND `tabSales Invoice Payment`.mode_of_payment = 'Cash'
+ GROUP BY `tabSales Invoice`.company
+ LIMIT 100"
+QRY-00029,Administrator,Administrator,0,0,Execution Successful,Query 382252,1,0,0,Site DB,p1ss8m2d1m,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"WITH Gross_Profit_CTE AS (
+        SELECT (COALESCE((SELECT SUM(si.grand_total) FROM `tabSales Invoice` si WHERE si.posting_date = CURDATE() AND si.docstatus = 1), 0) + COALESCE((SELECT SUM(sle.actual_qty * sle.valuation_rate) FROM `tabStock Ledger Entry` sle WHERE sle.posting_date <= CURDATE() AND sle.is_cancelled = 0), 0) - COALESCE((SELECT SUM(pi.grand_total) FROM `tabPurchase Invoice` pi WHERE pi.posting_date = CURDATE() AND pi.docstatus = 1), 0) - COALESCE((SELECT SUM(sle.actual_qty * sle.valuation_rate) FROM `tabStock Ledger Entry` sle WHERE sle.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY) AND sle.is_cancelled = 0), 0)) AS Gross_Profit
+       ),
+       Indirect_Income_CTE AS (
+        SELECT COALESCE(SUM(gl.credit - gl.debit), 0) AS Indirect_Income
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Income'
+           AND acc.parent_account LIKE 'Indirect Income%'
+       ),
+       Indirect_Expense_CTE AS (
+        SELECT COALESCE(SUM(gl.debit - gl.credit), 0) AS Indirect_Expense
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Expense'
+           AND acc.parent_account LIKE 'Indirect Expense%'
+       ) SELECT 'Net Profit' AS Particular,
+       (Gross_Profit + Indirect_Income - Indirect_Expense) AS Amount
+  FROM Gross_Profit_CTE,
+       Indirect_Income_CTE,
+       Indirect_Expense_CTE
+UNION ALL SELECT 'Total Fixed Assets' AS Particular,
+       (
+        SELECT SUM(gl.debit) - SUM(gl.credit)
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE (acc.parent_account LIKE 'Fixed Assets%' OR acc.name LIKE 'Fixed Assets%')
+           AND gl.posting_date <= CURDATE()
+       ) AS Amount
+UNION ALL SELECT 'Opening Cash' AS Particular,
+       (
+        SELECT SUM(gl.debit - gl.credit)
+          FROM `tabGL Entry` gl
+         WHERE gl.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+           AND gl.account LIKE 'Cash%'
+           AND gl.is_cancelled = 0
+       ) AS Amount
+UNION ALL SELECT 'Closing Cash' AS Particular,
+       (
+        SELECT SUM(gl.debit - gl.credit)
+          FROM `tabGL Entry` gl
+         WHERE gl.posting_date <= CURDATE()
+           AND gl.account LIKE 'Cash%'
+           AND gl.is_cancelled = 0
+       ) AS Amount
+UNION ALL SELECT 'Opening Stock' AS Particular,
+       (
+        SELECT SUM(sle.actual_qty * sle.valuation_rate)
+          FROM `tabStock Ledger Entry` sle
+         WHERE sle.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+           AND sle.is_cancelled = 0
+       ) AS Amount
+UNION ALL SELECT 'Closing Stock' AS Particular,
+       (
+        SELECT SUM(sle.actual_qty * sle.valuation_rate)
+          FROM `tabStock Ledger Entry` sle
+         WHERE sle.posting_date <= CURDATE()
+           AND sle.is_cancelled = 0
+       ) AS Amount
+UNION ALL SELECT 'Sales' AS Particular,
+       (
+        SELECT COALESCE(SUM(si.grand_total), 0)
+          FROM `tabSales Invoice` si
+         WHERE si.posting_date = CURDATE()
+           AND si.docstatus = 1
+       ) AS Amount
+UNION ALL SELECT 'Purchase' AS Particular,
+       (
+        SELECT COALESCE(SUM(pi.grand_total), 0)
+          FROM `tabPurchase Invoice` pi
+         WHERE pi.posting_date = CURDATE()
+           AND pi.docstatus = 1
+       ) AS Amount
+UNION ALL SELECT 'Gross Profit' AS Particular,
+       Gross_Profit
+  FROM Gross_Profit_CTE
+UNION ALL SELECT 'Indirect Expense' AS Particular,
+       (
+        SELECT COALESCE(SUM(gl.debit - gl.credit), 0)
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Expense'
+           AND acc.parent_account LIKE 'Indirect Expense%'
+       ) AS Amount
+UNION ALL SELECT 'Indirect Income' AS Particular,
+       (
+        SELECT COALESCE(SUM(gl.credit - gl.debit), 0)
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Income'
+           AND acc.parent_account LIKE 'Indirect Income%'
+       ) AS Amount
+UNION ALL SELECT 'Opening Balance (Receivables)' AS Particular,
+       SUM(CASE WHEN gl.posting_date < CURDATE() THEN gl.debit - gl.credit ELSE 0 END) AS Amount
+  FROM `tabGL Entry` gl
+  JOIN `tabAccount` acc
+    ON gl.account = acc.name
+ WHERE acc.root_type = 'Asset'
+   AND acc.account_type = 'Receivable'
+   AND acc.parent_account LIKE 'Accounts Receivable%'
+UNION ALL SELECT 'Closing Balance (Receivables)' AS Particular,
+       SUM(gl.debit - gl.credit) AS Amount
+  FROM `tabGL Entry` gl
+  JOIN `tabAccount` acc
+    ON gl.account = acc.name
+ WHERE acc.root_type = 'Asset'
+   AND acc.account_type = 'Receivable'
+   AND acc.parent_account LIKE 'Accounts Receivable%'
+UNION ALL SELECT 'Change In Balance (Receivables)' AS Particular,
+       (SUM(gl.debit - gl.credit) - SUM(CASE WHEN gl.posting_date < CURDATE() THEN gl.debit - gl.credit ELSE 0 END)) AS Amount
+  FROM `tabGL Entry` gl
+  JOIN `tabAccount` acc
+    ON gl.account = acc.name
+ WHERE acc.root_type = 'Asset'
+   AND acc.account_type = 'Receivable'
+   AND acc.parent_account LIKE 'Accounts Receivable%'
+UNION ALL SELECT 'Opening Balance (Payables)' AS Particular,
+       SUM(CASE WHEN gl.posting_date < CURDATE() THEN gl.credit - gl.debit ELSE 0 END) AS Amount
+  FROM `tabGL Entry` gl
+  JOIN `tabAccount` acc
+    ON gl.account = acc.name
+ WHERE acc.root_type = 'Liability'
+   AND acc.account_type = 'Payable'
+   AND acc.parent_account LIKE 'Accounts Payable%'
+UNION ALL SELECT 'Closing Balance (Payables)' AS Particular,
+       SUM(gl.credit - gl.debit) AS Amount
+  FROM `tabGL Entry` gl
+  JOIN `tabAccount` acc
+    ON gl.account = acc.name
+ WHERE acc.root_type = 'Liability'
+   AND acc.account_type = 'Payable'
+   AND acc.parent_account LIKE 'Accounts Payable%'
+UNION ALL SELECT 'Change In Balance (Payables)' AS Particular,
+       (SUM(gl.credit - gl.debit) - SUM(CASE WHEN gl.posting_date < CURDATE() THEN gl.credit - gl.debit ELSE 0 END)) AS Amount
+  FROM `tabGL Entry` gl
+  JOIN `tabAccount` acc
+    ON gl.account = acc.name
+ WHERE acc.root_type = 'Liability'
+   AND acc.account_type = 'Payable'
+   AND acc.parent_account LIKE 'Accounts Payable%'"
+QRY-00030,Administrator,Administrator,0,0,Execution Successful,Profit And Loss ,1,0,0,Site DB,rdnatru69f,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"WITH Gross_Profit_CTE AS (
+        SELECT (COALESCE((SELECT SUM(si.grand_total) FROM `tabSales Invoice` si WHERE si.posting_date = CURDATE() AND si.docstatus = 1), 0) + COALESCE((SELECT SUM(sle.actual_qty * sle.valuation_rate) FROM `tabStock Ledger Entry` sle WHERE sle.posting_date <= CURDATE() AND sle.is_cancelled = 0), 0) - COALESCE((SELECT SUM(pi.grand_total) FROM `tabPurchase Invoice` pi WHERE pi.posting_date = CURDATE() AND pi.docstatus = 1), 0) - COALESCE((SELECT SUM(sle.actual_qty * sle.valuation_rate) FROM `tabStock Ledger Entry` sle WHERE sle.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY) AND sle.is_cancelled = 0), 0)) AS Gross_Profit
+       ),
+       Indirect_Income_CTE AS (
+        SELECT COALESCE(SUM(gl.credit - gl.debit), 0) AS Indirect_Income
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Income'
+           AND acc.parent_account LIKE 'Indirect Income%'
+           AND gl.posting_date = CURDATE()
+       ),
+       Indirect_Expense_CTE AS (
+        SELECT COALESCE(SUM(gl.debit - gl.credit), 0) AS Indirect_Expense
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Expense'
+           AND acc.parent_account LIKE 'Indirect Expense%'
+           AND gl.posting_date = CURDATE()
+       ) SELECT 'Sales' AS Particular,
+       (
+        SELECT COALESCE(SUM(si.grand_total), 0)
+          FROM `tabSales Invoice` si
+         WHERE si.posting_date = CURDATE()
+           AND si.docstatus = 1
+       ) AS Amount
+UNION ALL SELECT 'Purchase' AS Particular,
+       (
+        SELECT COALESCE(SUM(pi.grand_total), 0)
+          FROM `tabPurchase Invoice` pi
+         WHERE pi.posting_date = CURDATE()
+           AND pi.docstatus = 1
+       ) AS Amount
+UNION ALL SELECT 'Opening Stock' AS Particular,
+       (
+        SELECT SUM(sle.actual_qty * sle.valuation_rate)
+          FROM `tabStock Ledger Entry` sle
+         WHERE sle.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+           AND sle.is_cancelled = 0
+       ) AS Amount
+UNION ALL SELECT 'Closing Stock' AS Particular,
+       (
+        SELECT SUM(sle.actual_qty * sle.valuation_rate)
+          FROM `tabStock Ledger Entry` sle
+         WHERE sle.posting_date <= CURDATE()
+           AND sle.is_cancelled = 0
+       ) AS Amount
+UNION ALL SELECT 'Gross Profit' AS Particular,
+       Gross_Profit
+  FROM Gross_Profit_CTE
+UNION ALL SELECT 'Indirect Expense' AS Particular,
+       (
+        SELECT COALESCE(SUM(gl.debit - gl.credit), 0)
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Expense'
+           AND acc.parent_account LIKE 'Indirect Expense%'
+           AND gl.posting_date = CURDATE()
+       ) AS Amount
+UNION ALL SELECT 'Indirect Income' AS Particular,
+       (
+        SELECT COALESCE(SUM(gl.credit - gl.debit), 0)
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Income'
+           AND acc.parent_account LIKE 'Indirect Income%'
+           AND gl.posting_date = CURDATE()
+       ) AS Amount
+UNION ALL SELECT 'Net Profit' AS Particular,
+       (Gross_Profit + Indirect_Income - Indirect_Expense) AS Amount
+  FROM Gross_Profit_CTE,
+       Indirect_Income_CTE,
+       Indirect_Expense_CTE"
+QRY-00031,Administrator,Administrator,0,0,Execution Successful,Query 382255,1,0,0,Site DB,j2mvk4lo5c,0,"{
+	""type"": ""LogicalExpression"",
+	""operator"": ""&&"",
+	""level"": 1,
+	""position"": 1,
+	""conditions"": []
+}",500,{},"WITH Opening_Stock_CTE AS (
+        SELECT SUM(sle.actual_qty * sle.valuation_rate) AS Opening_Stock
+          FROM `tabStock Ledger Entry` sle
+         WHERE sle.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+           AND sle.is_cancelled = 0
+       ),
+       Closing_Stock_CTE AS (
+        SELECT SUM(sle.actual_qty * sle.valuation_rate) AS Closing_Stock
+          FROM `tabStock Ledger Entry` sle
+         WHERE sle.posting_date <= CURDATE()
+           AND sle.is_cancelled = 0
+       ),
+       Opening_Cash_CTE AS (
+        SELECT SUM(gl.debit - gl.credit) AS Opening_Cash
+          FROM `tabGL Entry` gl
+         WHERE gl.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+           AND gl.account LIKE 'Cash%'
+           AND gl.is_cancelled = 0
+       ),
+       Closing_Cash_CTE AS (
+        SELECT SUM(gl.debit - gl.credit) AS Closing_Cash
+          FROM `tabGL Entry` gl
+         WHERE gl.posting_date <= CURDATE()
+           AND gl.account LIKE 'Cash%'
+           AND gl.is_cancelled = 0
+       ),
+       Opening_Receivables_CTE AS (
+        SELECT SUM(gl.debit - gl.credit) AS Opening_Receivables
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Asset'
+           AND acc.account_type = 'Receivable'
+           AND acc.parent_account LIKE 'Accounts Receivable%'
+           AND gl.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+       ),
+       Closing_Receivables_CTE AS (
+        SELECT SUM(gl.debit - gl.credit) AS Closing_Receivables
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Asset'
+           AND acc.account_type = 'Receivable'
+           AND acc.parent_account LIKE 'Accounts Receivable%'
+           AND gl.posting_date <= CURDATE()
+       ),
+       Change_In_Receivables_CTE AS (
+        SELECT (Closing_Receivables_CTE.Closing_Receivables - Opening_Receivables_CTE.Opening_Receivables) AS Change_In_Receivables
+          FROM Closing_Receivables_CTE,
+               Opening_Receivables_CTE
+       ),
+       Opening_Payables_CTE AS (
+        SELECT SUM(gl.credit - gl.debit) AS Opening_Payables
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Liability'
+           AND acc.account_type = 'Payable'
+           AND acc.parent_account LIKE 'Accounts Payable%'
+           AND gl.posting_date <= DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+       ),
+       Closing_Payables_CTE AS (
+        SELECT SUM(gl.credit - gl.debit) AS Closing_Payables
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE acc.root_type = 'Liability'
+           AND acc.account_type = 'Payable'
+           AND acc.parent_account LIKE 'Accounts Payable%'
+           AND gl.posting_date <= CURDATE()
+       ),
+       Change_In_Payables_CTE AS (
+        SELECT (Closing_Payables_CTE.Closing_Payables - Opening_Payables_CTE.Opening_Payables) AS Change_In_Payables
+          FROM Closing_Payables_CTE,
+               Opening_Payables_CTE
+       ),
+       Fixed_Assets_CTE AS (
+        SELECT SUM(gl.debit - gl.credit) AS Total_Fixed_Assets
+          FROM `tabGL Entry` gl
+          JOIN `tabAccount` acc
+            ON gl.account = acc.name
+         WHERE (acc.parent_account LIKE 'Fixed Assets%' OR acc.name LIKE 'Fixed Assets%')
+           AND gl.posting_date <= CURDATE()
+       ) SELECT 'Opening Stock' AS Particular,
+       Opening_Stock_CTE.Opening_Stock AS Amount
+  FROM Opening_Stock_CTE
+UNION ALL SELECT 'Closing Stock' AS Particular,
+       Closing_Stock_CTE.Closing_Stock AS Amount
+  FROM Closing_Stock_CTE
+UNION ALL SELECT 'Opening Cash' AS Particular,
+       Opening_Cash_CTE.Opening_Cash AS Amount
+  FROM Opening_Cash_CTE
+UNION ALL SELECT 'Closing Cash' AS Particular,
+       Closing_Cash_CTE.Closing_Cash AS Amount
+  FROM Closing_Cash_CTE
+UNION ALL SELECT 'Opening Receivables' AS Particular,
+       Opening_Receivables_CTE.Opening_Receivables AS Amount
+  FROM Opening_Receivables_CTE
+UNION ALL SELECT 'Closing Receivables' AS Particular,
+       Closing_Receivables_CTE.Closing_Receivables AS Amount
+  FROM Closing_Receivables_CTE
+UNION ALL SELECT 'Change In Receivables' AS Particular,
+       Change_In_Receivables_CTE.Change_In_Receivables AS Amount
+  FROM Change_In_Receivables_CTE
+UNION ALL SELECT 'Opening Payables' AS Particular,
+       Opening_Payables_CTE.Opening_Payables AS Amount
+  FROM Opening_Payables_CTE
+UNION ALL SELECT 'Closing Payables' AS Particular,
+       Closing_Payables_CTE.Closing_Payables AS Amount
+  FROM Closing_Payables_CTE
+UNION ALL SELECT 'Change In Payables' AS Particular,
+       Change_In_Payables_CTE.Change_In_Payables AS Amount
+  FROM Change_In_Payables_CTE
+UNION ALL SELECT 'Total Fixed Assets' AS Particular,
+       Fixed_Assets_CTE.Total_Fixed_Assets AS Amount
+  FROM Fixed_Assets_CTE"

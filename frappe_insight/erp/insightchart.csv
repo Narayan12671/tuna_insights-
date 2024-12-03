@@ -1,0 +1,585 @@
+"name","creation","modified","modified_by","owner","docstatus","idx","query","chart_type","options","is_public","public_key","_user_tags","_comments","_assign","_liked_by"
+"1gvp05s0c1",2024-09-04 13:45:24.969,2024-09-04 13:56:05.927,Administrator,Administrator,0,0,QRY-382236,Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""labelPosition"": {
+        ""label"": ""Top"",
+        ""value"": ""Top""
+    },
+    ""maxSlices"": ""14"",
+    ""query"": ""QRY-382236"",
+    ""title"": ""Daily Invoices"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Name""
+}",0,,,,,
+"1isq0rjvcj",2024-08-23 10:32:24.289,2024-08-23 10:40:58.377,Administrator,Administrator,0,0,QRY-382222,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382222"",
+    ""showTotal"": true,
+    ""title"": ""Purchase""
+}",0,,,,,
+"1pdd0bakee",2024-09-04 13:59:47.709,2024-09-04 14:03:48.017,Administrator,Administrator,0,0,QRY-382237,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382237"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}",0,,,,,
+"1pf51eehfc",2024-08-23 10:43:37.305,2024-08-23 10:49:20.691,Administrator,Administrator,0,0,QRY-382224,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382224"",
+    ""showTotal"": true,
+    ""title"": ""Purchase""
+}",0,,,,,
+"1tiuu95t37",2024-09-04 14:06:55.064,2024-09-04 14:11:02.031,Administrator,Administrator,0,0,QRY-382238,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382238"",
+    ""showTotal"": true,
+    ""title"": ""Query 382238""
+}",0,,,,,
+"1v2c6pme6u",2024-08-23 10:53:10.808,2024-08-23 10:59:47.100,Administrator,Administrator,0,0,QRY-382226,Number,"{
+    ""column"": ""Net Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382226"",
+    ""shorten"": false,
+    ""title"": ""Purchase""
+}",0,,,,,
+"2d37ks275l",2024-09-04 14:33:23.096,2024-09-04 14:38:49.698,Administrator,Administrator,0,0,QRY-382239,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382239"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}",0,,,,,
+"2hjtg02895",2024-09-04 14:41:06.121,2024-09-04 14:43:36.851,Administrator,Administrator,0,0,QRY-382240,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382240"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}",0,,,,,
+"2v0vurhqhl",2024-09-04 15:03:59.117,2024-09-04 15:07:13.380,Administrator,Administrator,0,0,QRY-382241,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382241"",
+    ""showTotal"": true,
+    ""title"": ""Invoices""
+}",0,,,,,
+"3lm3l2g1rd",2024-09-04 15:42:39.506,2024-09-04 15:45:51.277,Administrator,Administrator,0,0,QRY-382242,Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""maxSlices"": ""15"",
+    ""query"": ""QRY-382242"",
+    ""scrollLabels"": true,
+    ""title"": ""Top Customer"",
+    ""xAxis"": ""Customer Name"",
+    ""yAxis"": ""Grand Total""
+}",0,,,,,
+"3ptdnu6bor",2024-09-04 15:49:52.584,2024-09-04 15:58:03.930,Administrator,Administrator,0,0,QRY-382244,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Supplier Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382244"",
+    ""showTotal"": true,
+    ""title"": ""Top Supplier""
+}",0,,,,,
+"47q6af3fhi",2024-09-04 16:13:35.881,2024-09-04 16:13:35.881,Administrator,Administrator,0,0,QRY-382245,,"{}",0,,,,,
+"4800bl03c8",2024-09-04 16:13:54.465,2024-09-05 10:46:10.536,Administrator,Administrator,0,0,QRY-382246,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382246"",
+    ""showTotal"": true,
+    ""title"": ""Cash Sales""
+}",0,,,,,
+"78rg0uahi8",2024-08-28 12:13:27.279,2024-08-28 12:13:27.279,Administrator,Administrator,0,0,QRY-382230,,"{}",0,,,,,
+"9d92st4k19",2024-08-22 12:32:05.887,2024-08-22 14:12:15.406,Administrator,Administrator,0,0,QRY-382215,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382215"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}",0,,,,,
+a21b5k21ha,2024-08-22 13:07:31.553,2024-08-22 13:09:09.471,Administrator,Administrator,0,0,QRY-382217,Auto,"{
+    ""query"": ""QRY-382217""
+}",0,,,,,
+banscmlg4n,2024-08-22 14:16:59.678,2024-08-22 14:23:05.897,Administrator,Administrator,0,0,QRY-382218,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382218"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}",0,,,,,
+bi3tgg6brv,2024-08-22 14:29:34.995,2024-09-05 12:25:20.030,Administrator,Administrator,0,0,QRY-382220,Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-382220"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+fb1du4cmd5,2024-09-01 10:56:58.106,2024-09-01 10:56:58.106,Administrator,Administrator,0,0,QRY-382234,,"{}",0,,,,,
+gt9kfd0col,2024-09-01 12:22:44.402,2024-09-01 12:22:44.402,Administrator,Administrator,0,0,QRY-382235,,"{}",0,,,,,
+i7df5l5vrm,2024-08-26 11:56:29.571,2024-08-26 12:47:45.899,Administrator,Administrator,0,0,QRY-382228,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Posting Date"",
+            ""column_options"": {
+                ""column_type"": ""Date""
+            }
+        },
+        {
+            ""column"": ""Customer"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Mode Of Payment"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Debit To"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Owner"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Currency"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Rounded Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Remarks"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-382228"",
+    ""showTotal"": true,
+    ""title"": ""Sales Register,Butwal""
+}",0,,,,,
+j2mvk4lo5c,2024-09-12 12:29:51.174,2024-09-12 12:32:00.523,Administrator,Administrator,0,0,QRY-382255,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382255"",
+    ""title"": ""Cash Balance ""
+}",0,,,,,
+ol6nr9droe,2024-09-05 10:48:43.096,2024-09-05 10:50:35.226,Administrator,Administrator,0,0,QRY-382248,Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""query"": ""QRY-382248"",
+    ""shorten"": false,
+    ""title"": ""Credit Sales""
+}",0,,,,,
+op30npi0hu,2024-09-05 10:55:20.848,2024-09-05 11:56:37.916,Administrator,Administrator,0,0,QRY-382249,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Paid Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""query"": ""QRY-382249"",
+    ""showTotal"": true,
+    ""title"": ""Weekly Cash Sales""
+}",0,,,,,
+oveut9q8mr,2024-09-05 11:06:13.440,2024-09-05 11:47:19.754,Administrator,Administrator,0,0,QRY-382250,Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382250"",
+    ""shorten"": false,
+    ""title"": ""Query 382250""
+}",0,,,,,
+p1ss8m2d1m,2024-09-11 12:48:30.823,2024-09-11 12:50:00.013,Administrator,Administrator,0,0,QRY-382252,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""query"": ""QRY-382252"",
+    ""title"": ""CashBalnce Report""
+}",0,,,,,
+qfe89vd5c1,2024-09-05 12:28:06.439,2024-09-05 12:32:35.910,Administrator,Administrator,0,0,QRY-382251,Number,"{
+    ""column"": ""Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-382251"",
+    ""shorten"": false,
+    ""title"": ""Query 382251""
+}",0,,,,,
+rdnatru69f,2024-09-11 14:57:55.439,2024-09-11 15:02:28.751,Administrator,Administrator,0,0,QRY-382254,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-382254"",
+    ""title"": ""Profit And Loss""
+}",0,,,,,
+ug1b2ugrgq,2024-08-30 14:29:26.768,2024-08-30 14:29:26.768,Administrator,Administrator,0,0,QRY-382232,,"{}",0,,,,,
+v3mpup43ij,2024-08-30 15:03:00.930,2024-08-30 15:03:00.930,Administrator,Administrator,0,0,QRY-382233,,"{}",0,,,,,
+vge1ud7lhd,2024-08-29 10:17:06.554,2024-08-29 10:17:06.554,Administrator,Administrator,0,0,QRY-382231,,"{}",0,,,,,

@@ -1,0 +1,1915 @@
+"name","creation","modified","modified_by","owner","docstatus","idx","query","chart_type","options","is_public","public_key","_user_tags","_comments","_assign","_liked_by"
+"00e10d2bf3",2024-09-05 15:45:24.324,2024-09-05 15:50:09.664,Administrator,Administrator,0,21,QRY-0079,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0079"",
+    ""showTotal"": true,
+    ""title"": ""Bar Orders""
+}",0,,,,,
+"0345dc3bd6",2024-09-16 12:45:12.548,2024-09-24 09:51:06.743,coo@hotelpauwa.com,Administrator,0,12,QRY-0098,Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0098""
+}",0,,,,,
+"0373a3bf57",2024-08-13 12:35:03.794,2024-08-13 12:37:25.989,Administrator,Administrator,0,9,QRY-0034,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bot Id"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0034"",
+    ""showTotal"": true,
+    ""title"": ""Daily Bar Orders""
+}",0,,,,,
+"0402e1cae6",2024-08-05 10:16:04.474,2024-08-05 10:20:09.783,Administrator,Administrator,0,11,QRY-0009,Table,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0009"",
+    ""rotateLabels"": ""45"",
+    ""showTotal"": true,
+    ""title"": ""Monthly Purchase Of All Branches"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+"075b8593b0",2024-09-12 11:21:46.926,2024-09-12 11:21:46.926,Administrator,Administrator,0,5,QRY-0090,,"{}",0,,,,,
+"0814b31d88",2024-08-14 16:54:28.557,2024-09-06 11:38:09.020,Administrator,Administrator,0,24,QRY-0053,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0053"",
+    ""showTotal"": true,
+    ""title"": ""Restarant Sales""
+}",0,,,,,
+"0beeff544a",2024-08-13 11:12:02.787,2024-08-13 11:28:24.655,Administrator,Administrator,0,18,QRY-0028,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Paid Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0028"",
+    ""showTotal"": true,
+    ""title"": ""Daily Cash Sales ""
+}",0,,,,,
+"0d9a521db8",2024-08-13 11:35:41.477,2024-08-13 11:38:44.551,Administrator,Administrator,0,8,QRY-0029,Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""inlineLabels"": true,
+    ""query"": ""QRY-0029"",
+    ""title"": ""Daily Credit Sales"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Outstanding Amount""
+}",0,,,,,
+"0e9f97bf07",2024-08-13 11:45:39.690,2024-08-13 11:58:35.600,Administrator,Administrator,0,17,QRY-0030,Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""RS."",
+    ""query"": ""QRY-0030"",
+    ""shorten"": false,
+    ""title"": ""Daily Room Sales""
+}",0,,,,,
+"0f8fe876a9",2024-08-05 15:34:08.884,2024-08-05 15:39:25.159,Administrator,Administrator,0,0,QRY-0016,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kot Id"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0016"",
+    ""showTotal"": true,
+    ""title"": ""DAILY KOT ORDERS""
+}",0,,,,,
+"1f5fe5eea0",2024-08-13 11:53:16.467,2024-08-13 11:56:36.081,Administrator,Administrator,0,23,QRY-0031,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Check In"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Check Out"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0031"",
+    ""showTotal"": true,
+    ""title"": ""Dailly Room Booking""
+}",0,,,,,
+"1f6c04616a",2024-09-11 11:34:46.712,2024-09-11 11:50:00.961,Administrator,Administrator,0,0,QRY-0085,Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0085"",
+    ""rotateLabels"": ""0"",
+    ""title"": ""Query 0085"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Amount"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+"2196bc6015",2024-09-11 12:10:43.608,2024-09-11 12:10:43.608,Administrator,Administrator,0,3,QRY-0087,,"{}",0,,,,,
+"23b12630c2",2024-08-15 10:44:49.802,2024-09-06 12:03:28.846,Administrator,Administrator,0,16,QRY-0055,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0055"",
+    ""showTotal"": true,
+    ""title"": ""Bar Order""
+}",0,,,,,
+"2613ef548b",2024-09-12 11:49:50.189,2024-09-12 11:49:50.189,Administrator,Administrator,0,12,QRY-0091,,"{}",0,,,,,
+"2ba60d0cf1",2024-08-13 12:07:46.393,2024-09-05 15:21:04.309,Administrator,Administrator,0,22,QRY-0032,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company App Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0032"",
+    ""showTotal"": true,
+    ""title"": ""Restaurant Sales""
+}",0,,,,,
+"2bb58c4e4a",2024-08-14 10:27:18.006,2024-08-14 10:29:56.494,Administrator,Administrator,0,13,QRY-0044,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": false,
+    ""index"": true,
+    ""query"": ""QRY-0044"",
+    ""showTotal"": true,
+    ""title"": ""Daily Check Out""
+}",0,,,,,
+"30b6c7b93f",2024-09-12 12:12:55.000,2024-09-12 12:34:23.195,Administrator,Administrator,0,7,QRY-0092,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0092"",
+    ""title"": ""Cash Balance""
+}",0,,,,,
+"32df09066a",2024-08-05 10:21:13.708,2024-08-05 10:24:57.788,Administrator,Administrator,0,11,QRY-0010,Table,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0010"",
+    ""rotateLabels"": ""45"",
+    ""showTotal"": true,
+    ""title"": ""Quarterly Purchase Of All Branches"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+"34e2742f2a",2024-08-05 15:53:12.001,2024-08-05 15:56:36.193,Administrator,Administrator,0,0,QRY-0018,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kot Id"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0018"",
+    ""showTotal"": true,
+    ""title"": ""AUGUST Kitchen Order""
+}",0,,,,,
+"376fb4b1a6",2024-08-13 12:54:11.047,2024-09-06 12:30:19.015,Administrator,Administrator,0,19,QRY-0035,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0035"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}",0,,,,,
+"379c73324a",2024-08-13 16:17:14.039,2024-09-06 14:57:53.960,Administrator,Administrator,0,6,QRY-0042,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Order"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0042"",
+    ""showTotal"": true,
+    ""title"": ""Bar Order Report""
+}",0,,,,,
+"39c015c1fa",2024-08-13 14:39:59.947,2024-09-06 14:24:46.146,Administrator,Administrator,0,10,QRY-0039,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Check In"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0039"",
+    ""showTotal"": true,
+    ""title"": ""CheckIn Report""
+}",0,,,,,
+"3a27e0aabe",2024-08-06 15:29:59.969,2024-08-06 15:34:48.508,Administrator,Administrator,0,28,QRY-0023,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""total_income"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""total_expenses"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""net_profit"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0023"",
+    ""showTotal"": true,
+    ""title"": ""Yearly Income""
+}",0,,,,,
+"3a9f90c97c",2024-09-05 16:31:44.930,2024-09-05 16:38:24.894,Administrator,Administrator,0,26,QRY-0080,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0080"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}",0,,,,,
+"3b1ed58e7a",2024-09-05 14:37:14.644,2024-09-05 14:45:07.610,Administrator,Administrator,0,22,QRY-0075,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company App Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {}
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0075"",
+    ""showTotal"": true,
+    ""title"": ""Room Sales""
+}",0,,,,,
+"3bc3fc82c6",2024-08-13 11:03:24.489,2024-08-13 11:30:27.132,Administrator,Administrator,0,27,QRY-0026,Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""inlineLabels"": true,
+    ""query"": ""QRY-0026"",
+    ""title"": ""Daily Sales"",
+    ""xAxis"": ""Company"",
+    ""yAxis"": ""Grand Total""
+}",0,,,,,
+"47e1e6a931",2024-08-15 10:36:40.217,2024-09-06 11:50:47.764,Administrator,Administrator,0,17,QRY-0054,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bar Orders"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0054"",
+    ""showTotal"": true,
+    ""title"": ""Bar Orders""
+}",0,,,,,
+"4c2b174cf0",2024-08-05 15:56:58.623,2024-08-05 15:59:01.806,Administrator,Administrator,0,0,QRY-0019,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bot Id"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0019"",
+    ""showTotal"": true,
+    ""title"": ""AUGUST BAR ORDERS""
+}",0,,,,,
+"4f2b319ab0",2024-08-15 15:51:38.531,2024-08-15 15:58:01.481,Administrator,Administrator,0,14,QRY-0060,Auto,"{
+    ""query"": ""QRY-0060""
+}",0,,,,,
+"52cac91a9a",2024-09-02 14:32:58.418,2024-09-02 14:35:23.929,Administrator,Administrator,0,16,QRY-0067,Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0067"",
+    ""shorten"": false,
+    ""title"": ""Direct Sales""
+}",0,,,,,
+"53c3c362ce",2024-08-06 10:43:18.170,2024-08-06 10:43:18.170,Administrator,Administrator,0,0,QRY-0021,,"{}",0,,,,,
+"5405580bc5",2024-09-05 15:34:53.889,2024-09-05 15:39:24.842,Administrator,Administrator,0,22,QRY-0078,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen Order "",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0078"",
+    ""showTotal"": true,
+    ""title"": ""Kitchen Order Report""
+}",0,,,,,
+"55fe9503c6",2024-09-05 14:55:43.860,2024-09-05 15:04:29.887,Administrator,Administrator,0,16,QRY-0076,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company App Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Check Out "",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0076"",
+    ""showTotal"": true,
+    ""title"": ""Check Out Report""
+}",0,,,,,
+"6155b02102",2024-09-02 12:41:15.061,2024-09-06 12:20:20.848,Administrator,Administrator,0,29,QRY-0064,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Invoices"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0064"",
+    ""showTotal"": true,
+    ""title"": ""No. of Invoices""
+}",0,,,,,
+"64da54e1c9",2024-08-14 16:05:25.458,2024-09-06 10:37:18.370,Administrator,Administrator,0,18,QRY-0049,Number,"{
+    ""column"": ""Cash Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0049"",
+    ""shorten"": false,
+    ""title"": ""Cash Sales""
+}",0,,,,,
+"6a32b50592",2024-09-11 12:35:04.275,2024-09-11 12:36:42.744,Administrator,Administrator,0,3,QRY-0089,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0089"",
+    ""title"": ""Cash Balance Report""
+}",0,,,,,
+"6f025a5967",2024-08-05 11:43:19.172,2024-08-05 11:50:27.979,Administrator,Administrator,0,16,QRY-0013,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Check In"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Check Out"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0013"",
+    ""showTotal"": true,
+    ""title"": ""Query 0013""
+}",0,,,,,
+"70562c0deb",2024-08-16 14:14:37.525,2024-08-16 14:15:53.968,Administrator,Administrator,0,12,QRY-0061,Number,"{
+    ""column"": ""Grand Total"",
+    ""query"": ""QRY-0061"",
+    ""shorten"": false,
+    ""title"": ""Query 0061""
+}",0,,,,,
+"760ab27279",2024-08-06 10:37:27.670,2024-08-06 10:37:27.670,Administrator,Administrator,0,4,QRY-0020,,"{}",0,,,,,
+"77f8dec295",2024-08-14 10:18:58.090,2024-08-14 10:26:24.048,Administrator,Administrator,0,0,QRY-0043,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": false,
+    ""index"": true,
+    ""query"": ""QRY-0043"",
+    ""showTotal"": true,
+    ""title"": ""Daily RooM Check In""
+}",0,,,,,
+"788c1559c0",2024-08-05 14:39:09.555,2024-08-05 15:00:28.539,Administrator,Administrator,0,15,QRY-0014,Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Check In"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Check Out"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0014"",
+    ""rotateLabels"": ""45"",
+    ""showTotal"": true,
+    ""title"": ""AUGUST MONTH SALES"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Check In"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+"7eb084a962",2024-08-14 16:18:22.941,2024-09-06 10:44:12.312,Administrator,Administrator,0,9,QRY-0050,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0050"",
+    ""showTotal"": true,
+    ""title"": ""Room Sales""
+}",0,,,,,
+"82c2309fc7",2024-08-05 15:39:58.314,2024-08-05 15:42:44.286,Administrator,Administrator,0,0,QRY-0017,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Bot Id"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""query"": ""QRY-0017"",
+    ""title"": ""DAILY BOT ORDERS""
+}",0,,,,,
+"836a18037f",2024-09-04 11:37:26.398,2024-09-04 11:37:26.398,Administrator,Administrator,0,0,QRY-0070,,"{}",0,,,,,
+"864ec605e1",2024-08-04 13:45:34.135,2024-08-04 13:52:37.412,Administrator,Administrator,0,11,QRY-0005,Table,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0005"",
+    ""rotateLabels"": ""45"",
+    ""showTotal"": true,
+    ""splitYAxis"": true,
+    ""title"": ""Query 0005"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+"87e9345d3d",2024-08-15 14:04:33.984,2024-09-06 15:42:06.277,Administrator,Administrator,0,15,QRY-0056,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company "",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0056"",
+    ""showTotal"": true,
+    ""title"": ""Purchase""
+}",0,,,,,
+"8a76d25cff",2024-09-02 14:21:17.707,2024-09-02 14:27:02.082,Administrator,Administrator,0,22,QRY-0066,Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""query"": ""QRY-0066"",
+    ""shorten"": false,
+    ""title"": ""Direct Sales ""
+}",0,,,,,
+"8c301e471c",2024-09-12 16:37:57.120,2024-09-12 16:42:33.677,Administrator,Administrator,0,16,QRY-0094,Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0094"",
+    ""rotateLabels"": ""90"",
+    ""title"": ""Total Payable Of Each Company "",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Outstanding Amount"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+"8fedc7bfd8",2024-08-13 16:10:37.636,2024-09-06 14:50:04.047,Administrator,Administrator,0,9,QRY-0041,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company "",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kitchen Order"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0041"",
+    ""showTotal"": true,
+    ""title"": ""Kitchen Order Report""
+}",0,,,,,
+"90e06d547c",2024-09-05 15:08:29.622,2024-09-05 15:30:30.113,Administrator,Administrator,0,24,QRY-0077,Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0077"",
+    ""shorten"": false,
+    ""title"": ""Resaurant Sales""
+}",0,,,,,
+"94a0e16cc3",2024-09-02 14:50:40.772,2024-09-02 14:53:28.800,Administrator,Administrator,0,13,QRY-0068,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Customer Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0068"",
+    ""showTotal"": true,
+    ""title"": ""Top Customer""
+}",0,,,,,
+"94bd4667fc",2024-08-06 15:22:54.155,2024-08-06 15:25:04.813,Administrator,Administrator,0,0,QRY-0022,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Kot Id"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        }
+    ],
+    ""query"": ""QRY-0022"",
+    ""title"": ""AUGUST Kitchen Order""
+}",0,,,,,
+"9568603b6b",2024-09-06 14:38:05.027,2024-09-06 14:42:06.388,Administrator,Administrator,0,15,QRY-0081,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company "",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Check Out"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0081"",
+    ""showTotal"": true,
+    ""title"": ""CheckOut Report""
+}",0,,,,,
+"9b990ccc33",2024-09-02 11:58:32.122,2024-09-02 12:01:57.521,Administrator,Administrator,0,20,QRY-0062,Number,"{
+    ""column"": ""Grand Total"",
+    ""decimals"": ""0"",
+    ""prefix"": ""RS."",
+    ""query"": ""QRY-0062"",
+    ""shorten"": false,
+    ""title"": ""Direct Sales ""
+}",0,,,,,
+"9d427ec526",2024-09-05 14:30:39.139,2024-09-05 14:55:06.139,Administrator,Administrator,0,24,QRY-0074,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company App Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {}
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0074"",
+    ""showTotal"": true,
+    ""title"": ""Checkin Report""
+}",0,,,,,
+"9f47198884",2024-09-02 12:53:40.363,2024-09-06 15:09:01.119,Administrator,Administrator,0,15,QRY-0065,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company "",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""invoice"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0065"",
+    ""showTotal"": true,
+    ""title"": "" Invoices""
+}",0,,,,,
+"9f60a93285",2024-09-05 14:14:19.664,2024-09-05 14:23:35.717,Administrator,Administrator,0,35,QRY-0073,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Company App Name"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0073"",
+    ""showTotal"": true,
+    ""title"": ""Sales""
+}",0,,,,,
+a4a56cc00d,2024-08-04 14:18:32.437,2024-08-04 14:30:05.041,Administrator,Administrator,0,0,QRY-0007,Table,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0007"",
+    ""rotateLabels"": ""45"",
+    ""showTotal"": true,
+    ""title"": ""Quarterly Basis Sales"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Net Total"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+ad50df65bc,2024-09-02 12:24:24.847,2024-09-05 16:02:22.840,Administrator,Administrator,0,7,QRY-0063,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Total Invoices"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0063"",
+    ""showTotal"": true,
+    ""title"": ""No Of Invoices""
+}",0,,,,,
+b0802f9101,2024-09-11 11:03:02.614,2024-09-11 11:51:19.998,Administrator,Administrator,0,0,QRY-0083,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0083"",
+    ""title"": ""Cash Balance ""
+}",0,,,,,
+b4a04ac228,2024-08-07 16:46:45.827,2024-08-07 16:46:45.827,Administrator,Administrator,0,0,QRY-0025,,"{}",0,,,,,
+b803c668d4,2024-08-14 16:44:25.107,2024-09-06 11:01:18.979,Administrator,Administrator,0,30,QRY-0052,Pie,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""labelPosition"": {
+        ""label"": ""Right"",
+        ""value"": ""Right""
+    },
+    ""maxSlices"": ""11"",
+    ""query"": ""QRY-0052"",
+    ""scrollLabels"": true,
+    ""title"": ""Check Out Report"",
+    ""xAxis"": ""Company Branches"",
+    ""yAxis"": ""Check Out ""
+}",0,,,,,
+bda1cc1ff9,2024-08-14 15:39:28.841,2024-08-15 12:40:28.559,Administrator,Administrator,0,5,QRY-0047,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0047"",
+    ""showTotal"": true,
+    ""title"": ""Weekly Sales""
+}",0,,,,,
+be3c1308dd,2024-09-04 11:49:05.829,2024-09-04 11:53:42.815,Administrator,Administrator,0,0,QRY-0071,Auto,"{
+    ""query"": ""QRY-0071""
+}",0,,,,,
+c1bef2d80a,2024-08-13 14:04:41.581,2024-09-06 12:42:43.485,Administrator,Administrator,0,12,QRY-0037,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0037"",
+    ""showTotal"": true,
+    ""title"": ""Cash Sales""
+}",0,,,,,
+c47faec3a5,2024-09-16 10:21:11.957,2024-09-16 10:23:10.363,Administrator,Administrator,0,12,QRY-0097,Auto,"{
+    ""query"": ""QRY-0097""
+}",0,,,,,
+c56d72ab3c,2024-08-13 12:25:39.782,2024-08-13 12:29:15.900,Administrator,Administrator,0,10,QRY-0033,Bar,"{
+    ""colors"": [
+        ""#318AD8"",
+        ""#F683AE"",
+        ""#48BB74"",
+        ""#F56B6B"",
+        ""#FACF7A"",
+        ""#44427B"",
+        ""#5FD8C4"",
+        ""#F8814F"",
+        ""#15CCEF"",
+        ""#A6B1B9""
+    ],
+    ""query"": ""QRY-0033"",
+    ""rotateLabels"": ""45"",
+    ""title"": ""Daily Kitchen Order"",
+    ""xAxis"": [
+        {
+            ""column"": ""Company""
+        }
+    ],
+    ""yAxis"": [
+        {
+            ""column"": ""Kot Id"",
+            ""series_options"": {
+                ""type"": ""bar""
+            }
+        }
+    ]
+}",0,,,,,
+cb8910c61b,2024-08-14 16:41:46.762,2024-09-06 10:55:03.597,Administrator,Administrator,0,32,QRY-0051,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Checkin"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0051"",
+    ""showTotal"": true,
+    ""title"": ""Weekly Checkin""
+}",0,,,,,
+cff937220c,2024-08-05 11:36:19.075,2024-08-05 15:03:02.354,Administrator,Administrator,0,13,QRY-0012,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Room Type"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Check In"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0012"",
+    ""showTotal"": true,
+    ""title"": ""Daily Room Sales Of All Branches""
+}",0,,,,,
+d361814967,2024-08-13 14:29:38.870,2024-09-06 12:51:22.390,Administrator,Administrator,0,8,QRY-0038,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0038"",
+    ""showTotal"": true,
+    ""title"": ""Room Sales""
+}",0,,,,,
+d687c2be55,2024-08-13 14:52:13.192,2024-09-06 14:33:39.114,Administrator,Administrator,0,21,QRY-0040,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company Branches"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0040"",
+    ""showTotal"": true,
+    ""title"": ""Restaurant Sales""
+}",0,,,,,
+d900659aa6,2024-09-11 12:21:56.532,2024-09-11 12:21:56.532,Administrator,Administrator,0,3,QRY-0088,,"{}",0,,,,,
+df7fe51b63,2024-09-06 15:17:28.409,2024-09-06 15:31:06.491,Administrator,Administrator,0,10,QRY-0082,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Total Income"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Expense"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Net Profit"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0082"",
+    ""showTotal"": true,
+    ""title"": ""Revenue""
+}",0,,,,,
+e09c2dc8a7,2024-08-14 15:30:34.385,2024-08-14 15:33:36.958,Administrator,Administrator,0,0,QRY-0046,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""total_income"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""total_expenses"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""net_profit"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": false,
+    ""index"": true,
+    ""query"": ""QRY-0046"",
+    ""showTotal"": true,
+    ""title"": ""Query 0046""
+}",0,,,,,
+e38c129831,2024-08-14 12:14:19.668,2024-08-14 12:14:19.668,Administrator,Administrator,0,4,QRY-0045,,"{}",0,,,,,
+e662b1ba0f,2024-08-15 14:14:36.953,2024-09-06 15:48:44.499,Administrator,Administrator,0,10,QRY-0058,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company "",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0058"",
+    ""showTotal"": true,
+    ""title"": ""Purchase""
+}",0,,,,,
+e97d625ac0,2024-09-11 11:24:13.134,2024-09-11 11:24:42.941,Administrator,Administrator,0,0,QRY-0084,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""query"": ""QRY-0084"",
+    ""showTotal"": true,
+    ""title"": ""Query 0084""
+}",0,,,,,
+eb04ddf2b8,2024-09-12 12:36:01.118,2024-09-12 12:37:04.956,Administrator,Administrator,0,8,QRY-0093,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Particular"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""index"": true,
+    ""query"": ""QRY-0093"",
+    ""title"": ""Profit Ad Loss ""
+}",0,,,,,
+eba902dc65,2024-09-04 11:54:22.830,2024-09-04 11:54:22.830,Administrator,Administrator,0,0,QRY-0072,,"{}",0,,,,,
+ecb2b0e57b,2024-08-15 14:22:41.929,2024-09-06 15:55:29.516,Administrator,Administrator,0,10,QRY-0059,Table,"{
+    ""columns"": [
+        {
+            ""column"": ""Company"",
+            ""column_options"": {
+                ""column_type"": ""Text""
+            }
+        },
+        {
+            ""column"": ""Name"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Net Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Total Taxes And Charges"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Grand Total"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        },
+        {
+            ""column"": ""Outstanding Amount"",
+            ""column_options"": {
+                ""column_type"": ""Number""
+            }
+        }
+    ],
+    ""filtersEnabled"": true,
+    ""index"": true,
+    ""query"": ""QRY-0059"",
+    ""showTotal"": true,
+    ""title"": ""Purchase""
+}",0,,,,,
+f6187e4034,2024-09-12 16:44:34.296,2024-09-12 16:48:38.294,Administrator,Administrator,0,3,QRY-0096,Number,"{
+    ""column"": ""Outstanding Amount"",
+    ""decimals"": ""0"",
+    ""prefix"": ""Rs."",
+    ""query"": ""QRY-0096"",
+    ""shorten"": false,
+    ""title"": ""Total Payable ""
+}",0,,,,,
